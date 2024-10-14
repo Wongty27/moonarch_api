@@ -1,19 +1,29 @@
-import pandas as pd
-from app.db import db_dependency
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+import polars as pl
+from app.dependencies.db import db_dependency
+from app.dependencies.db import engine
 from models.items import Item
-from pydantic import DirectoryPath
 from fastapi import APIRouter, HTTPException, Response
 
 router = APIRouter()
 
-@router.post("")
-async def upload_data(db: db_dependency, filename: str, table_name: str, engine: str):
+# upload new items
+@router.post(path="/")
+async def create_item(db: db_dependency, filename: str, table_name: str, engine: str):
     db.query(Item).filter()
-    df = pd.read_csv(filename)
-    df.to_sql(name=table_name, con=engine, if_exists='append', index=False)
+    df = pl.read_csv(filename)
+    df.write_database(table_name=table_name, connection=engine, if_table_exists='append')
 
+# get available items's details
 @router.get(path="/")
-async def get_data(db: db_dependency):
-    db.query(Item).filter()
+async def get_item(db: db_dependency):
+    pass
+
+# for removing discontinued items
+@router.delete(path="/")
+async def delete_item(db: db_dependency):
+    pass
+
+# for changing stock quantity, price
+@router.put(path="/")
+async def update_item(db: db_dependency):
+    pass
