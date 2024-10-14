@@ -1,8 +1,10 @@
-fastapi[standard]
+fastapi[all]
 sqlalchemy==2.0.35
-psycopg2==2.9.9
-pandas
+polars
 passlib
 bcrypt==4.0.1
 python-multipart
 python-jose[cryptography]
+
+# Optional
+# psycopg2==2.9.9

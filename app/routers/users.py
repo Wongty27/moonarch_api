@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from app.db import db_dependency
-from models.purchase import NewOrder
+from app.dependencies.db import db_dependency
+from app.models.orders import Order, Feedback
 
 router = APIRouter(
     prefix="/user"
