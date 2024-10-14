@@ -1,18 +1,13 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base, Session
-from core.config import Settings
-from functools import lru_cache
 from fastapi import Depends
 from typing import Annotated
 
-@lru_cache
-def get_settings():
-    return Settings()
-
 Base = declarative_base()
 
-# Create an engine to connect to the database   
-engine = create_engine(get_settings().DB_URL)
+# Create an engine to connect to the database  
+#  save db url at .env for production
+engine = create_engine("postgresql://postgres:admin@localhost/testdb")
 
 # Create a session to interact with the database
 session_local = sessionmaker(autocommit=False, autoflush=False, bind=engine)

@@ -1,5 +1,5 @@
 import pandas as pd
-from app.db import db_dependency
+from app.dependencies.db import db_dependency
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from models.items import Item
