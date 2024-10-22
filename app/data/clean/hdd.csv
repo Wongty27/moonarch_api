@@ -1,0 +1,743 @@
+item_type,speed,name,price,capacity,cache,form_factor,interface
+hdd,7200.0,Seagate Barracuda Compute,281.56,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,2079.8,24000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate BarraCuda,346.6,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Caviar Blue,169.77,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,194.98,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,2599.76,24000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Barracuda Compute,563.25,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Blue,281.56,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,121.32,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital WD_BLACK,606.58,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,441.58,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X14,862.22,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba MK3276GSX,56.29,320.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Blue,316.27,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,278.79,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X18,1429.85,18000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate ST6000NM0024,355.31,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Barracuda Compute,528.58,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Surveillance HDD,311.98,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate IronWolf NAS,411.16,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Ultrastar DC HC550,1035.54,16000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate FireCuda,1205.74,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro NAS,1906.48,22000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital AV-GP,108.24,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES.3,110.49,1000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red,389.93,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf NAS,762.56,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital WD_BLACK,1083.21,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5640.0,Western Digital Blue,541.41,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X20,1646.5,20000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf NAS,779.9,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Plus,996.55,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Constellation CS,216.61,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro NAS,1516.51,20000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,118.51,500.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro NAS,1364.85,16000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Caviar Blue,86.14,500.0,16.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,173.28,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital WD_BLACK,433.26,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba MQ01ABD050,69.33,500.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Seagate BarraCuda,570.48,5000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate BarraCuda,353.14,2000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba P300,308.25,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,411.59,6000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda Pro,940.26,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba MQ01ABD032,44.89,320.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital WD_BLACK,246.94,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital WD_BLACK,476.59,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Momentus 5400.6,95.28,500.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate FireCuda,433.26,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Plus,866.56,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital WD_BLACK,779.9,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,365.49,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro NAS,996.55,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,,Seagate FireCuda,541.62,2000.0,,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red Plus,433.26,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,1615.99,20000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,1039.92,14000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,99.62,500.0,16.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate EXOS Enterprise,1429.85,16000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5640.0,Western Digital Red Plus,736.57,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital SE,186.23,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf NAS,974.88,14000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital AV-GP,173.28,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red Plus,368.26,3000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Barracuda Compute,281.56,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,1248.42,16000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf NAS,989.87,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,10000.0,Western Digital VelociRaptor,220.94,1000.0,64.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital WD_BLACK,844.89,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda Pro Compute,259.94,1000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Blue,220.94,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,1815.48,22000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Barracuda Compute,368.26,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X22,2079.8,22000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red Plus,552.11,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,,Seagate FireCuda,645.62,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital WD Blue,216.61,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Barracuda Compute,342.31,3000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG10 512e,1468.89,20000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,1414.9,18000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,1933.34,22000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Surveillance HDD,1331.83,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate BarraCuda,576.16,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate BarraCuda,277.27,1000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,381.26,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro NAS,1338.85,18000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X18,1234.86,16000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf NAS,962.4,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,1382.18,16000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate EXOS Enterprise,350.97,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate BarraCuda,103.69,500.0,32.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk Surveillance,389.93,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,229.61,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He8,4709.97,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X20,1364.9,18000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise,645.62,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5900.0,Seagate IronWolf NAS,428.45,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Plus,953.22,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate BarraCuda,558.91,4000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X16,1891.18,16000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG09 512e,1386.52,18000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red,272.94,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba DT01ACA050,146.11,500.0,32.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,498.25,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,1819.82,20000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital WD Blue,259.94,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,303.27,3000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Barracuda Compute,353.14,2000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,667.76,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba P300,430.92,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital DC HC530,1191.58,14000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,1268.4,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Ultrastar DC HC520,1190.93,12000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate ST4000NM0024,294.64,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate SkyHawk Surveillance +Rescue,389.93,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,962.4,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,,Seagate ST1000LM014,183.07,1000.0,64.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital WD Blue,359.6,4000.0,256.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate IronWolf NAS,653.03,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi A7K1000-1000,167.6,1000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Seagate ST1000LM035,168.94,1000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red,476.59,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5640.0,Western Digital Red Plus,730.54,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X18,953.22,14000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,688.9,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,831.94,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Ultrastar DC HC560,1988.85,22000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi 0F14683,333.64,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda Pro,1234.9,14000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,1646.5,18000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Ultrastar DC HC550,1473.18,18000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Caviar Black,346.42,1000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Toshiba HDKBB96,155.94,1000.0,8.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,454.92,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda Pro,463.59,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,519.92,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba S300,549.73,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,,Seagate ST500LM000,173.32,500.0,64.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,736.61,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,10000.0,Western Digital VelociRaptor,854.73,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5900.0,Seagate Archive HDD v2,762.17,5000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,563.25,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate ST500LM021,112.61,500.0,32.0,2.5,SATA 6.0 Gb/s
+hdd,,Seagate FireCuda,270.38,1000.0,,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro NAS,671.57,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,203.65,1000.0,8.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Plus,1668.2,14000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG07ACA14TE,905.55,14000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos 7E10 512e/4Kn,736.57,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Black,801.6,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red,1022.5,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,615.24,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,1516.51,16000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red,1174.24,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro NAS,870.93,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,511.25,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,1299.86,14000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Blue,69.24,500.0,32.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk AI,1811.89,20000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital WDBSLA0040HNC-NRSN,406.26,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,1581.07,20000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba L200,333.6,2000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba MQ04ABF100,166.78,1000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda Pro,931.6,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Barracuda Compute,220.77,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,779.94,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba MQ01ABD-V,146.67,1000.0,,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Purple Pro,1993.18,22000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES.3,823.23,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,1045.34,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue Mobile,188.44,1000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X14,1078.92,14000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,1169.87,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Momentus Thin,90.95,500.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Constellation ES.2,190.65,3000.0,64.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro NAS,411.59,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital AV-GP,82.24,250.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,5900.0,Seagate SkyHawk,372.55,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital AV-25,140.69,1000.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate BarraCuda Pro Compute,862.27,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,866.56,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X16,1603.21,14000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Barracuda Compute,401.97,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300 Pro,775.56,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate EE25.2,82.33,40.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Caviar Black,530.75,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,411.59,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi HDS723030ALA640,270.77,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,996.55,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,953.22,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He10,1392.84,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Black,303.09,1000.0,64.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate EXOS Enterprise,411.64,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG08,1083.21,16000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue Mobile,108.32,500.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Caviar Blue,99.66,500.0,8.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,649.91,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro NAS,1126.58,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar,255.65,2000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,1299.86,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate EXOS Enterprise,953.22,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,203.43,1000.0,16.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf,945.11,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,277.27,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,358.77,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red,2166.46,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X18,1297.52,16000.0,256.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate SkyHawk Surveillance,303.27,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,402.93,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf NAS,1408.22,16000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital WD Blue,517.53,6000.0,256.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital WDBSLA0020HNC-NRSN,281.56,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES.3,281.64,4000.0,128.0,3.5,SAS 6.0 Gb/s
+hdd,5900.0,Seagate Barracuda Green,890.99,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Ultrastar DC HC550,1278.19,16000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Caviar Black,435.42,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue Mobile,346.55,2000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Surveillance HDD,2703.79,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda Pro,984.07,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Black,303.27,1000.0,32.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,151.61,1000.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Red Plus,476.41,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,502.58,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,233.94,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,1052.92,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate EXOS Enterprise,1239.67,14000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red,1364.9,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He12,1386.52,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5900.0,Seagate BarraCuda,486.81,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital RE4,155.77,1000.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Toshiba HDKCC00,216.65,500.0,16.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300 Pro,1473.18,16000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate IronWolf NAS,547.39,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,1256.53,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red,1860.81,14000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He10,752.99,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MD04ACA600,1715.13,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,1291.02,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital RE,243.64,2000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Black,125.61,500.0,32.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300 Pro,1191.53,12000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate IronWolf NAS,706.24,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Caviar Blue,186.28,250.0,16.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate IronWolf NAS,877.87,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,359.6,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos 7E10 512e/4Kn,606.58,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X18,1658.8,18000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,807.28,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate EE25.2,311.89,40.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5640.0,Western Digital Red Plus,563.25,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Purple Pro,909.89,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300 Pro,1624.83,18000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,476.59,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,,Seagate ST2000DX001,1021.68,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Caviar Blue,259.94,640.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Ultrastar DC HC330,1234.86,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,259.94,2000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos 7E10 512n,506.92,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba P300,475.42,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red Plus,346.6,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple Surveillance,634.26,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X18,1148.2,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Deskstar NAS,2941.59,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Barracuda Compute,541.58,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate IronWolf,394.91,1000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate BarraCuda,145.16,500.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES.2,1269.57,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise,537.64,6000.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,5400.0,Toshiba P300,318.91,2000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Ultrastar DC HC550,1603.17,18000.0,512.0,3.5,SAS 12.0 Gb/s
+hdd,5400.0,Western Digital Blue,281.6,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Samsung Spinpoint M8,166.21,1000.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Caviar Blue,432.09,1000.0,32.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Black,1020.33,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda Pro,1516.55,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi 7K1000.C,327.7,1000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Caviar Blue,313.32,500.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate IronWolf NAS,775.56,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300 Pro,1312.86,14000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos 7E8,337.76,3000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf NAS,991.3,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,632.62,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba P300,319.13,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Scorpio Blue,99.66,160.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Seagate Momentus 5400.6,129.95,250.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5900.0,Seagate SV35.5,135.8,500.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Toshiba X300,862.27,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,1386.52,14000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Caviar Black,563.25,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,10000.0,Western Digital VelociRaptor,324.28,500.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Samsung Spinpoint F1 DT,433.26,1000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Ultrastar DC HC520,1334.26,12000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,1024.84,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300 Pro,554.58,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,371.03,1000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,844.89,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos 7E10 512e/4Kn,1035.28,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,732.28,3000.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate BarraCuda Pro,658.57,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue Mobile,86.57,320.0,16.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate SkyHawk Surveillance +Rescue,606.58,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,303.22,1500.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Scorpio Blue,121.28,80.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Caviar Blue,223.58,250.0,8.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Red,1018.26,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red,528.63,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,10500.0,Toshiba AL13SEB600,77.34,600.0,64.0,2.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk AI,866.56,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG08ADA800E,818.89,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar 7K6000,380.13,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,156.72,500.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Enterprise,996.59,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,233.98,320.0,16.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Ultrastar DC HC550,1213.2,16000.0,512.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,1078.92,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Purple Pro,1044.04,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba PH3500U-1I72,732.28,5000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,316.31,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,385.64,1500.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,305.26,500.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He8,1338.9,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Purple Pro,1464.08,18000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red Plus,303.27,3000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate ST2000NX0253,599.86,2000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,894.55,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar 7K3000,360.85,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X18,1031.21,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,483.74,1000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,992.26,3000.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Exos 7E8 512e,1146.08,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,10000.0,Western Digital VelociRaptor,413.84,300.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Seagate IronWolf NAS,411.59,3000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X18,1361.47,18000.0,256.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Toshiba MG07ACA12TE,1169.87,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300 Pro,1451.51,18000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,422.25,2000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG04ACA100N,338.23,1000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,381.26,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES,220.98,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Hitachi Travelstar Z5K500,649.95,500.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Blue,346.6,3000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital RE,467.92,5000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk AI,1299.86,16000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,1819.82,20000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda Pro Compute,124.49,500.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300 Pro,1033.16,10000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Purple,1256.48,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos 7E10 512n,853.6,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5700.0,Toshiba S300,389.93,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5900.0,Seagate Barracuda LP,514.63,2000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Seagate SkyHawk Surveillance +Rescue,779.9,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,823.23,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,,Seagate FireCuda,385.64,500.0,,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Scorpio Blue,385.64,80.0,8.0,2.5,SATA 1.5 Gb/s
+hdd,7200.0,Hitachi 7K1000.C,512.07,500.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar 7K3000,683.7,3000.0,64.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,478.15,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital RE,446.08,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate BarraCuda,1003.44,3000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,274.89,1000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,5900.0,Seagate SkyHawk,619.62,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300 Pro,1048.54,10000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,1378.89,12000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG09 512e,1299.86,16000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital WDBMMA0030HNC-NRSN,281.56,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba S300,424.59,2000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,10000.0,Western Digital VelociRaptor,1020.94,600.0,32.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Green,931.6,6000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Purple,1083.21,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital RE3,108.28,250.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Barracuda ES,253.05,750.0,16.0,3.5,SATA 6.0 Gb/s
+hdd,5900.0,Seagate SkyHawk,584.91,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi HDN724040ALE640,473.73,4000.0,,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba MQ04ABD200,302.79,2000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate SkyHawk Surveillance +Rescue,316.22,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk AI,1039.88,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG04ACA400N,498.21,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,,Western Digital Black2,1083.21,1000.0,,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red,619.58,1000.0,16.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi 0F23663,4159.68,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk Surveillance,1291.02,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Caviar Blue,699.91,1000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,5900.0,Seagate Barracuda LP,558.96,1000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar,216.65,1000.0,32.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,862.27,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300 Pro,905.55,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba P300,732.28,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi A7K1000-750,162.75,750.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Exos X14,1061.58,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf NAS,996.55,10000.0,,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba L200,246.89,1000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk AI,1845.64,14000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300 Pro,1338.85,16000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300 Pro,645.57,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba S300 Pro,606.58,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk AI,793.5,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,1544.45,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X18,1551.08,12000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,962.4,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba P300,666.55,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital AV-GP,212.32,1500.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Caviar Black,519.96,1500.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,10000.0,Western Digital VelociRaptor,424.63,600.0,32.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba MK7559GSXP,270.81,750.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,820.89,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MD04ACA400,563.25,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Purple,1316.76,14000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital WDBMYH0010BNC-NRSN,147.28,1000.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Red Plus,316.27,2000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Black,1400.69,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos 7E10 512n,551.81,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,923.75,6000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,125.66,320.0,16.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Deskstar 7K1000.D,2157.83,500.0,32.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf,918.6,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos 7E8,551.42,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300 Pro,1104.87,12000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,1343.19,16000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X18,2081.27,14000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Samsung Spinpoint F1 DT,142.95,160.0,8.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Black,268.65,750.0,16.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,1295.57,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi 0B36040,476.59,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate ST4000NM0034,771.27,4000.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Samsung Spinpoint MP4,129.95,250.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Seagate ST4000LM016,1559.84,4000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,285.54,320.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital RE4,129.99,500.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar 7K4000,2157.83,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5900.0,Seagate ST2000VN000,948.93,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES,207.98,1000.0,16.0,3.5,SAS 3.0 Gb/s
+hdd,5400.0,Western Digital Purple,667.02,6000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Dell 342-3520,602.29,1000.0,,2.5,SAS 3.0 Gb/s
+hdd,5900.0,Seagate SkyHawk,905.38,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Purple Pro,1320.48,14000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5640.0,Western Digital Purple,865.47,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,617.63,4000.0,,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple Surveillance,359.6,3000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,281.64,2000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Momentus 7200.4,151.66,500.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Exos X18,1722.58,16000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Hitachi Travelstar 5K500.B,298.98,250.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Green,350.97,1000.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Blue,649.69,500.0,8.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro NAS,1733.16,14000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,10000.0,Western Digital VelociRaptor,844.94,150.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,649.69,1500.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital AV-GP,125.61,500.0,8.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Samsung Spinpoint M,151.44,160.0,8.0,2.5,SATA 1.5 Gb/s
+hdd,7200.0,Hitachi 0F18335,693.28,6000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Black,1257.74,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,2022.6,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,1102.53,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,477.84,1000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,788.17,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES,190.65,2000.0,64.0,3.5,SAS 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,428.97,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,1512.22,16000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro NAS,909.93,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital SE,766.03,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital RE,282.47,1000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate ST1000NX0313,285.89,1000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,1234.86,14000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X18,1447.01,10000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Scorpio Black,238.32,250.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Scorpio Blue,238.32,750.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,10000.0,Western Digital VelociRaptor,649.69,300.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi Travelstar 7K500,285.46,320.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Toshiba MK5061GSYN,281.08,500.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Toshiba MK1059GSM,909.93,1000.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Hitachi Deskstar 5K3000,536.12,3000.0,32.0,3.5,SATA 6.0 Gb/s
+hdd,10000.0,Hitachi HUC101212CSS600,173.32,1200.0,64.0,2.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,606.62,8000.0,256.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Western Digital Black,213.79,500.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,866.56,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,10000.0,Hitachi Ultrastar C10K900,238.32,900.0,64.0,2.5,SAS 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,346.55,3000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Purple Pro,1126.54,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk AI,1083.25,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X18,2082.31,18000.0,256.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate EXOS Enterprise,478.15,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos 7E8,515.63,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Samsung Spinpoint F1 DT,303.22,640.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Samsung Spinpoint M7,281.64,320.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,186.32,160.0,8.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital WDBMMA0020HNC-NRSN,255.65,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Momentus 7200.4,108.32,160.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Purple,1139.75,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk Surveillance,901.26,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,197.45,500.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Scorpio Black,541.62,80.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Barracuda ES.2,331.0,750.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Barracuda XT,777.73,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba MK2576GSX,160.32,250.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,919.94,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,801.6,5000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,10000.0,Seagate Enterprise Performance,498.3,1200.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,5400.0,Seagate SkyHawk Surveillance,563.29,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,3657.05,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5640.0,Western Digital Purple,688.95,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Purple,1767.86,18000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate SkyHawk Surveillance +Rescue,485.21,3000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos 7E8,458.34,1000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG08ADA400E,736.57,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,1653.78,16000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos 7E10 512e/4Kn,683.1,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba S300,841.25,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi 7K1000.B,165.91,160.0,8.0,3.5,SATA 3.0 Gb/s
+hdd,15000.0,Seagate Cheetah 15K.7,333.64,600.0,16.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,303.22,500.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Constellation ES,233.94,1000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Caviar SE16,346.55,320.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Hitachi Travelstar 5K500.B,519.92,500.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Purple,308.03,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,950.88,2000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital SE,450.63,1000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda Pro,1143.83,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,10500.0,Hitachi Ultrastar,856.76,1800.0,128.0,2.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate IronWolf Pro,1191.58,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos X14,1614.04,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate EXOS Enterprise,342.31,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300 Pro,558.52,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue Mobile,332.04,500.0,16.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,1297.78,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital RE3,230.65,500.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,600.68,750.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi 7K1000,173.28,1000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Caviar Black,346.42,500.0,32.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital AV-GP,276.45,1000.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,649.69,500.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Toshiba MK6465GSX,168.99,640.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital AV-25,97.06,320.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Toshiba PH2100U-1I54,372.59,1000.0,8.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Red,801.6,5000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,1015.87,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,985.28,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,519.92,6000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Lenovo ThinkStation,3878.04,6000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,1732.98,8000.0,256.0,3.5,SAS 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,1208.91,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,1065.87,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,789.26,4000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Scorpio Blue,129.77,250.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Caviar Blue,413.58,320.0,8.0,3.5,PATA 100
+hdd,7200.0,Seagate Constellation.2,389.88,1000.0,64.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital RE,297.68,500.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk,1046.42,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,316.31,500.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital AV-GP,216.43,160.0,8.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi E7K1000,303.31,500.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi 7K1000.C,2157.83,1000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Scorpio Black,346.64,500.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi Travelstar Z7K320,379.35,250.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi Travelstar 7K750,332.47,750.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Momentus Thin,125.66,320.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital AV-GP,129.43,320.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Toshiba PH3300U-1I72,563.25,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5760.0,Western Digital Ae,606.58,6000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,1192.53,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,359.6,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi 0F27402,1116.74,10000.0,256.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He10,1252.24,10000.0,256.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,541.62,2000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,1744.03,14000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG04ACA200E,597.43,2000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Purple,1118.0,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate EXOS Enterprise,1050.32,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG08ADA600E,736.57,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He8,1078.92,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,10000.0,Seagate ST600MM0158,234.37,600.0,128.0,2.5,SAS 12.0 Gb/s
+hdd,7200.0,Western Digital RE,194.98,250.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital WDBSLA0010HNC-NRSN,277.27,1000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,830.07,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,15000.0,Seagate Enterprise Performance,880.51,600.0,256.0,2.5,SAS 12.0 Gb/s
+hdd,10000.0,Seagate Enterprise Performance,1391.98,2400.0,256.0,2.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate SkyHawk AI,1186.98,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk AI,1516.51,16000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,1338.33,10000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Scorpio Black,389.97,160.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Toshiba MG04ACA600E,727.94,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba S300 Pro,996.55,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300 Pro,1420.14,14000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,1500.56,14000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,862.27,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital RE2,428.75,750.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Scorpio Black,194.98,320.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Scorpio Blue,195.2,160.0,8.0,2.5,SATA 1.5 Gb/s
+hdd,7200.0,Seagate Momentu,168.47,500.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,368.3,160.0,8.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital AV-GP,508.95,2000.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Caviar Blue,342.31,750.0,32.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES,346.55,500.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,433.08,750.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,237.88,250.0,8.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Momentus 7200.4,212.32,500.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Constellation.2,212.32,250.0,64.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Momentus 5400.6,147.32,320.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital AV-GP,422.6,3000.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Lenovo 0A89478,617.89,3000.0,32.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES,277.31,2000.0,16.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES,428.97,500.0,16.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Western Digital Black,238.32,320.0,16.0,2.5,SATA 6.0 Gb/s
+hdd,5900.0,Seagate ST4000NC001,602.29,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5900.0,Seagate ST4000VX000,688.9,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise,897.32,6000.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate ST2000NM0024,1026.92,2000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He8,3457.73,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital WDBH2D5000ENC-NRSN,151.66,500.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate EXOS Enterprise,662.0,1000.0,,2.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,433.04,3000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,1148.24,4000.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Western Digital RE,1102.53,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate SkyHawk AI,1165.58,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG06ACA10TE,1047.59,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He10,1056.08,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Toshiba Slim L200,237.41,500.0,8.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,2103.54,6000.0,,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,1883.6,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Constellation.2,177.65,1000.0,64.0,2.5,SAS 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar 7K6000,601.07,6000.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,10000.0,Hitachi Ultrastar C10K1200,423.46,1200.0,64.0,2.5,SAS 6.0 Gb/s
+hdd,7200.0,Toshiba N300 Pro,806.67,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,15000.0,Seagate ST3146356SS-IM,238.32,146.0,16.0,3.5,SAS 3.0 Gb/s
+hdd,7200.0,Toshiba S300 Pro,688.95,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG06ACA600E,693.24,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi A7K2000,158.02,500.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Red Pro,1165.36,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,1208.91,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba S300 Pro,1212.16,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Momentus XT,238.32,750.0,32.0,2.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Scorpio Blue,450.55,250.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,10000.0,Dell K054N,452.8,600.0,16.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,1223.86,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate BarraCuda,714.94,500.0,16.0,3.5,PATA 100
+hdd,7200.0,Seagate Enterprise Capacity,1024.23,2000.0,128.0,2.5,SAS 12.0 Gb/s
+hdd,7200.0,Toshiba MG06ACA800E,1213.2,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,1039.92,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba S300 Pro,1329.32,10000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital RE2-GP,252.53,1000.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital Scorpio Black,216.43,160.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Scorpio Blue,142.99,250.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi 7K1000.C,573.56,250.0,8.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Samsung Spinpoint M7E,173.32,320.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Barracuda ES,411.51,1000.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Seagate Momentus,168.94,500.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Momentus 7200.4,238.32,320.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Scorpio Blue,129.77,320.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital AV-25,862.27,500.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital AV-GP,138.66,160.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Constellation ES.3,346.64,3000.0,128.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES.3,846.88,1000.0,128.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Western Digital SE,628.28,3000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5900.0,Seagate ST4000VM000,522.13,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Lenovo ThinkPad,428.97,500.0,32.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Constellation.2,888.26,500.0,64.0,2.5,SAS 6.0 Gb/s
+hdd,7200.0,Hitachi Travelstar Z7K500,649.95,500.0,32.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba PH3400U-1I72,645.62,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,10000.0,Seagate ST900MM0128,558.96,900.0,128.0,2.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate ST6000NM0014,649.95,6000.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar 7K6000,2801.46,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple NV,589.29,4000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Seagate Momentus 5400.3,168.99,80.0,8.0,2.5,PATA 44-Pin 100
+hdd,7200.0,Seagate Barracuda 7200.9,203.65,160.0,8.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Gold,1050.54,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,662.91,6000.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi 0F10942,541.62,2000.0,32.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,1122.25,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,324.24,1000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,901.22,1000.0,128.0,2.5,SATA 6.0 Gb/s
+hdd,10000.0,Seagate Enterprise Performance,1195.99,1200.0,256.0,3.5,SAS 12.0 Gb/s
+hdd,10000.0,Seagate Enterprise Performance,918.12,1800.0,256.0,3.5,SAS 12.0 Gb/s
+hdd,15000.0,Seagate Enterprise Performance,600.12,300.0,256.0,2.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate SkyHawk AI,1169.87,12000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba S300 Pro,844.89,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He10,1408.22,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,5900.0,Seagate ST500VM000,177.65,500.0,64.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He10,4194.34,10000.0,256.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Toshiba N300,1295.57,8000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Exos 7E10 512e/4Kn,589.24,2000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,1761.23,14000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba X300,1065.79,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He8,1408.22,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Samsung Spinpoint M5,147.11,160.0,8.0,2.5,PATA 44-Pin 100
+hdd,5400.0,Seagate ST500LT032,267.3,500.0,16.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise,1627.56,8000.0,256.0,3.5,SAS 12.0 Gb/s
+hdd,15000.0,Seagate Enterprise Performance,569.01,300.0,256.0,2.5,SAS 12.0 Gb/s
+hdd,5400.0,Toshiba S300,467.92,4000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Ultrastar DC HC550,2760.08,16000.0,512.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Toshiba MG09 512e,1148.2,12000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,5900.0,Western Digital RE4-GP,981.12,2000.0,64.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital RE3,263.14,750.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Western Digital RE2-GP,649.69,750.0,16.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Caviar Green,259.98,750.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Scorpio Blue,658.75,640.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital Scorpio Blue,305.87,320.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital AV-GP,112.61,320.0,8.0,3.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi 7K1000.C,1213.02,750.0,32.0,3.5,SATA 3.0 Gb/s
+hdd,5400.0,Hitachi 0Y30055,584.96,500.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Constellation,517.58,160.0,32.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Momentus 7200.4,125.44,160.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital AV-25,649.95,500.0,32.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Seagate Momentus 5400.6,325.19,500.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Hitachi Travelstar 7K500,457.78,500.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,5400.0,Western Digital AV-25,476.63,250.0,16.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Momentus XT,812.44,500.0,32.0,2.5,SATA 3.0 Gb/s
+hdd,7200.0,Seagate Constellation ES.3,796.19,4000.0,128.0,3.5,SAS 6.0 Gb/s
+hdd,5400.0,Western Digital Blue,397.55,250.0,8.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG03SCA,200.18,1000.0,64.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES,433.26,1000.0,64.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES.2,541.62,3000.0,64.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate Constellation ES,520.52,500.0,64.0,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate Constellation Product Series:ES.3,758.28,4000.0,128.0,3.5,SAS 6.0 Gb/s
+hdd,5400.0,Western Digital WDBMYH5000ANC-NRSN,299.45,500.0,8.0,2.5,SATA 3.0 Gb/s
+hdd,15000.0,IBM 43X0805,862.27,300.0,16.0,3.5,SAS 3.0 Gb/s
+hdd,7200.0,IBM 90Y8572,1750.19,2000.0,,3.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate ST320LM010,325.93,320.0,32.0,2.5,SATA 6.0 Gb/s
+hdd,15000.0,Seagate Savvio 15K.3,526.24,300.0,64.0,2.5,SAS 6.0 Gb/s
+hdd,7200.0,Seagate ST2000NM0054,541.62,2000.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate ST2000NX0273,1061.58,2000.0,128.0,2.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate ST6000NM0104,771.27,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Western Digital Black,294.17,320.0,32.0,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate ST1000NX0333,435.6,1000.0,128.0,2.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate ST2000NX0343,1602.99,2000.0,128.0,2.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate ST1000NX0373,308.64,1000.0,128.0,2.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate Enterprise NAS,1642.21,6000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Barracuda ES,194.98,250.0,16.0,3.5,SATA 6.0 Gb/s
+hdd,5400.0,Western Digital Purple,954.56,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar,974.92,6000.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Hitachi 0F22941,758.28,4000.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He8,4127.44,6000.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Hitachi Ultrastar He8,1562.05,6000.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Hitachi 0F27406,558.96,8000.0,256.0,3.5,SAS 12.0 Gb/s
+hdd,10000.0,Seagate Enterprise Performance,407.26,300.0,128.0,2.5,SAS 12.0 Gb/s
+hdd,5400.0,Western Digital AV,116.99,320.0,,2.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,693.28,4000.0,128.0,3.5,SAS 12.0 Gb/s
+hdd,7200.0,Seagate Enterprise Capacity,862.27,6000.0,256.0,3.5,SAS 12.0 Gb/s
+hdd,10000.0,Seagate Enterprise Performance,541.62,600.0,128.0,2.5,SAS 12.0 Gb/s
+hdd,7200.0,Toshiba MG05ACA800E,1577.56,8000.0,128.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba MG08,1711.54,14000.0,512.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Toshiba N300,1122.25,6000.0,256.0,3.5,SATA 6.0 Gb/s
+hdd,7200.0,Seagate Barracuda ES.2,346.55,250.0,32.0,3.5,SATA 3.0 Gb/s
