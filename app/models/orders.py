@@ -1,5 +1,5 @@
-from sqlalchemy import Integer, String, DateTime, ForeignKey, Text, JSON
-from sqlalchemy.orm import mapped_column, DeclarativeBase
+from sqlalchemy import DateTime, ForeignKey, Text, JSON
+from sqlalchemy.orm import mapped_column, DeclarativeBase, Mapped
 from datetime import datetime
 
 class Base(DeclarativeBase):
@@ -8,17 +8,17 @@ class Base(DeclarativeBase):
 class Order(Base):
     __tablename__ = "order"
 
-    id = mapped_column(Integer)
-    order_list = mapped_column(JSON)
-    customer_id = mapped_column(Integer, ForeignKey("user.id"))
-    order_time = mapped_column(DateTime, nullable=False, default=datetime.now())
-    status = mapped_column(String)
+    id: Mapped[int]
+    order_list: Mapped[JSON]
+    customer_email: Mapped[str]
+    order_time: Mapped[DateTime] = mapped_column(default=datetime.now())
+    status: Mapped[str]
 
 class Feedback(Base):
     __tablename__ = "feedback"
 
-    id = mapped_column(Integer, primary_key=True, index=True, autoincrement=True)
-    order_id = mapped_column(Integer, ForeignKey("order.id"))
-    rating = mapped_column(Integer, default=5)
-    platform = mapped_column(String, nullable=False)
-    description = mapped_column(Text)
+    id: Mapped[int] = mapped_column(primary_key=True, index=True, autoincrement=True)
+    order_id: Mapped[int] = mapped_column(ForeignKey("order.id"))
+    rating: Mapped[int]
+    platform: Mapped[str]
+    description: Mapped[str]

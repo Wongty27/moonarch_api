@@ -1,38 +1,36 @@
 import random
-from sqlalchemy import Integer, String, Float, ForeignKey
-from sqlalchemy.orm import DeclarativeBase, mapped_column
+from sqlalchemy import Text, ForeignKey
+from sqlalchemy.orm import DeclarativeBase, mapped_column, Mapped
 
 def random_quantity(start:int = 1, end:int = 100) -> int:
     return random.randint(start, end)
 
-class Base(DeclarativeBase):
+def id_generator():
     pass
 
-class ItemMaster(Base):
-    __tablename__ = "item"
-
-    id = mapped_column(String, primary_key=True, index=True)
-    item_type = mapped_column(String, nullable=False)
-    item_brand = mapped_column(String, nullable=False)
-    item_name = mapped_column(String, nullable=False)
-    stock_quantity = mapped_column(Integer,default=random_quantity(), nullable=False)
+class Base(DeclarativeBase):
+    pass
 
 class ItemType(Base):
     __tablename__ = "itemtype"
 
-    item_type_id = mapped_column(String, primary_key=True, index=True, autoincrement=True)
-    item_type = mapped_column(String, ForeignKey("item.item_type"))
-    
+    id: Mapped[int] = mapped_column(primary_key=True, index=True, autoincrement=True)
+    name: Mapped[str]
 
+class Item(Base):
+    __tablename__ = "item"
+    id: Mapped[int] = mapped_column(primary_key=True, index=True, autoincrement=True)
+    # necessary?
+    # item_id: Mapped[str] = mapped_column(default=id_generator(), unique=True)
+    type: Mapped[str] = mapped_column(ForeignKey("itemtype.name"))
+    brand: Mapped[str]
+    name: Mapped[str]
+    price: Mapped[float]
+    quantity: Mapped[float] = mapped_column(default=random_quantity())
+
+# combine item and itemdetail?
 class ItemDetail(Base):
-    __tablename__ = "itemdetails"
+    __tablename__ = "itemdetail"
 
-    id = mapped_column(String,  ForeignKey("item.id"), primary_key=True)
-    description = mapped_column(String)
-
-class ItemPrice(Base):
-    __tablename__ = "itemprices"
-
-    id = mapped_column(String,  ForeignKey("item.id"), primary_key=True)
-    cost_price = mapped_column(Float)
-    selling_price = mapped_column(Float)
+    id: Mapped[int] = mapped_column(ForeignKey("item.id"), primary_key=True)
+    description: Mapped[str]

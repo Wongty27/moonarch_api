@@ -1,23 +1,18 @@
 from typing import Literal
-from pydantic import BaseModel, Field, PositiveFloat, NonNegativeInt, StrictStr
+from pydantic import BaseModel, Field
 
-class ItemMaster(BaseModel):
+class ItemType(BaseModel):
+    id: int
+    name: Literal["cpu", "gpu", "mobo", "case", "fan", "cooler", "hdd" "ram", "psu"]
+
+class Item(BaseModel):
     id: str
     item_type: Literal["cpu", "gpu", "mobo", "case", "fan", "cooler", "hdd" "ram", "psu"]
     item_brand: str
     item_name: str
-    stock_quantity: NonNegativeInt = Field(ge=0)
-
-class ItemType(BaseModel):
-    item_type_id: int
-    item_type: Literal["cpu", "gpu", "mobo", "case", "fan", "cooler", "hdd" "ram", "psu"]
+    price: float = Field(gt=0)
+    stock_quantity: int = Field(ge=0)
     
 class ItemDetail(BaseModel):
-    id: str
+    id: int
     description: str | None = None
-
-class ItemPrice(BaseModel):
-    id: str
-    cost_price: PositiveFloat = Field(gt=0)
-    selling_price: PositiveFloat = Field(gt=0)
-

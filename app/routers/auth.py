@@ -3,5 +3,5 @@ from pydantic import BaseModel, EmailStr, Field, PositiveFloat, NonNegativeInt, 
 
 router = APIRouter()
 
-def authenticate_user(email: EmailStr, password: SecretStr, db):
-    user = db.query()
+# def authenticate_user(email: EmailStr, password: SecretStr, db):
+#     user = db.query()
