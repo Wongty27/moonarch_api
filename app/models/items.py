@@ -1,14 +1,12 @@
 import random
+from app.models.main import Base
 from sqlalchemy import Text, ForeignKey
-from sqlalchemy.orm import DeclarativeBase, mapped_column, Mapped
+from sqlalchemy.orm import mapped_column, Mapped
 
 def random_quantity(start:int = 1, end:int = 100) -> int:
     return random.randint(start, end)
 
 def id_generator():
-    pass
-
-class Base(DeclarativeBase):
     pass
 
 class ItemType(Base):
@@ -33,4 +31,4 @@ class ItemDetail(Base):
     __tablename__ = "itemdetail"
 
     id: Mapped[int] = mapped_column(ForeignKey("item.id"), primary_key=True)
-    description: Mapped[str]
+    description = mapped_column(Text)

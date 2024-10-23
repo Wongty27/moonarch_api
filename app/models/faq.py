@@ -1,9 +1,7 @@
 from sqlalchemy import Text
-from sqlalchemy.orm import DeclarativeBase, mapped_column, Mapped
+from main import Base
+from sqlalchemy.orm import mapped_column, Mapped
 # from sqlalchemy.dialects.postgresql import TSVECTOR
-
-class Base(DeclarativeBase):
-    pass
 
 class Faq(Base):
     __tablename__ = "faq"

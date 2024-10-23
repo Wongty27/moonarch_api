@@ -1,11 +1,14 @@
 from fastapi import FastAPI, Depends
+from app.models import main as models
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import orders, items
-# from api.db.conn import db_dependency
+from app.db.main import engine
 
 api = FastAPI(
     # dependencies=db_dependency,
 )
+
+models.Base.metadata.create_all(bind=engine)
 
 origins = [
     "http://localhost:3000",
@@ -27,4 +30,4 @@ api.include_router(items.router, prefix="/items", tags=["items"])
 
 @api.get("/")
 async def read_root():
-    return "Server is running."
+    return "Welcome."
