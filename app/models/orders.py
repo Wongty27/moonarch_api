@@ -1,9 +1,7 @@
-from sqlalchemy import DateTime, ForeignKey, Text, JSON
-from sqlalchemy.orm import mapped_column, DeclarativeBase, Mapped
+from sqlalchemy import DateTime, ForeignKey, JSON
+from sqlalchemy.orm import mapped_column, Mapped
 from datetime import datetime
-
-class Base(DeclarativeBase):
-    pass
+from main import Base
 
 class Order(Base):
     __tablename__ = "order"
