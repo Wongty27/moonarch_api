@@ -1,12 +1,16 @@
+python-dotenv
 fastapi[all]
+pymongo
+psycopg2
 sqlalchemy==2.0.35
-polars
 passlib
 bcrypt==4.0.1
 python-multipart
 python-jose[cryptography]
+pypdf
+langchain
+langchain-mongodb
+langchain-community
+langchain-google-genai
 cloud-sql-python-connector
 google-auth
-
-# Optional
-# psycopg2==2.9.9

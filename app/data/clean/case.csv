@@ -1,1111 +1,963 @@
-item_type,brand,name,price,case_size,color,side_panel,external_volume,internal_35_bays
-case,Corsair, 4000D Airflow,454.92,ATX Mid Tower,Black,Tinted Tempered Glass,48.6,2
-case,NZXT, H5 Flow,411.59,ATX Mid Tower,Black,Tempered Glass,47.0,1
-case,NZXT, H9 Flow,693.24,ATX Mid Tower,White,Tempered Glass,66.9,2
-case,NZXT, H9 Flow,671.57,ATX Mid Tower,Black,Tempered Glass,66.9,2
-case,Montech, AIR 903 MAX,324.98,ATX Mid Tower,Black,Tempered Glass,54.2,2
-case,NZXT, H6 Flow,476.59,ATX Mid Tower,White,Tempered Glass,51.8,1
-case,Cooler Master, MasterBox Q300L,203.56,MicroATX Mini Tower,Black,Acrylic,33.6,1
-case,NZXT, H6 Flow,438.89,ATX Mid Tower,Black,Tempered Glass,51.8,1
-case,Montech, X3 Mesh,281.56,ATX Mid Tower,Black,Tempered Glass,,2
-case,Lian Li, O11 Vision,602.03,ATX Mid Tower,White,Tempered Glass,67.8,2
-case,Fractal Design, North,606.58,ATX Mid Tower,Black,Tempered Glass,45.1,2
-case,Phanteks, XT PRO,216.61,ATX Mid Tower,Black,Tempered Glass,51.8,2
-case,NZXT, H6 Flow RGB,576.25,ATX Mid Tower,White,Tempered Glass,51.8,1
-case,Phanteks, XT PRO ULTRA,303.27,ATX Mid Tower,Black,Tempered Glass,51.8,2
-case,Lian Li, O11 Dynamic EVO,1079.87,ATX Mid Tower,White / Gray,Tempered Glass,60.8,6
-case,Lian Li, LANCOOL 216,433.26,ATX Mid Tower,Black,Tempered Glass,55.6,2
-case,Deepcool, CH370,257.42,MicroATX Mid Tower,Black,Tempered Glass,38.3,2
-case,Silverstone, ALTA F2,4332.96,ATX Full Tower,Black,Tempered Glass,98.9,8
-case,Deepcool, CC560 V2,259.94,ATX Mid Tower,Black,Tempered Glass,44.9,2
-case,Fractal Design, Terra,779.81,Mini ITX Desktop,Black / Brown,Mesh,11.4,0
-case,NZXT, H5 Flow,407.26,ATX Mid Tower,White,Tempered Glass,47.0,1
-case,Deepcool, MATREXX 40,203.56,MicroATX Mini Tower,Black,Tempered Glass,,2
-case,NZXT, H6 Flow RGB,584.91,ATX Mid Tower,Black,Tempered Glass,51.8,1
-case,HYTE, Y70 Touch,1559.84,ATX Mid Tower,White,Tempered Glass,70.7,2
-case,Lian Li, O11 Vision,563.25,ATX Mid Tower,Black,Tempered Glass,67.8,2
-case,Montech, AIR 903 BASE,281.64,ATX Mid Tower,Black,Tempered Glass,54.2,2
-case,Corsair, 3000D AIRFLOW,324.89,ATX Mid Tower,Black,Tempered Glass,49.5,2
-case,Fractal Design, Pop Air RGB,389.93,ATX Mid Tower,Black,Tempered Glass,46.2,2
-case,Corsair, 5000D AIRFLOW,693.24,ATX Mid Tower,Black,Tempered Glass,66.2,2
-case,NZXT, H7 Flow,563.25,ATX Mid Tower,Black,Tempered Glass,55.8,2
-case,Montech, KING 95 PRO,645.62,ATX Mid Tower,Black,Tempered Glass,63.0,5
-case,Asus, Prime AP201,346.6,MicroATX Mini Tower,Black,Mesh,33.0,3
-case,Cooler Master, MasterBox NR200,498.25,Mini ITX Desktop,Black,,,2
-case,Corsair, 4000D Airflow,454.92,ATX Mid Tower,White,Tinted Tempered Glass,48.6,2
-case,Lian Li, O11D EVO RGB,693.24,ATX Mid Tower,Black,Tempered Glass,65.3,4
-case,Fractal Design, Pop Mini Air,389.84,MicroATX Mid Tower,Black,Tempered Glass,36.5,2
-case,Corsair, iCUE 4000X RGB,519.92,ATX Mid Tower,Black,Tempered Glass,48.6,2
-case,Lian Li, O11 Dynamic Mini Snow Edition,519.92,ATX Mid Tower,White,Tempered Glass,43.0,2
-case,Fractal Design, North XL,779.9,ATX Full Tower,Black,Tinted Tempered Glass,61.4,2
-case,Montech, KING 95 PRO,688.95,ATX Mid Tower,White,Tempered Glass,63.0,5
-case,HYTE, Y70 Touch,1559.84,ATX Mid Tower,Black,Tempered Glass,70.7,2
-case,SAMA, ARGB-Q5,233.29,MicroATX Mini Tower,Black,Tempered Glass,31.5,2
-case,Phanteks, Eclipse G360A,303.27,ATX Mid Tower,White,Tempered Glass,42.3,2
-case,Montech, AIR 903 MAX,298.98,ATX Mid Tower,White,Tempered Glass,54.2,2
-case,Lian Li, O11 Dynamic EVO XL,1005.21,ATX Full Tower,Black,Tempered Glass,84.4,4
-case,Fractal Design, Terra,779.9,Mini ITX Desktop,Green / Brown,Mesh,11.4,0
-case,Fractal Design, Meshify C,433.26,ATX Mid Tower,Black,Tinted Tempered Glass,40.6,2
-case,NZXT, H5 Flow RGB,433.26,ATX Mid Tower,Black,Tempered Glass,47.0,1
-case,Fractal Design, Pop Mini Air,303.22,MicroATX Mid Tower,White,Tempered Glass,36.5,2
-case,HYTE, Y60,779.9,ATX Mid Tower,Black,Tempered Glass,,2
-case,Phanteks, NV5,433.26,ATX Mid Tower,Black,Tempered Glass,60.2,3
-case,HYTE, Y70,953.22,ATX Mid Tower,White,Tempered Glass,70.7,2
-case,Montech, SKY TWO,385.64,ATX Mid Tower,Black,Tempered Glass,45.3,2
-case,Fractal Design, Pop Air,346.51,ATX Mid Tower,Black,Tempered Glass,46.2,2
-case,Corsair, 7000D AIRFLOW,823.23,ATX Full Tower,Black,Tempered Glass,81.8,6
-case,Deepcool, CC360 ARGB,259.94,MicroATX Mini Tower,Black,Tinted Tempered Glass,38.7,2
-case,NZXT, H9 Elite,996.55,ATX Mid Tower,Black,Tempered Glass,66.9,2
-case,Lian Li, A4-H20 X4,671.57,Mini ITX Desktop,Black,Mesh,11.1,0
-case,NZXT, H9 Elite,966.22,ATX Mid Tower,White,Tempered Glass,66.9,2
-case,Fractal Design, Pop XL Air,476.5,ATX Full Tower,Black,Tempered Glass,62.4,3
-case,Montech, AIR 100 ARGB,290.22,MicroATX Mid Tower,White,Tempered Glass,36.1,2
-case,HYTE, Y60 Snow White,779.9,ATX Mid Tower,White,Tempered Glass,,2
-case,Lian Li, O11 Dynamic Mini,487.51,ATX Mid Tower,Black,Tempered Glass,43.0,2
-case,DIYPC, MA08,155.81,MicroATX Mini Tower,Black,,20.5,1
-case,Lian Li, PC-O11 Dynamic,519.92,ATX Full Tower,White,Tempered Glass,54.0,3
-case,Zalman, S2,229.61,ATX Mid Tower,Black,Acrylic,38.4,2
-case,Fractal Design, North,606.58,ATX Mid Tower,White,Tempered Glass,45.1,2
-case,Lian Li, O11 Dynamic EVO XL,996.55,ATX Full Tower,White,Tempered Glass,84.4,4
-case,be quiet!, Pure Base 500DX,346.21,ATX Mid Tower,Black,Tempered Glass,48.3,2
-case,Lian Li, LANCOOL 216,407.3,ATX Mid Tower,Black,Tempered Glass,55.6,2
-case,Zalman, P30,433.26,MicroATX Mini Tower,White,Tempered Glass,45.7,2
-case,BitFenix, Nova Mesh M ARGB,250.88,MicroATX Mini Tower,Black,Tempered Glass,31.6,2
-case,Asus, Prime AP201,368.26,MicroATX Mini Tower,White,Mesh,33.0,3
-case,Lian Li, O11D EVO RGB,693.24,ATX Mid Tower,White,Tempered Glass,65.3,4
-case,Cooler Master, MasterBox NR200P V2,519.92,Mini ITX Desktop,Black,Mesh,20.1,1
-case,Asus, Prime AP201,303.22,MicroATX Mini Tower,Black,Tempered Glass,33.0,3
-case,Montech, AIR 903 BASE,246.98,ATX Mid Tower,White,Tempered Glass,54.2,2
-case,Fractal Design, Ridge PCIe 4.0,563.25,Mini ITX Tower,Black,Mesh,16.3,0
-case,Corsair, iCUE 4000D RGB AIRFLOW,649.91,ATX Mid Tower,Black,Tempered Glass,48.6,2
-case,Fractal Design, Terra,779.9,Mini ITX Desktop,Silver / Brown,Mesh,11.4,0
-case,NZXT, H5 Flow RGB,433.26,ATX Mid Tower,White,Tempered Glass,47.0,1
-case,Fractal Design, Core 1000 USB 3.0,164.57,MicroATX Mid Tower,Black,,25.8,2
-case,SAMA, IM01,242.21,MicroATX Mini Tower,Black,,21.9,5
-case,NZXT, H510,428.88,ATX Mid Tower,Black,Tempered Glass,41.3,2
-case,Deepcool, MACUBE 110,262.97,MicroATX Mini Tower,Black,Tempered Glass,38.8,2
-case,Lian Li, O11 Air Mini,433.26,ATX Mid Tower,Black,Tempered Glass,44.2,4
-case,HYTE, Y70,953.22,ATX Mid Tower,Black,Tempered Glass,70.7,2
-case,Deepcool, CH370,259.94,MicroATX Mid Tower,White,Tempered Glass,38.3,2
-case,Lian Li, LANCOOL 216,409.43,ATX Mid Tower,White,Tempered Glass,55.6,2
-case,Asus, ROG Strix Helios,1321.52,ATX Full Tower,Black,Tempered Glass,83.5,2
-case,MSI, MAG FORGE 112R,372.64,ATX Mid Tower,Black,Tempered Glass,42.5,2
-case,Fractal Design, North,606.58,ATX Mid Tower,Black,Mesh,45.1,2
-case,NZXT, H5 Elite,454.75,ATX Mid Tower,Black,Tempered Glass,47.0,1
-case,HYTE, Y40,433.26,ATX Mid Tower,Black,Tempered Glass,49.7,1
-case,Cooler Master, MasterBox Q300L,203.56,MicroATX Mini Tower,White,Acrylic,33.6,1
-case,Lian Li, LANCOOL 205M MESH,346.55,MicroATX Mini Tower,Black,Tempered Glass,33.8,2
-case,Phanteks, NV5,454.92,ATX Mid Tower,White,Tempered Glass,60.2,3
-case,Cooler Master, Q300L V2,259.89,MicroATX Mini Tower,Black,Tempered Glass,34.1,1
-case,Corsair, 2000D AIRFLOW,433.26,Mini ITX Tower,Black,Mesh,24.8,0
-case,Fractal Design, Torrent,823.23,ATX Mid Tower,Black,Tinted Tempered Glass,69.8,2
-case,Cougar, MX330-X,233.94,ATX Mid Tower,Black,,39.4,2
-case,Phanteks, Enthoo Pro,433.26,ATX Full Tower,Black,Acrylic,68.6,6
-case,Fractal Design, Focus 2,303.27,ATX Mid Tower,Black,,45.8,2
-case,Antec, NX100,174.27,ATX Mid Tower,Black / Gray,Acrylic,37.7,2
-case,DIYPC, F2,168.86,MicroATX Mini Tower,White,Acrylic,,2
-case,NZXT, H7 Flow,420.26,ATX Mid Tower,White,Tempered Glass,55.8,2
-case,Corsair, 3000D RGB AIRFLOW,433.26,ATX Mid Tower,Black,Tempered Glass,49.5,2
-case,Fractal Design, Pop Air,303.22,ATX Mid Tower,Black,,46.2,2
-case,SAMA, Sama-S88-BK,181.86,ATX Mid Tower,Black / Red,Tempered Glass,37.7,2
-case,Corsair, Obsidian Series 1000D,2274.78,ATX Full Tower,Black,Tempered Glass,149.1,5
-case,NZXT, H7 Flow,389.93,ATX Mid Tower,White / Black,Tempered Glass,55.8,2
-case,Cooler Master, MasterBox NR200,407.26,Mini ITX Desktop,White / Black,,,2
-case,MUSETEX, K2,476.59,ATX Mid Tower,Black,Tempered Glass,44.4,2
-case,Fractal Design, Ridge PCIe 4.0,563.25,Mini ITX Tower,White,Mesh,16.3,0
-case,Corsair, iCUE 7000X RGB,996.55,ATX Full Tower,Black,Tempered Glass,81.8,6
-case,MSI, MPG GUNGNIR 110R,399.46,ATX Mid Tower,Black,Tempered Glass,,2
-case,Thermaltake, The Tower 300,606.58,MicroATX Mini Tower,Black,Tempered Glass,53.0,3
-case,Cooler Master, MasterBox TD500 Mesh V2,493.88,ATX Mid Tower,,Tempered Glass,52.4,2
-case,Montech, X3 Mesh,276.88,ATX Mid Tower,White,Tempered Glass,,2
-case,HYTE, Y60,758.23,ATX Mid Tower,White / Black,Tempered Glass,,2
-case,Asus, TUF Gaming GT502,649.91,ATX Mid Tower,Black,Tempered Glass,57.2,4
-case,Lian Li, LANCOOL 215,389.93,ATX Mid Tower,Black,Tempered Glass,,2
-case,Thermaltake, Core V1,216.61,Mini ITX Desktop,Black,,22.4,2
-case,Corsair, iCUE 5000D RGB AIRFLOW,953.22,ATX Mid Tower,Black,Tempered Glass,66.2,2
-case,Fractal Design, Focus G,259.89,ATX Mid Tower,Black,Acrylic,42.2,2
-case,Antec, NX200M,216.61,MicroATX Mid Tower,Black,Tempered Glass,,2
-case,Montech, SKY TWO,402.93,ATX Mid Tower,White,Tempered Glass,45.3,2
-case,Corsair, 6500X,866.56,ATX Mid Tower,Black,Tempered Glass,78.3,2
-case,Fractal Design, Define R5,541.58,ATX Mid Tower,Black,,54.2,8
-case,Lian Li, A4-H20 A4,675.9,Mini ITX Desktop,Silver / Black,Mesh,11.1,0
-case,Phanteks, XT PRO ULTRA,303.27,ATX Mid Tower,White,Tempered Glass,51.8,2
-case,Fractal Design, North XL,779.9,ATX Full Tower,Black,Mesh,61.4,2
-case,NZXT, H510,433.21,ATX Mid Tower,White,Tempered Glass,41.3,2
-case,Fractal Design, North,606.58,ATX Mid Tower,White,Mesh,45.1,2
-case,SAMA, ARGB-Q5,231.77,MicroATX Mini Tower,White,Tempered Glass,31.5,2
-case,MSI, MAG FORGE 100R,406.57,ATX Mid Tower,Black,Tempered Glass,,2
-case,NZXT, H5 Elite,454.75,ATX Mid Tower,White,Tempered Glass,47.0,1
-case,MSI, MAG PANO M100R PZ,389.93,MicroATX Mid Tower,White,Tempered Glass,41.9,1
-case,Corsair, iCUE 4000X RGB,519.92,ATX Mid Tower,White,Tempered Glass,48.6,2
-case,Thermaltake, Versa H18,238.27,MicroATX Mini Tower,Black,Tempered Glass,30.4,2
-case,Asus, ProArt PA602,1169.87,ATX Mid Tower,Black,Tempered Glass,81.4,4
-case,Corsair, 2500X,693.24,MicroATX Mini Tower,Black,Tempered Glass,54.8,2
-case,Montech, KING 95,346.6,ATX Mid Tower,Black,Tempered Glass,63.0,5
-case,Deepcool, CH560,384.16,ATX Mid Tower,Black,Tempered Glass,49.6,2
-case,NZXT, H510i,446.26,ATX Mid Tower,White,Tempered Glass,41.3,2
-case,Thermaltake, S100,303.44,MicroATX Mini Tower,Black,Tempered Glass,,2
-case,BitFenix, Nova Mesh M ARGB,250.88,MicroATX Mini Tower,White,Tempered Glass,31.6,2
-case,Thermaltake, Versa H17,216.61,MicroATX Mini Tower,Black,,30.4,2
-case,GameMax, G563,225.27,ATX Mid Tower,Black,Acrylic,37.8,2
-case,be quiet!, Pure Base 500 FX,476.2,ATX Mid Tower,Black,Tempered Glass,48.3,2
-case,Fractal Design, Node 304,381.22,Mini ITX Tower,Black / White,,19.5,6
-case,DIYPC, DIY-S07,203.56,ATX Mid Tower,Black,Acrylic,27.5,2
-case,Cooler Master, MasterBox TD500 Mesh White w/ Controller,368.26,ATX Mid Tower,White,Tempered Glass,,2
-case,NZXT, H7 Flow RGB,584.91,ATX Mid Tower,Black,Tempered Glass,55.8,2
-case,Asus, Prime AP201,303.22,MicroATX Mini Tower,White,Tempered Glass,33.0,3
-case,Deepcool, MACUBE 110,369.6,MicroATX Mini Tower,White,Tempered Glass,38.8,2
-case,Corsair, 6500X,866.56,ATX Mid Tower,White,Tempered Glass,78.3,2
-case,Fractal Design, Meshify C,433.17,ATX Mid Tower,Black,Tempered Glass,40.6,2
-case,Fractal Design, North XL,779.9,ATX Full Tower,White,Tempered Glass,61.4,2
-case,HYTE, Y40,441.92,ATX Mid Tower,White,Tempered Glass,49.7,1
-case,Lian Li, LANCOOL III RGB,714.9,ATX Mid Tower,Black,Tempered Glass,65.5,4
-case,Fractal Design, Node 804,541.58,MicroATX Mid Tower,Black,Acrylic,41.1,10
-case,Antec, C8,476.59,ATX Mid Tower,Black,Tempered Glass,66.9,2
-case,SAMA, SAMA-Z4,233.94,ATX Mid Tower,White / Black,Tempered Glass,39.2,2
-case,Corsair, iCUE 5000X RGB,714.9,ATX Mid Tower,Black,Tempered Glass,66.2,2
-case,HYTE, Y70,953.22,ATX Mid Tower,White / Black,Tempered Glass,70.7,2
-case,Deepcool, CH560 DIGITAL,476.59,ATX Mid Tower,Black,Tempered Glass,49.6,2
-case,Fractal Design, Pop XL Air,389.93,ATX Full Tower,White,Tempered Glass,62.4,3
-case,Lian Li, O11 Vision Chrome,606.58,ATX Mid Tower,Black,Tinted Tempered Glass,67.8,2
-case,Fractal Design, Pop Mini Silent,346.6,MicroATX Mid Tower,Black,,36.5,2
-case,Fractal Design, Pop Air,389.93,ATX Mid Tower,White,Tempered Glass,46.2,2
-case,be quiet!, Shadow Base 800 FX,736.18,ATX Mid Tower,Black,Tempered Glass,70.9,2
-case,Deepcool, CK560,298.93,ATX Mid Tower,Black,Tempered Glass,,2
-case,Montech, AIR 1000 PREMIUM,281.56,ATX Mid Tower,Black,Tempered Glass,,2
-case,DIYPC, F2,173.19,MicroATX Mini Tower,Black / Orange,Acrylic,,2
-case,NZXT, H7 Elite (2023),433.26,ATX Mid Tower,Black,Tempered Glass,55.8,2
-case,HYTE, Y40,433.26,ATX Mid Tower,White / Black,Tempered Glass,49.7,1
-case,MUSETEX, Y6,454.92,ATX Mid Tower,White,Tempered Glass,40.9,2
-case,Fractal Design, Meshify 2 XL,866.56,ATX Full Tower,Black,Tinted Tempered Glass,81.5,6
-case,Zalman, T6,216.61,ATX Mid Tower,Black,,32.4,2
-case,Phanteks, XT View,346.6,ATX Mid Tower,Black,Tempered Glass,50.6,2
-case,Deepcool, MATREXX 50 ADD-RGB 4F,317.44,ATX Mid Tower,Black,Tempered Glass,44.5,2
-case,Cooler Master, MasterBox NR200P V2,502.58,Mini ITX Desktop,White,Mesh,20.1,1
-case,Fractal Design, Meshify C,346.55,ATX Mid Tower,White / Black,Tempered Glass,40.6,2
-case,Lian Li, LANCOOL 205M MESH,389.93,MicroATX Mini Tower,White,Tempered Glass,33.8,2
-case,Antec, NX410,290.27,ATX Mid Tower,Black,Tempered Glass,39.7,2
-case,Apex, DM-387,376.88,HTPC,Black,,12.8,1
-case,be quiet!, Pure Base 500,302.88,ATX Mid Tower,Black,,46.0,2
-case,Lian Li, LANCOOL III,649.91,ATX Mid Tower,Black,Tempered Glass,65.5,4
-case,Cooler Master, N200,259.94,MicroATX Mini Tower,Black,,33.8,3
-case,NZXT, H510 Elite,736.57,ATX Mid Tower,White / Black,Tempered Glass,41.3,2
-case,Corsair, iCUE 4000D RGB AIRFLOW,649.91,ATX Mid Tower,White,Tempered Glass,48.6,2
-case,MSI, MAG PANO M100R PZ,472.3,MicroATX Mid Tower,Black,Tempered Glass,41.9,1
-case,Antec, C8,541.58,ATX Mid Tower,White,Tempered Glass,66.9,2
-case,Thermaltake, The Tower 100,389.93,Mini ITX Tower,Black,Tempered Glass,32.7,2
-case,Lian Li, LANCOOL 205 Mesh C,541.58,ATX Mid Tower,Pink,Tempered Glass,41.3,2
-case,Corsair, 2500X,693.24,MicroATX Mini Tower,White,Tempered Glass,54.8,2
-case,DIYPC, ARGB Q10,324.89,ATX Mid Tower,Black,Tempered Glass,50.4,1
-case,Fractal Design, Torrent,823.23,ATX Mid Tower,Black,,69.8,2
-case,Antec, AX61 ELITE,259.94,ATX Mid Tower,Black,Tempered Glass,36.4,2
-case,Fractal Design, Focus 2,303.27,ATX Mid Tower,Black,Tempered Glass,45.8,2
-case,Thermaltake, The Tower 300,649.91,MicroATX Mini Tower,White,Tempered Glass,53.0,3
-case,Phanteks, Enthoo Elite,3899.66,ATX Full Tower,Black,Tinted Tempered Glass,124.5,6
-case,HYTE, Y70 Touch,1559.84,ATX Mid Tower,Black / White,Tempered Glass,70.7,2
-case,Lian Li, O11 Air Mini,476.59,ATX Mid Tower,White,Tempered Glass,44.2,4
-case,Lian Li, PC-O11 Dynamic Razer,1260.04,ATX Full Tower,Black,Tempered Glass,54.0,3
-case,Phanteks, NV7,823.23,ATX Full Tower,Black,Tempered Glass,78.9,2
-case,Fractal Design, Meshify 2,693.24,ATX Mid Tower,Black,Tinted Tempered Glass,61.7,6
-case,Fractal Design, Define 7,779.33,ATX Mid Tower,Black,,62.4,6
-case,GameMax, Infinity,268.26,ATX Mid Tower,White,Tempered Glass,45.7,1
-case,Phanteks, ECLIPSE G500A DRGB,519.92,ATX Mid Tower,Black,Tempered Glass,61.8,2
-case,ZZEW, A1 Plus,476.59,Mini ITX Tower,Silver,Mesh,5.8,0
-case,Thermaltake, S200 TG ARGB,346.55,ATX Mid Tower,Black,Tempered Glass,38.2,2
-case,In Win, Chopin MAX,647.39,Mini ITX Desktop,Gray,Mesh,4.4,0
-case,Cooler Master, HAF 700 EVO,2058.13,ATX Full Tower,Gray / Black,Tempered Glass,,12
-case,Corsair, 4000D Airflow,628.2,ATX Mid Tower,Black,Tempered Glass,48.6,2
-case,Fractal Design, Define 7 XL,974.88,ATX Full Tower,Black,,82.0,6
-case,Lian Li, Lancool II Mesh,857.93,ATX Mid Tower,Black,Tempered Glass,54.1,3
-case,Phanteks, NV7,866.56,ATX Full Tower,White,Tempered Glass,78.9,2
-case,Corsair, 2500D Airflow,693.24,MicroATX Mini Tower,Black,Tempered Glass,54.8,2
-case,Phanteks, Enthoo Pro 2,606.58,ATX Full Tower,Black,Tempered Glass,,12
-case,Thermaltake, Core V21,281.56,MicroATX Mini Tower,Black,Acrylic,45.6,3
-case,MSI, MPG VELOX 100R,515.63,ATX Mid Tower,Black,Tempered Glass,53.7,2
-case,MSI, MAG FORGE 100M,567.62,ATX Mid Tower,Black,Tempered Glass,44.1,2
-case,NZXT, H7 Elite (2023),433.26,ATX Mid Tower,White,Tempered Glass,55.8,2
-case,Zalman, S3,229.61,ATX Mid Tower,Black,Acrylic,38.4,2
-case,Corsair, iCUE 5000D RGB AIRFLOW,953.22,ATX Mid Tower,White,Tempered Glass,66.2,2
-case,DIYPC, S3-BK-ARGB,233.9,ATX Mid Tower,Black,Tempered Glass,36.8,2
-case,GameMax, M60,212.27,MicroATX Mid Tower,White,Mesh,29.4,2
-case,Deepcool, CC360 ARGB,259.89,MicroATX Mini Tower,White,Tinted Tempered Glass,38.7,2
-case,Phanteks, NV9,1083.21,ATX Full Tower,Black,Tempered Glass,99.0,3
-case,Asus, TUF Gaming GT301,389.93,ATX Mid Tower,Black,Tempered Glass,43.9,2
-case,Fractal Design, Meshify 2 Mini,822.32,MicroATX Mid Tower,Black,Tinted Tempered Glass,33.0,2
-case,Asus, TUF Gaming GT501,707.93,ATX Mid Tower,Black / Gray,Tempered Glass,75.5,4
-case,Antec, DF700 FLUX,389.93,ATX Mid Tower,Black,Tempered Glass,49.9,3
-case,Fractal Design, Meshify 2 Compact TG Light Tint,541.58,ATX Mid Tower,Black,Tempered Glass,42.3,2
-case,Thermaltake, Versa H18,259.94,MicroATX Mini Tower,Black,Acrylic,30.4,2
-case,Corsair, 3000D AIRFLOW,281.6,ATX Mid Tower,White,Tempered Glass,49.5,2
-case,Deepcool, CH360,362.02,MicroATX Mid Tower,Black,Tempered Glass,39.7,2
-case,Thermaltake, The Tower 200,433.26,Mini ITX Tower,Black,Tempered Glass,45.1,2
-case,Fractal Design, Torrent RGB,996.55,ATX Mid Tower,Black,Tinted Tempered Glass,69.8,2
-case,Phanteks, XT View,346.6,ATX Mid Tower,White,Tempered Glass,50.6,2
-case,Corsair, 2000D RGB AIRFLOW,498.25,Mini ITX Tower,Black,Mesh,24.8,0
-case,Fractal Design, Meshify C,303.27,ATX Mid Tower,Black,,40.6,2
-case,BGears, b-Masstige,186.28,MicroATX Mini Tower,Black,Tempered Glass,28.2,2
-case,NZXT, H7 Flow RGB,584.91,ATX Mid Tower,White,Tempered Glass,55.8,2
-case,Cooler Master, MasterBox TD500 Mesh w/ Controller,368.26,ATX Mid Tower,Black,Tempered Glass,,2
-case,Corsair, 6500D Airflow,866.56,ATX Mid Tower,Black,Tempered Glass,78.3,2
-case,GameMax, M60,186.15,MicroATX Mid Tower,Black,Mesh,29.4,2
-case,HYTE, Y70 Touch,1559.84,ATX Mid Tower,Black / Red,Tempered Glass,70.7,2
-case,Thermaltake, Core V1,216.61,Mini ITX Desktop,White,Acrylic,22.4,2
-case,Cooler Master, QUBE 500 Flatpack,441.92,ATX Mid Tower,Black,Tempered Glass,38.9,4
-case,GameMax, Infinity,277.05,ATX Mid Tower,Black,Tempered Glass,45.7,1
-case,Phanteks, EVOLV SHIFT XT,476.59,Mini ITX Desktop,Silver / Black,Tempered Glass,17.5,0
-case,Corsair, iCUE 7000X RGB,996.55,ATX Full Tower,White,Tempered Glass,81.8,6
-case,Antec, Performance 1 FT,576.25,ATX Full Tower,Black,Tempered Glass,62.7,2
-case,Jonsbo, N3,727.94,Mini ITX Desktop,Black,,18.2,8
-case,Montech, KING 95,389.93,ATX Mid Tower,White,Tempered Glass,63.0,5
-case,Thermaltake, Core W200,2195.79,ATX Full Tower,Black,Acrylic,,4
-case,Corsair, 2000D AIRFLOW,454.92,Mini ITX Tower,White,Mesh,24.8,0
-case,Corsair, 3000D RGB AIRFLOW,389.93,ATX Mid Tower,White,Tempered Glass,49.5,2
-case,BitFenix, Nova Mesh SE,281.21,ATX Mid Tower,Black,Tempered Glass,36.1,2
-case,Fractal Design, Torrent Nano,390.4,Mini ITX Tower,White / Black,Tempered Glass,34.6,1
-case,Cooler Master, TD300 Mesh,411.59,MicroATX Mini Tower,Black,Tempered Glass,,2
-case,GAMDIAS, TALOS E3 MESH,236.32,ATX Mid Tower,White,Tempered Glass,34.1,2
-case,HYTE, REVOLT 3,866.56,Mini ITX Tower,Black,Mesh,,1
-case,Phanteks, Enthoo Pro 2,563.25,ATX Full Tower,Black,,,12
-case,Fractal Design, Core 1100,229.56,MicroATX Mini Tower,Black,,47.9,2
-case,Corsair, iCUE 220T RGB Airflow,504.23,ATX Mid Tower,Black,Tempered Glass,37.3,2
-case,Lian Li, O11D XL-X,866.56,ATX Full Tower,Black,Tempered Glass,68.9,4
-case,BGears, b-Pellucid,259.94,MicroATX Mini Tower,Black,Tinted Tempered Glass,36.6,1
-case,GameMax, Edge,207.94,ATX Mid Tower,Black,Tempered Glass,34.2,2
-case,Lian Li, LANCOOL III RGB,658.57,ATX Mid Tower,White,Tempered Glass,65.5,4
-case,Jonsbo, D31 MESH,443.4,MicroATX Mini Tower,Black,Tempered Glass,31.3,1
-case,Fractal Design, North XL,779.9,ATX Full Tower,White,Mesh,61.4,2
-case,SSUPD, Meshroom S w/PCIe 4.0 Riser,649.91,ATX Mini Tower,Gray,Mesh,14.9,0
-case,be quiet!, Pure Base 500DX,411.2,ATX Mid Tower,White,Tempered Glass,48.3,2
-case,Jonsbo, C6,238.32,MicroATX Mini Tower,Black,Mesh,15.9,1
-case,Montech, AIR 1000 PREMIUM,303.22,ATX Mid Tower,White,Tempered Glass,,2
-case,Phanteks, Enthoo Pro Tempered Glass,480.92,ATX Full Tower,Black,Tinted Tempered Glass,69.1,6
-case,Thermaltake, S100 Snow Edition,309.25,MicroATX Mini Tower,White / Black,Tempered Glass,,2
-case,Lian Li, LANCOOL 205 Mesh C,411.59,ATX Mid Tower,Black,Tempered Glass,41.3,2
-case,Cooler Master, N400,324.93,ATX Mid Tower,Black,,40.2,7
-case,Thermaltake, Versa H15,262.06,MicroATX Mid Tower,Black,,,3
-case,Corsair, iCUE 5000T RGB,1516.51,ATX Mid Tower,Black,Tempered Glass,74.5,2
-case,Thermaltake, V250 TG ARGB Air,342.22,ATX Mid Tower,Black,Tempered Glass,44.4,2
-case,Antec, AX20,402.06,ATX Mid Tower,Black,Tempered Glass,33.4,2
-case,GameMax, Vista M,233.72,MicroATX Mini Tower,Black,Tempered Glass,40.9,2
-case,Antec, NX410,290.27,ATX Mid Tower,White,Tempered Glass,39.7,2
-case,be quiet!, Silent Base 802,649.52,ATX Mid Tower,Black,Tempered Glass,83.8,3
-case,MSI, MPG GUNGNIR 300R AIRFLOW,736.57,ATX Mid Tower,Black,Tempered Glass,60.5,2
-case,MagniumGear, Neo Air 2,259.94,ATX Mid Tower,Black / Brown,Tempered Glass,41.9,2
-case,Fractal Design, Core 2300,333.55,ATX Mid Tower,Black,,37.8,3
-case,Jonsbo, D31 MESH,389.93,MicroATX Mini Tower,White,Tempered Glass,31.3,1
-case,Deepcool, CG560,554.58,ATX Mid Tower,Black,Tempered Glass,48.9,2
-case,Cooler Master, MasterBox NR600 (w/o ODD),389.93,ATX Mid Tower,Black,Tempered Glass,47.3,4
-case,MSI, MAG VAMPIRIC 100R,321.77,ATX Mid Tower,Black,Tempered Glass,36.5,2
-case,MUSETEX, NN8,389.93,ATX Mid Tower,Black,Tempered Glass,39.5,2
-case,Thermaltake, Ceres 300 TG ARGB,389.93,ATX Mid Tower,Black,Tempered Glass,53.9,1
-case,DIYPC, Silence,268.56,ATX Mid Tower,Black,Acrylic,,2
-case,Corsair, 275R Airflow,855.81,ATX Mid Tower,Black,Tempered Glass,,2
-case,Fractal Design, Pop XL Silent,433.26,ATX Full Tower,Black,,62.4,3
-case,Lian Li, Lancool II Mesh C RGB,454.53,ATX Mid Tower,White,Tempered Glass,54.1,3
-case,Fractal Design, Meshify 2,649.91,ATX Mid Tower,Black,,61.7,6
-case,Fractal Design, Focus G,268.56,ATX Mid Tower,White,Acrylic,42.2,2
-case,GAMDIAS, AURA GC1,238.27,ATX Mid Tower,Black,Tempered Glass,31.1,2
-case,Fractal Design, Pop Silent,346.6,ATX Mid Tower,Black,,46.2,2
-case,Fractal Design, Focus 2 RGB,389.88,ATX Mid Tower,Black,Tempered Glass,45.8,2
-case,Fractal Design, Torrent Compact RGB,736.57,ATX Mid Tower,Black,Tinted Tempered Glass,46.7,1
-case,Corsair, 5000D AIRFLOW,758.23,ATX Mid Tower,White / Gray,Tempered Glass,66.2,2
-case,Lian Li, V3000 PLUS,2166.46,ATX Full Tower,Black,Tempered Glass,127.6,8
-case,teenage, engineering Computer-1,428.97,Mini ITX Desktop,Orange / Silver,,10.4,0
-case,Jonsbo, Jonsplus Z20,459.3,MicroATX Desktop,Black,Tempered Glass,25.3,1
-case,SSUPD, Meshroom S w/PCIe 4.0 Riser,1214.11,ATX Mini Tower,Black,Mesh,14.9,0
-case,Fractal Design, Torrent Compact,1134.94,ATX Mid Tower,Black,,46.7,1
-case,HYTE, Y70,909.89,ATX Mid Tower,Black / Red,Tempered Glass,70.7,2
-case,Fractal Design, Focus G,259.94,ATX Mid Tower,Black / Blue,Acrylic,42.2,2
-case,Lian Li, LANCOOL II-W,324.93,ATX Mid Tower,White / Black,Tempered Glass,,3
-case,Cooler Master, MasterBox MB311L ARGB,322.2,MicroATX Mid Tower,Black,Tempered Glass,,2
-case,Silverstone, SG13 V2,281.56,Mini ITX Tower,Black,,11.5,1
-case,Thermaltake, View 270,303.27,ATX Mid Tower,Black,Tempered Glass,47.6,2
-case,Corsair, 7000D AIRFLOW,823.23,ATX Full Tower,White / Black,Tempered Glass,81.8,6
-case,Deepcool, CC560 ARGB,778.64,ATX Mid Tower,Black,Tempered Glass,41.7,2
-case,Fractal Design, Torrent Nano RGB,796.1,Mini ITX Tower,Black,Tinted Tempered Glass,34.6,1
-case,Corsair, 4000D Airflow,671.53,ATX Mid Tower,White,Tempered Glass,48.6,2
-case,Cooler Master, MasterBox MB600L V2 w/ODD,226.96,ATX Mid Tower,Black,,42.7,2
-case,Thermaltake, View 270,303.27,ATX Mid Tower,White,Tempered Glass,47.6,2
-case,Fractal Design, Meshify 2 Compact,759.31,ATX Mid Tower,Black,,42.3,2
-case,MagniumGear, NEO QUBE 2,303.27,ATX Mid Tower,White,Tempered Glass,101.1,2
-case,Jonsbo, N2,658.62,Mini ITX Desktop,Black,,11.1,5
-case,Fractal Design, Torrent,823.23,ATX Mid Tower,White,Tempered Glass,69.8,2
-case,Cooler Master, HAF 500,368.26,ATX Mid Tower,Black,Tempered Glass,,2
-case,HYTE, Y60,779.9,ATX Mid Tower,Red / Black,Tempered Glass,,2
-case,Antec, NX200M,238.27,MicroATX Mid Tower,White,Tempered Glass,,2
-case,Lian Li, O11D XL-W,1682.2,ATX Full Tower,White / Black,Tempered Glass,68.9,4
-case,GameMax, Spark,255.6,MicroATX Mid Tower,Black,Tempered Glass,26.5,1
-case,Thermaltake, S200 TG ARGB,346.55,ATX Mid Tower,White,Tempered Glass,38.2,2
-case,be quiet!, Pure Base 600,389.54,ATX Mid Tower,Black,,50.9,3
-case,Phanteks, NV9,1039.88,ATX Full Tower,White,Tempered Glass,99.0,3
-case,Cooler Master, QUBE 500 Flatpack,311.93,ATX Mid Tower,White,Tempered Glass,38.9,4
-case,Fractal Design, Focus 2 RGB,346.6,ATX Mid Tower,White / Black,Tempered Glass,45.8,2
-case,Phanteks, Enthoo Pro,433.26,ATX Full Tower,Black,,68.6,6
-case,HYTE, REVOLT 3,563.25,Mini ITX Tower,Black,Mesh,,1
-case,Asus, TUF Gaming GT502,671.57,ATX Mid Tower,White,Tempered Glass,57.2,4
-case,Cougar, MX330,242.65,ATX Mid Tower,Black,Acrylic,39.4,2
-case,Fractal Design, Meshify 2,519.87,ATX Mid Tower,Black,Tinted Tempered Glass,61.7,6
-case,Thermaltake, Tower 900 Snow Edition,1018.17,ATX Full Tower,White,Tempered Glass,153.6,6
-case,MUSETEX, ‎TW8-S6 Mesh,346.55,ATX Mid Tower,Black,Tempered Glass,39.5,2
-case,Corsair, iCUE LINK 6500X RGB,1169.87,ATX Mid Tower,Black,Tempered Glass,78.3,2
-case,GAMDIAS, NESO P1,649.91,ATX Full Tower,Black,Tempered Glass,75.2,5
-case,Fractal Design, Focus G Mini,268.56,MicroATX Mini Tower,Black,Acrylic,36.4,2
-case,Thermaltake, V100 Perforated,216.61,ATX Mid Tower,Black,,36.6,2
-case,Lian Li, TU150,688.38,Mini ITX Desktop,Black,Tempered Glass,23.8,1
-case,Fractal Design, Define 7 XL Dark,1018.21,ATX Full Tower,Black,Tinted Tempered Glass,82.0,6
-case,Asus, A21,484.47,MicroATX Mini Tower,Black,Tempered Glass,44.0,2
-case,Zalman, S5,303.22,ATX Mid Tower,White / Black,Tempered Glass,,2
-case,Thermaltake, View 200 TG ARGB,346.55,ATX Mid Tower,Black,Tempered Glass,38.2,2
-case,Deepcool, CH560,389.93,ATX Mid Tower,White,Tempered Glass,49.6,2
-case,Corsair, 2500D Airflow,693.24,MicroATX Mini Tower,White,Tempered Glass,54.8,2
-case,Fractal Design, Pop Air,389.93,ATX Mid Tower,Orange / Black,Tempered Glass,46.2,2
-case,Fractal Design, Pop Air,389.93,ATX Mid Tower,Cyan / Black,Tempered Glass,46.2,2
-case,Antec, NX500M,238.27,MicroATX Mini Tower,Black,Tempered Glass,34.6,2
-case,Thermaltake, Versa H21,259.89,ATX Mid Tower,Black,,42.8,3
-case,Fractal Design, Define 7 Compact,498.25,ATX Mid Tower,Black,,42.5,2
-case,Corsair, iCUE 5000X RGB QL Edition,1299.86,ATX Mid Tower,White,Tempered Glass,66.2,2
-case,be quiet!, Silent Base 802,692.85,ATX Mid Tower,Black,,83.8,3
-case,Cougar, Archon 2 Mesh RGB,290.22,ATX Mid Tower,Black,Tempered Glass,37.5,2
-case,GameMax, Nova N5,199.19,ATX Mid Tower,Black,Tempered Glass,37.6,2
-case,Antec, P101 Silent,433.26,ATX Mid Tower,Black,,,8
-case,GameMax, Vista A,346.55,ATX Mid Tower,White,Tempered Glass,44.1,2
-case,Jonsbo, N1,649.95,Mini ITX Desktop,Silver,,12.7,5
-case,Lian Li, V3000 PLUS White GGF Edition,2060.12,ATX Full Tower,White,Tempered Glass,127.6,8
-case,SAMA, AR01-RGB,376.71,MicroATX Mini Tower,White,Tempered Glass,46.2,2
-case,Cougar, MX360 RGB,309.98,ATX Mid Tower,Black,Tempered Glass,36.5,2
-case,DIYPC, Rainbow-Flash-F4,233.85,ATX Mid Tower,Pink,Tempered Glass,33.2,2
-case,Deepcool, CH360 DIGITAL,389.93,MicroATX Mid Tower,Black,Tempered Glass,39.7,2
-case,Fractal Design, Meshify C Mini,672.91,MicroATX Mini Tower,Black,Tinted Tempered Glass,36.6,2
-case,Asus, GX601,1317.19,ATX Full Tower,White / Black,Tempered Glass,83.5,2
-case,Fractal Design, Pop Air,433.21,ATX Mid Tower,Pink / Black,Tempered Glass,46.2,2
-case,Thermaltake, The Tower 500,649.91,ATX Mid Tower,Black,Tempered Glass,93.9,8
-case,Corsair, iCUE 220T RGB Airflow,507.05,ATX Mid Tower,White,Tempered Glass,37.3,2
-case,be quiet!, Shadow Base 800,476.59,ATX Mid Tower,Black,Tempered Glass,70.9,2
-case,Antec, P20C,324.93,ATX Mid Tower,Black,Tempered Glass,50.6,2
-case,Apevia, PRISM,346.55,MicroATX Mid Tower,Pink,Tempered Glass,35.4,2
-case,Jonsbo, D30,433.26,MicroATX Mini Tower,Black,Tempered Glass,26.6,1
-case,be quiet!, Pure Base 500,346.21,ATX Mid Tower,Black,Tempered Glass,46.0,2
-case,Montech, SKY TWO GX,385.64,ATX Mid Tower,Black,Tempered Glass,49.5,2
-case,Jonsbo, TK-1,693.28,MicroATX Mini Tower,Black,Tempered Glass,32.0,2
-case,DIYPC, F2,173.19,MicroATX Mini Tower,Black / Purple,Acrylic,,2
-case,Cooler Master, MasterBox TD500 Mesh V2,411.59,ATX Mid Tower,White,Tempered Glass,52.4,2
-case,Lian Li, LANCOOL III,584.91,ATX Mid Tower,White,Tempered Glass,65.5,4
-case,Fractal Design, Focus G,251.27,ATX Mid Tower,Black / Red,Acrylic,42.2,2
-case,Deepcool, CH780,563.25,ATX Full Tower,Black,Tempered Glass,72.7,2
-case,Fractal Design, Meshify 2 RGB,758.23,ATX Mid Tower,Black,Tempered Glass,61.7,6
-case,MSI, MAG VAMPIRIC 010,731.84,ATX Mid Tower,Black,Tempered Glass,41.9,2
-case,Deepcool, CH560 DIGITAL,498.25,ATX Mid Tower,White,Tempered Glass,49.6,2
-case,Lian Li, Lancool II Mesh C Performance,772.83,ATX Mid Tower,Black,Tempered Glass,54.1,3
-case,MSI, MPG GUNGNIR 120R,389.93,ATX Mid Tower,Black,Tempered Glass,45.5,2
-case,Silverstone, SG13,304.57,Mini ITX Tower,Black,,11.5,1
-case,Zalman, Z1 Iceberg,259.94,MicroATX Mid Tower,Black,Tempered Glass,38.5,2
-case,Silverstone, SG05-LITE,300.93,Mini ITX Desktop,Black,,10.7,1
-case,Fractal Design, Pop Air,433.21,ATX Mid Tower,White,Tempered Glass,46.2,2
-case,Corsair, Crystal Series 680X RGB,1096.21,ATX Mid Tower,Black,Tempered Glass,73.5,3
-case,Lian Li, LANCOOL 205 Mesh C,441.92,ATX Mid Tower,White,Tempered Glass,41.3,2
-case,Jonsbo, D41 Mesh,450.63,ATX Mid Tower,Black,Tempered Glass,35.4,2
-case,Thermaltake, V250 TG ARGB,337.89,ATX Mid Tower,Black,Tempered Glass,,2
-case,Jonsbo, D30,433.26,MicroATX Mini Tower,White,Tempered Glass,26.6,1
-case,Fractal Design, Define 7 Mini,476.59,MicroATX Mini Tower,Black,,33.2,2
-case,HYTE, Y40,558.96,ATX Mid Tower,Red / Black,Tempered Glass,49.7,1
-case,Fractal Design, Torrent Nano,642.32,Mini ITX Tower,Black,,34.6,1
-case,Thermaltake, Core P3 TG Pro,541.58,ATX Mid Tower,,Tempered Glass,71.7,4
-case,Corsair, 4000D,411.59,ATX Mid Tower,Black,Tempered Glass,48.6,2
-case,SAMA, AR01-RGB,389.88,MicroATX Mini Tower,Black,Tempered Glass,46.2,2
-case,Jonsbo, TK-1,693.28,MicroATX Mini Tower,White,Tempered Glass,32.0,2
-case,In Win, CE685.FH300TB3,513.94,MicroATX Slim,Black,,11.8,1
-case,Silverstone, GD09B,508.69,HTPC,Black,,26.5,2
-case,Apevia, Prism Elite,485.25,ATX Mid Tower,Pink,Tempered Glass,47.9,2
-case,Vetroo, AL-MESH-7C,303.22,ATX Mid Tower,White,Tempered Glass,40.9,2
-case,Phanteks, Eclipse P600S,519.92,ATX Mid Tower,Black,Tinted Tempered Glass,,4
-case,Montech, KING 95 PRO,732.28,ATX Mid Tower,Blue / Black,Tempered Glass,63.0,5
-case,GameMax, Nova N6,207.59,ATX Mid Tower,Black,Tempered Glass,37.6,2
-case,iBuypower, Snowblind S,862.27,ATX Mid Tower,White,Tempered Glass,43.0,2
-case,Thermaltake, View 200 TG ARGB,277.27,ATX Mid Tower,White,Tempered Glass,38.2,2
-case,Phanteks, Enthoo Pro 2 Server Edition,628.24,ATX Full Tower,Black,,78.0,4
-case,Corsair, iCUE 5000X RGB,714.9,ATX Mid Tower,White / Gray,Tempered Glass,66.2,2
-case,Cougar, MX331 MESH-X,194.94,ATX Mid Tower,Black,,43.5,2
-case,ADATA, XPG INVADER X,732.28,ATX Mid Tower,Black,Tempered Glass,52.1,3
-case,Zalman, i4,303.22,ATX Mid Tower,Black,Mesh,43.1,2
-case,Silverstone, FARA H1M,299.8,MicroATX Mini Tower,Black,Tempered Glass,30.1,2
-case,Cooler Master, TD300 Mesh,359.64,MicroATX Mini Tower,White / Black,Tempered Glass,,2
-case,Phanteks, ECLIPSE G500A DRGB,476.59,ATX Mid Tower,White,Tempered Glass,61.8,2
-case,Fractal Design, Meshify 2 Nano,1356.79,Mini ITX Tower,Black,Tempered Glass,29.3,1
-case,MSI, MEG PROSPECT 700R,1343.19,ATX Mid Tower,Black,Tempered Glass,80.7,2
-case,MSI, MPG GUNGNIR 110R,428.97,ATX Mid Tower,White,Tempered Glass,,2
-case,Thermaltake, Tower 900,1321.48,ATX Full Tower,Black,Tempered Glass,153.6,6
-case,Corsair, iCUE LINK 6500X RGB,1169.87,ATX Mid Tower,White,Tempered Glass,78.3,2
-case,Cooler Master, MasterCase H500 ARGB,602.24,ATX Mid Tower,Black,Tempered Glass,,2
-case,GAMDIAS, APOLLO E2 ELITE,303.22,ATX Mid Tower,Black,Tempered Glass,,2
-case,Zalman, S2,238.27,ATX Mid Tower,Black,Tempered Glass,38.4,2
-case,MSI, MEG MAESTRO 700L PZ,1650.87,ATX Mid Tower,Black,Tempered Glass,66.8,0
-case,Fractal Design, Focus G,268.56,ATX Mid Tower,Black / Gray,Acrylic,42.2,2
-case,HYTE, REVOLT 3,563.25,Mini ITX Tower,White,Mesh,,1
-case,NZXT, H7 Elite (2022),866.56,ATX Mid Tower,,Tempered Glass,55.8,2
-case,Jonsbo, C6 Handle,272.94,MicroATX Mini Tower,Black,Mesh,15.9,1
-case,Deepcool, MORPHEUS,693.24,ATX Full Tower,Black,Tempered Glass,72.7,2
-case,Phanteks, ECLIPSE G500A DRGB (Fanless),476.59,ATX Mid Tower,Black,Tempered Glass,61.8,2
-case,Deepcool, CH780,563.25,ATX Full Tower,White,Tempered Glass,72.7,2
-case,Zalman, S4,238.27,ATX Mid Tower,Black,Tinted Acrylic,,2
-case,APNX, Creator C1,649.52,ATX Mid Tower,Black,Tempered Glass,53.6,3
-case,Phanteks, ECLIPSE G500A Performance,519.92,ATX Mid Tower,Black,Tempered Glass,61.8,2
-case,Razer, Tomahawk Mini-ITX,597.91,Mini ITX Tower,Black / Green,Tinted Tempered Glass,,0
-case,be quiet!, Dark Base 701,866.17,ATX Mid Tower,Black,Tempered Glass,73.6,2
-case,Jonsbo, Jonsplus Z20,433.26,MicroATX Desktop,White,Tempered Glass,25.3,1
-case,Phanteks, Enthoo Pro 2 Server Edition,736.57,ATX Full Tower,Black,Tempered Glass,78.0,4
-case,Asus, ROG Z11,600.03,Mini ITX Tower,Black,Tinted Tempered Glass,,1
-case,be quiet!, Pure Base 500,346.21,ATX Mid Tower,White,,46.0,2
-case,Lian Li, LANCOOL 215,433.26,ATX Mid Tower,White,Tempered Glass,,2
-case,Fractal Design, Pop XL Silent,564.76,ATX Full Tower,Black,Tempered Glass,62.4,3
-case,Silverstone, MILO 11,316.22,MicroATX Desktop,Black / Silver,,10.3,1
-case,Corsair, 6500D Airflow,866.56,ATX Mid Tower,White,Tempered Glass,78.3,2
-case,Deepcool, MATREXX 50,374.93,ATX Mid Tower,Black,Tempered Glass,44.5,2
-case,Fractal Design, Pop Mini Silent,514.15,MicroATX Mid Tower,Black,Tempered Glass,36.5,2
-case,Cooler Master, HAF 700,1252.15,ATX Full Tower,Black,Tempered Glass,83.6,9
-case,YEYIAN, Hussar,604.97,MicroATX Mini Tower,Black,Tempered Glass,26.6,1
-case,Asus, TUF Gaming GT501,671.57,ATX Mid Tower,White / Black,Tempered Glass,75.5,4
-case,Corsair, 2000D RGB AIRFLOW,606.58,Mini ITX Tower,White,Mesh,24.8,0
-case,Lian Li, TU150,661.82,Mini ITX Desktop,Silver,Tempered Glass,23.8,1
-case,NZXT, H7,433.26,ATX Mid Tower,White,Tempered Glass,55.8,2
-case,Fractal Design, Meshify 2 XL,888.22,ATX Full Tower,Black,Tinted Tempered Glass,81.5,6
-case,Montech, KING 95 PRO,732.28,ATX Mid Tower,Red / Black,Tempered Glass,63.0,5
-case,Fractal Design, Torrent RGB,996.55,ATX Mid Tower,White,Tempered Glass,69.8,2
-case,Cooler Master, Cosmos C700M,2383.11,ATX Full Tower,Silver / Black,Tempered Glass,,4
-case,Cooler Master, MasterCase H500M,953.04,ATX Mid Tower,Black,Tempered Glass,73.7,2
-case,Montech, SKY TWO,472.3,ATX Mid Tower,Blue,Tempered Glass,45.3,2
-case,Phanteks, Evolv X,736.57,ATX Mid Tower,Black,Tinted Tempered Glass,64.9,4
-case,Gigabyte, C200 Glass,294.56,ATX Mid Tower,Black,Tempered Glass,43.8,2
-case,Antec, Dark Phantom DP301M,281.56,MicroATX Mid Tower,Black,Acrylic,,2
-case,Zalman, S3,238.27,ATX Mid Tower,Black,Tempered Glass,38.4,2
-case,Gigabyte, C301 GLASS,411.59,ATX Mid Tower,Black,Tempered Glass,50.6,2
-case,Apevia, Guardian-M,259.94,ATX Mid Tower,Black,Tempered Glass,39.5,2
-case,Lian Li, Lancool II Mesh C RGB,549.08,ATX Mid Tower,Black,Tempered Glass,54.1,3
-case,Silverstone, GD11,732.23,HTPC,Black,,30.9,3
-case,Silverstone, SUGO 14,945.29,Mini ITX Desktop,Black / Yellow,,19.5,0
-case,Thermaltake, The Tower 100 Snow,433.26,Mini ITX Tower,White,Tempered Glass,32.7,2
-case,Fractal Design, Meshify 2 Nano,389.93,Mini ITX Tower,White,Tempered Glass,29.3,1
-case,MSI, MPG VELOX 100R,602.29,ATX Mid Tower,White,Tempered Glass,53.7,2
-case,Cooler Master, MasterBox 520 Mesh,692.24,ATX Mid Tower,Black / White,Tempered Glass,52.5,2
-case,Corsair, 5000D CORE AIRFLOW,590.11,ATX Mid Tower,White,Tempered Glass,66.2,2
-case,MSI, MPG GUNGNIR 111R,1023.45,ATX Mid Tower,Black,Tempered Glass,44.4,2
-case,Cougar, Duoface Pro RGB,433.26,ATX Mid Tower,Black,Tempered Glass,55.4,2
-case,SaharaGaming, M808W,832.41,MicroATX Mid Tower,White,Tempered Glass,41.9,2
-case,Corsair, iCUE 5000T RGB,1728.87,ATX Mid Tower,White / Gray,Tempered Glass,74.5,2
-case,Corsair, Crystal 280X RGB,801.56,MicroATX Mid Tower,White,Tempered Glass,,2
-case,Jonsbo, D300,589.29,MicroATX Mid Tower,Black,Tempered Glass,45.8,2
-case,Fractal Design, Meshify 2 Mini,776.26,MicroATX Mid Tower,White / Black,Tempered Glass,33.0,2
-case,Azza, Spectra,242.6,ATX Mid Tower,Black,Tempered Glass,33.4,2
-case,Fractal Design, Torrent Nano,960.11,Mini ITX Tower,Black,Tinted Tempered Glass,34.6,1
-case,Thermaltake, View 71 TG RGB,831.89,ATX Full Tower,Black,Acrylic,,7
-case,NZXT, H7 Elite (2022),866.56,ATX Mid Tower,,Tempered Glass,55.8,2
-case,Thermaltake, Ceres 300 TG ARGB,827.56,ATX Mid Tower,Green,Tempered Glass,53.9,1
-case,Cooler Master, N300,646.22,ATX Mid Tower,Black,Acrylic,39.5,7
-case,Fractal Design, Meshify 2,791.64,ATX Mid Tower,White / Black,Tempered Glass,61.7,6
-case,Fractal Design, Define Mini C TG,590.85,MicroATX Mid Tower,Black,Tempered Glass,36.9,2
-case,be quiet!, Pure Base 600,389.54,ATX Mid Tower,Black / Orange,Tempered Glass,50.9,3
-case,Deepcool, CH510 MESH DIGITAL,476.59,ATX Mid Tower,Black,Tempered Glass,49.2,2
-case,Deepcool, MATREXX 55 V3 ADD-RGB 3F,507.44,ATX Mid Tower,Black,Tempered Glass,,2
-case,be quiet!, Shadow Base 800 FX,779.51,ATX Mid Tower,White,Tempered Glass,70.9,2
-case,Aerocool, Bolt,463.63,ATX Mid Tower,Black,Acrylic,35.3,2
-case,Cooler Master, QUBE 500 Flatpack Macaron Edition,363.93,ATX Mid Tower,Multicolor,Tempered Glass,38.9,4
-case,BGears, b-Voguish,242.6,ATX Mid Tower,Black,Tempered Glass,,2
-case,be quiet!, Shadow Base 800 DX,606.19,ATX Mid Tower,Black,Tempered Glass,70.9,2
-case,Antec, DF600 FLUX,368.26,ATX Mid Tower,Black,Tempered Glass,,3
-case,Antec, VSK4000E U3,311.98,ATX Mid Tower,Black,,,5
-case,Fractal Design, Torrent Compact,773.31,ATX Mid Tower,Black,Tinted Tempered Glass,46.7,1
-case,Silverstone, Sugo 16,372.59,Mini ITX Tower,Black,,13.0,1
-case,Cooler Master, HAF 500,368.26,ATX Mid Tower,White,Tempered Glass,,2
-case,Thermaltake, Level 20,3271.24,ATX Full Tower,Black / Silver,Tempered Glass,141.0,8
-case,In Win, CJ712,410.51,MicroATX Desktop,Black,,8.0,1
-case,Thermaltake, The Tower 500,554.58,ATX Mid Tower,White,Tempered Glass,93.9,8
-case,Fractal Design, Define 7 XL Light,1876.02,ATX Full Tower,Black,Tempered Glass,82.0,6
-case,GameMax, Typhoon COC,238.23,ATX Mid Tower,Black,Tempered Glass,40.7,2
-case,Corsair, 5000D CORE AIRFLOW,606.58,ATX Mid Tower,Black,Tinted Tempered Glass,66.2,2
-case,BitFenix, FLOW,302.88,ATX Mid Tower,Black,Tempered Glass,42.3,2
-case,Fractal Design, Meshify 2 Compact TG Dark Tint,643.45,ATX Mid Tower,Black,Tinted Tempered Glass,42.3,2
-case,Cooler Master, MasterBox MB320L ARGB,364.54,MicroATX Mini Tower,Black,Tempered Glass,38.8,2
-case,Antec, AX90,324.93,ATX Mid Tower,Black,Tempered Glass,48.3,2
-case,Gigabyte, AORUS C500 GLASS,1018.21,ATX Mid Tower,Black,Tempered Glass,116.6,2
-case,DIYPC, ARGB-Q01,277.23,MicroATX Mini Tower,Black,Tempered Glass,40.0,2
-case,Phanteks, Eclipse P400A Digital,660.52,ATX Mid Tower,White,Tempered Glass,45.9,2
-case,Cougar, Archon 2 Mesh RGB,294.56,ATX Mid Tower,White,Tempered Glass,37.5,2
-case,be quiet!, Dark Base 700,1516.55,ATX Mid Tower,Black,Tempered Glass,,7
-case,GameMax, Spark,246.81,MicroATX Mid Tower,White,Tempered Glass,26.5,1
-case,Apevia, Prism Elite,472.25,ATX Mid Tower,Black,Tempered Glass,47.9,2
-case,Cooler Master, Cosmos C700P Black Edition,2289.08,ATX Full Tower,Black,Tempered Glass,127.3,2
-case,Thermaltake, The Tower 200,541.58,Mini ITX Tower,White,Tempered Glass,45.1,2
-case,Thermaltake, The Tower 300,649.91,MicroATX Mini Tower,Green / Black,Tempered Glass,53.0,3
-case,Asus, TUF Gaming GT302 ARGB,1347.04,ATX Mid Tower,Black,Tempered Glass,59.3,2
-case,Jonsbo, C6,259.98,MicroATX Mini Tower,White,Mesh,15.9,1
-case,Jonsbo, TK-2 2.0,662.95,ATX Mid Tower,Black,Tempered Glass,53.2,1
-case,Deepcool, CH360,368.26,MicroATX Mid Tower,White,Tempered Glass,39.7,2
-case,NZXT, H7,563.25,ATX Mid Tower,Black,Tempered Glass,55.8,2
-case,MagniumGear, NEO QUBE 2,433.26,ATX Mid Tower,Black,Tempered Glass,101.1,2
-case,Thermaltake, View 51 ARGB Edition,779.9,ATX Full Tower,Black,Tempered Glass,91.0,2
-case,Silverstone, CS382,1083.21,ATX Mid Tower,Black,,39.6,1
-case,Thermaltake, Core P3 TG Pro Snow,606.58,ATX Mid Tower,,Tempered Glass,71.7,4
-case,Lian Li, O11D XL-A,866.56,ATX Full Tower,Silver / Black,Tempered Glass,68.9,4
-case,Thermaltake, Divider 170 TG ARGB,346.55,MicroATX Mid Tower,Black,Tempered Glass,36.5,2
-case,GAMDIAS, ARGUS E4 ELITE,249.67,ATX Mid Tower,Black,Tempered Glass,,2
-case,Azza, Sanctum,1516.51,ATX Desktop,Silver / Black,Tempered Glass,76.9,2
-case,Lian Li, Lancool II Mesh,992.26,ATX Mid Tower,White,Tempered Glass,54.1,3
-case,Phanteks, EVOLV SHIFT XT,623.43,Mini ITX Desktop,Black,Tempered Glass,17.5,0
-case,SAMA, IM01 Pro,346.55,MicroATX Mini Tower,Black,Tempered Glass,26.1,4
-case,Aerocool, Aero One Eclipse,270.77,ATX Mid Tower,White / Black,Tempered Glass,,2
-case,be quiet!, Dark Base Pro 901,1299.42,ATX Full Tower,White,Tempered Glass,94.5,2
-case,NZXT, H510i,740.73,ATX Mid Tower,Black,Tempered Glass,41.3,2
-case,GameMax, Vista A,372.59,ATX Mid Tower,Black,Tempered Glass,44.1,2
-case,Fractal Design, Focus 2,407.95,ATX Mid Tower,White / Black,Tempered Glass,45.8,2
-case,RAIJINTEK, PAEAN MINI,302.88,Mini ITX Tower,Black,Tempered Glass,26.0,1
-case,Antec, Dark League DF800 FLUX,411.59,ATX Mid Tower,Black,Tempered Glass,,3
-case,Thermaltake, CTE T500 Air,502.58,ATX Full Tower,White,Tempered Glass,87.3,4
-case,Silverstone, SUGO 15,756.63,Mini ITX Desktop,Black,,19.1,0
-case,Thermaltake, Ceres 500,649.91,ATX Mid Tower,Black,Tempered Glass,65.3,2
-case,Thermaltake, Divider 170 TG Snow ARGB,346.55,MicroATX Mid Tower,White / Black,Tempered Glass,36.5,2
-case,GAMDIAS, TALOS E3 WH,259.94,ATX Mid Tower,White / Black,Tempered Glass,,2
-case,Silverstone, SUGO 14,266.39,Mini ITX Desktop,White,,19.5,0
-case,Thermaltake, Core X71,649.91,ATX Full Tower,Black,Acrylic,,3
-case,Antec, NX416L,389.93,ATX Mid Tower,Black,Tempered Glass,49.9,2
-case,GAMDIAS, NESO P1,649.91,ATX Full Tower,White,Tempered Glass,75.2,5
-case,MSI, MPG GUNGNIR 300R AIRFLOW,649.91,ATX Mid Tower,White,Tempered Glass,60.5,2
-case,Anidees, AI CRYSTAL XL PRO LITE,1299.42,ATX Full Tower,Black,Tempered Glass,,0
-case,be quiet!, Pure Base 600,389.54,ATX Mid Tower,Black,Tempered Glass,50.9,3
-case,Antec, VSK 3000 Elite,226.49,MicroATX Mini Tower,Black,,27.5,4
-case,Cougar, MX410 MESH-G RGB,307.56,ATX Mid Tower,Black,Tempered Glass,36.3,2
-case,BitFenix, Nova Mesh SE,294.21,ATX Mid Tower,White,Tempered Glass,36.1,2
-case,RAIJINTEK, Silenos,227.57,ATX Mid Tower,Black,Tempered Glass,39.8,2
-case,Thermaltake, CTE T500 Air,673.17,ATX Full Tower,Black,Tempered Glass,87.3,4
-case,Thermaltake, H550 TG ARGB,960.41,ATX Mid Tower,Black,Tempered Glass,,2
-case,Thermaltake, CTE C750 Air ARGB,775.91,ATX Full Tower,Black,Tempered Glass,110.7,7
-case,Deepcool, MATREXX 55 V3 ADD-RGB WH 3F,359.03,ATX Mid Tower,White / Black,Tempered Glass,,2
-case,Thermaltake, Ceres 300 TG ARGB,389.93,ATX Mid Tower,White,Tempered Glass,53.9,1
-case,GameMax, Destroyer,290.27,MicroATX Mini Tower,White,Tempered Glass,43.6,2
-case,Apevia, Prism Elite,472.25,ATX Mid Tower,White,Tempered Glass,47.9,2
-case,Cooler Master, MasterCase H500,602.24,ATX Mid Tower,Black,Tinted Tempered Glass,,2
-case,Thermaltake, Core P8 TG,1018.17,ATX Full Tower,Black,Tempered Glass,107.4,3
-case,Antec, NX360,483.87,ATX Mid Tower,Black,Tempered Glass,37.5,1
-case,DIYPC, ARGB-Q01,290.27,MicroATX Mini Tower,White,Tempered Glass,40.0,2
-case,Thermaltake, The Tower 300 Matcha,649.91,MicroATX Mini Tower,Green,Tempered Glass,53.0,3
-case,Cooler Master, MasterCase H500P Mesh ARGB,688.95,ATX Mid Tower,White,Tempered Glass,71.4,2
-case,Phanteks, Eclipse P500A D-RGB,611.73,ATX Mid Tower,Black,Tempered Glass,,2
-case,Silverstone, RM42-502,1468.19,ATX Mid Tower,Black,,35.4,0
-case,Phanteks, Enthoo 719,736.57,ATX Full Tower,Black,Tempered Glass,81.4,4
-case,Fractal Design, Torrent,1094.78,ATX Mid Tower,Gray,Tinted Tempered Glass,69.8,2
-case,Jonsbo, D300,589.29,MicroATX Mid Tower,White,Tempered Glass,45.8,2
-case,Fractal Design, Define 7 Dark,823.23,ATX Mid Tower,Black,Tinted Tempered Glass,62.4,6
-case,Fractal Design, Torrent Compact,939.78,ATX Mid Tower,White,Tempered Glass,46.7,1
-case,Thermaltake, Core P3,594.14,ATX Mid Tower,Black,Tempered Glass,80.1,2
-case,Gigabyte, C301 GLASS,433.26,ATX Mid Tower,White,Tempered Glass,50.6,2
-case,Fractal Design, Define C,537.6,ATX Mid Tower,Black,,39.3,2
-case,Fractal Design, Meshify 2 RGB,758.23,ATX Mid Tower,White / Black,Tempered Glass,61.7,6
-case,KOLINK, Horizon,1019.94,ATX Mid Tower,Black,Tempered Glass,42.9,2
-case,Apevia, Enzo,259.94,ATX Mid Tower,White,Tempered Glass,35.7,3
-case,Thermaltake, The Tower 300 Hydrangea,649.91,MicroATX Mini Tower,Blue,Tempered Glass,53.0,3
-case,MagniumGear, Neo Air 2,303.27,ATX Mid Tower,White / Brown,Tempered Glass,41.9,2
-case,Fractal Design, Meshify 2 Compact Lite RGB,687.82,ATX Mid Tower,Black,Tinted Tempered Glass,42.3,2
-case,Azza, Pyramid L,1733.16,ATX Mid Tower,Gray / Black,Tempered Glass,,1
-case,Silverstone, CS351,831.89,MicroATX Desktop,Black,,22.8,2
-case,SHARKOON, TG6 RGB,349.07,ATX Mid Tower,Black,Tempered Glass,,3
-case,Corsair, iCUE 4000D RGB Airflow QL Edition,1083.21,ATX Mid Tower,White,Tempered Glass,48.6,2
-case,Zalman, Z1 Iceberg,259.94,MicroATX Mid Tower,White,Tempered Glass,38.5,2
-case,Silverstone, SG13 V2,295.42,Mini ITX Tower,Pink,,11.5,1
-case,APNX, Creator C1,675.51,ATX Mid Tower,White,Tempered Glass,53.6,3
-case,Cooler Master, Silencio S400,563.25,MicroATX Mini Tower,Black,,,4
-case,Silverstone, ML03B,433.95,HTPC,Black,,15.5,2
-case,Corsair, iCUE 465X RGB,987.92,ATX Mid Tower,White / Black,Tempered Glass,,2
-case,Fractal Design, Define 7 Mini,1393.67,MicroATX Mini Tower,Black,Tinted Tempered Glass,33.2,2
-case,Corsair, Crystal Series 680X RGB,1191.53,ATX Mid Tower,White / Black,Tempered Glass,73.5,3
-case,RAIJINTEK, PAEAN C7,303.27,ATX Mid Tower,White,Tempered Glass,45.5,2
-case,be quiet!, Silent Base 601,562.86,ATX Mid Tower,Black,,,3
-case,G.Skill, LT1,303.22,MicroATX Mini Tower,Black,Tempered Glass,35.0,1
-case,Antec, Performance 1 FT,584.91,ATX Full Tower,White,Tempered Glass,62.7,2
-case,Apevia, Guardian-M,333.55,ATX Mid Tower,Pink,Tempered Glass,39.5,2
-case,In Win, EM048,452.63,MicroATX Mini Tower,Black,,,1
-case,Cooler Master, MasterBox NR400 (w/ODD),368.26,MicroATX Mid Tower,Black,Tempered Glass,35.5,4
-case,Cooler Master, MasterFrame 700,758.23,ATX Full Tower,Black,Tempered Glass,,4
-case,APNX, Creator C1 ChromaFlair,736.18,ATX Mid Tower,Purple / Blue,Tempered Glass,53.6,3
-case,MagniumGear, NEO QUBE 2 Infinity Mirror,519.92,ATX Mid Tower,Black,Tempered Glass,101.1,2
-case,Silverstone, PS15,296.12,MicroATX Mid Tower,Black,Tempered Glass,25.7,1
-case,Antec, P20C ARGB,504.92,ATX Mid Tower,Black,Tempered Glass,50.6,2
-case,Thermaltake, The Tower 300 Bumblebee,649.91,MicroATX Mini Tower,Yellow / Black,Tempered Glass,53.0,3
-case,Cougar, MX330-G Pro,321.99,ATX Mid Tower,Black,Tempered Glass,49.1,2
-case,be quiet!, Pure Base 500,346.21,ATX Mid Tower,White,Tempered Glass,46.0,2
-case,Azza, Aero,476.59,ATX Mid Tower,Black,Mesh,47.3,2
-case,Fractal Design, Torrent Nano RGB,1538.56,Mini ITX Tower,White,Tempered Glass,34.6,1
-case,Deepcool, MORPHEUS,736.52,ATX Full Tower,White,Tempered Glass,72.7,2
-case,Silverstone, ML06B,366.7,HTPC,Black,,7.1,0
-case,Silverstone, FARA H1M PRO,395.13,MicroATX Mini Tower,Black,Tempered Glass,30.1,2
-case,Thermaltake, AH T600 Snow,1299.86,ATX Full Tower,White / Black,Tempered Glass,161.6,2
-case,Lian Li, ODYSSEY X,597.87,ATX Full Tower,Black,Tempered Glass,,3
-case,Thermaltake, Core P6,693.24,ATX Mid Tower,Black,Tempered Glass,76.4,4
-case,GameMax, HYPE,519.87,ATX Mid Tower,Black,Tempered Glass,113.8,2
-case,Thermaltake, Core P6,819.98,ATX Mid Tower,White / Black,Tempered Glass,76.4,4
-case,GAMDIAS, NESO P1,601.77,ATX Full Tower,Black / White,Tempered Glass,75.2,5
-case,KOLINK, KLM-003,225.79,MicroATX Mini Tower,Black,,23.2,0
-case,Inter-Tech, IM-1 POCKET,831.07,MicroATX Mini Tower,Black,Mesh,21.9,4
-case,Antec, DF700 FLUX,433.26,ATX Mid Tower,White,Tempered Glass,49.9,3
-case,Deepcool, CK560,578.07,ATX Mid Tower,White / Black,Tempered Glass,,2
-case,Thermaltake, View 270,303.27,ATX Mid Tower,Green / Black,Tempered Glass,47.6,2
-case,Thermaltake, Core P6,866.56,ATX Mid Tower,Green / Black,Tempered Glass,76.4,4
-case,Fractal Design, Define R6,845.58,ATX Mid Tower,Black / White,,56.7,6
-case,Thermaltake, View 71 TG Snow,953.22,ATX Full Tower,White,Acrylic,,7
-case,Deepcool, CH360 DIGITAL,389.93,MicroATX Mid Tower,White,Tempered Glass,39.7,2
-case,YEYIAN, Lancer,303.22,ATX Mid Tower,Black,Tempered Glass,35.1,2
-case,SHARKOON, VS8,232.25,ATX Mid Tower,Black,,42.1,2
-case,Cooler Master, MasterCase H100 ARGB,350.89,Mini ITX Desktop,Black,,,1
-case,Silverstone, SG13,303.22,Mini ITX Tower,White / Black,,11.5,1
-case,NZXT, H5 Flow,563.25,ATX Mid Tower,White / Blue,Tempered Glass,47.0,1
-case,Montech, KING 95,541.62,ATX Mid Tower,Blue / Black,Tempered Glass,63.0,5
-case,Silverstone, Milo 12,732.23,HTPC,Black,Mesh,15.6,0
-case,Silverstone, SG05-LITE,301.06,Mini ITX Desktop,White,,10.7,1
-case,be quiet!, Pure Base 500,367.87,ATX Mid Tower,Gray,Tempered Glass,46.0,2
-case,Apex, MI-008,293.69,Mini ITX Tower,Black,,8.5,1
-case,GameMax, Infinity Mini,216.39,MicroATX Mini Tower,White,Tempered Glass,36.7,1
-case,Fractal Design, Torrent Compact RGB,1018.47,ATX Mid Tower,White,Tempered Glass,46.7,1
-case,Silverstone, PS16B,331.39,MicroATX Mini Tower,Black,,,3
-case,KOLINK, Citadel,368.22,MicroATX Mini Tower,Black,Tempered Glass,32.7,2
-case,Thermaltake, Core P3 TG Snow Edition,563.25,ATX Mid Tower,White,Tempered Glass,80.1,2
-case,Antec, TORQUE,1646.5,ATX Mid Tower,Black / Red,Tempered Glass,114.0,1
-case,Jonsbo, D41 Mesh,459.3,ATX Mid Tower,White,Tempered Glass,35.4,2
-case,Thermaltake, AH T600,994.42,ATX Full Tower,Black,Tempered Glass,161.6,2
-case,Silverstone, GD09 Type-C,874.92,HTPC,Black,Mesh,26.5,2
-case,Thermaltake, View 51 Snow ARGB Edition,779.9,ATX Full Tower,White,Tempered Glass,91.0,2
-case,Fractal Design, Meshify 2 Lite,675.3,ATX Mid Tower,Black,Tempered Glass,61.7,2
-case,Azza, Spectra,259.94,ATX Mid Tower,White,Tempered Glass,33.4,2
-case,Cooler Master, CMP 510,516.19,ATX Mid Tower,Black,Tempered Glass,42.0,2
-case,Cooler Master, MasterBox MB530P,519.92,ATX Mid Tower,Black,Tempered Glass,,2
-case,GAMDIAS, ATLAS M1,402.93,ATX Mid Tower,Black,Tempered Glass,41.0,1
-case,FSP, Group CUT593A,454.92,ATX Full Tower,Black,Tempered Glass,62.6,3
-case,Phanteks, Enthoo Series Primo Aluminum,996.55,ATX Full Tower,Black,Acrylic,96.8,6
-case,BGears, b-Optillusion,246.94,ATX Mid Tower,Black,Tempered Glass,38.7,1
-case,Antec, P20C,324.93,ATX Mid Tower,White,Tempered Glass,50.6,2
-case,Thermaltake, Divider 370 TG Snow ARGB,433.26,ATX Mid Tower,White / Black,Tempered Glass,50.7,2
-case,Vetroo, AL700,368.26,ATX Mid Tower,White,Tempered Glass,48.1,1
-case,Apex, TX-606-U3,358.56,MicroATX Mid Tower,Black,,27.9,5
-case,Fractal Design, Meshify 2 Compact White TG Clear Tint,793.2,ATX Mid Tower,White / Black,Tempered Glass,42.3,2
-case,Cooler Master, Silencio S600,596.57,ATX Mid Tower,Black,,47.0,4
-case,Phanteks, Eclipse P600S,519.92,ATX Mid Tower,Black,,,4
-case,Fractal Design, Meshify 2,870.5,ATX Mid Tower,Gray,Tinted Tempered Glass,61.7,6
-case,Phanteks, Eclipse P400,920.72,ATX Mid Tower,Black,Tinted Tempered Glass,45.9,2
-case,be quiet!, Silent Base 802,714.51,ATX Mid Tower,White,Tempered Glass,83.8,3
-case,Silverstone, GD08B,910.15,HTPC,Black,,33.4,8
-case,GameMax, Contac Turbo COC,285.93,ATX Mid Tower,White / Black,Tempered Glass,43.0,2
-case,BitFenix, Tracery,346.21,ATX Mid Tower,Black,Tempered Glass,52.8,4
-case,Corsair, Obsidian Series 500D Premium,1699.71,ATX Mid Tower,Black,Tinted Tempered Glass,59.4,2
-case,MagniumGear, NEO QUBE 2 Infinity Mirror,433.26,ATX Mid Tower,White,Tempered Glass,101.1,2
-case,HYTE, Y60 Hakos Baelz,1213.24,ATX Mid Tower,Red / Black,Tempered Glass,,2
-case,Corsair, iCUE 220T RGB,476.41,ATX Mid Tower,Black,Tempered Glass,37.3,2
-case,Segotep, Phoenix T1,519.92,ATX Mid Tower,Black,Tempered Glass,65.5,2
-case,MSI, MPG SEKIRA 500X,907.98,ATX Mid Tower,Black,Tempered Glass,67.1,4
-case,Raidmax, X616,303.22,ATX Mid Tower,Black,Tempered Glass,42.9,2
-case,BitFenix, Nova Mesh SE,294.21,ATX Mid Tower,White / Purple,Tempered Glass,36.1,2
-case,Fractal Design, Pop Silent,501.54,ATX Mid Tower,Black,Tempered Glass,46.2,2
-case,Fractal Design, Define 7 Light,952.48,ATX Mid Tower,Black,Tempered Glass,62.4,6
-case,be quiet!, Silent Base 802,649.52,ATX Mid Tower,White,,83.8,3
-case,Silverstone, ML05B,320.34,HTPC,Black,,,0
-case,Thermaltake, Ceres 330 ARGB,493.23,ATX Mid Tower,Blue,Tempered Glass,53.9,1
-case,Corsair, 5000D,714.9,ATX Mid Tower,Black,Tempered Glass,66.2,2
-case,Fractal Design, Meshify 2 Compact Lite,920.76,ATX Mid Tower,Black,Tinted Tempered Glass,42.3,2
-case,Jonsbo, N2,641.28,Mini ITX Desktop,White,,11.1,5
-case,ADATA, XPG STARKER AIR,303.27,ATX Mid Tower,Black,Tempered Glass,40.0,2
-case,Cougar, PANZER MAX-G,753.9,ATX Full Tower,Black,Tempered Glass,90.5,2
-case,Phanteks, Eclipse P600S,606.58,ATX Mid Tower,White,Tempered Glass,,4
-case,Fractal Design, Define R6,948.54,ATX Mid Tower,Black / White,Tempered Glass,56.7,6
-case,Cooler Master, MasterBox Lite 3.1,396.43,MicroATX Mid Tower,Black / Red,Tempered Glass,36.1,2
-case,Silverstone, FARA H1M,305.74,MicroATX Mini Tower,Black,,30.1,2
-case,Apevia, Prodigy,324.89,MicroATX Mini Tower,Pink,Tempered Glass,32.5,2
-case,Thermaltake, S300 Tempered Glass Edition,454.88,ATX Mid Tower,Black,Tempered Glass,,2
-case,be quiet!, Pure Base 600,478.28,ATX Mid Tower,Black / Silver,,50.9,3
-case,ADATA, XPG INVADER,303.22,ATX Mid Tower,Black,Tempered Glass,,2
-case,Lian Li, LANCOOL 205 Mesh,844.94,ATX Mid Tower,Black,Tempered Glass,41.3,2
-case,Fractal Design, Core 1000,292.82,MicroATX Mini Tower,Black,,26.1,2
-case,be quiet!, Dark Base 701,1039.49,ATX Mid Tower,White,Tempered Glass,73.6,2
-case,Rosewill, CULLINAN,1074.54,ATX Mid Tower,Black,Tempered Glass,,3
-case,In Win, B1 Pure,554.62,Mini ITX Desktop,White / Brown,,7.8,0
-case,Fractal Design, Torrent,1360.74,ATX Mid Tower,Black,Tinted Tempered Glass,69.8,2
-case,Thermaltake, The Tower 100,454.88,Mini ITX Tower,Green / Black,Tempered Glass,32.7,2
-case,GAMDIAS, NESO P1,595.01,ATX Full Tower,Black / Red,Tempered Glass,75.2,5
-case,RAIJINTEK, OPHION ELITE WHITE,346.21,Mini ITX Tower,White,Mesh,24.9,3
-case,Fractal Design, Define 7,1310.69,ATX Mid Tower,White,Tempered Glass,62.4,6
-case,GameMax, Infinity Mini,216.61,MicroATX Mini Tower,Black,Tempered Glass,36.7,1
-case,Thermaltake, The Tower 200 Bumblebee,563.25,Mini ITX Tower,Yellow / Black,Tempered Glass,45.1,2
-case,Silverstone, Sugo SG11,494.48,MicroATX Mini Tower,Black,,,3
-case,Antec, P20CE,433.26,ATX Mid Tower,Black,,50.6,2
-case,Thermaltake, CTE C750 Air ARGB,761.48,ATX Full Tower,White,Tempered Glass,110.7,7
-case,Antec, NX416L,389.93,ATX Mid Tower,White,Tempered Glass,49.9,2
-case,Cougar, PANZER EVO RGB,827.56,ATX Full Tower,Black,Tempered Glass,,2
-case,In Win, BK623.BH300TB3,419.09,MicroATX Mini Tower,Black / Silver,,12.3,1
-case,Thermaltake, Core V71 TG,1102.01,ATX Full Tower,Black,Tempered Glass,,8
-case,Linkworld, 920-01C2121U,242.6,HTPC,Black,,5.3,0
-case,Fractal Design, Define 7,941.3,ATX Mid Tower,Gray,,62.4,6
-case,GAMDIAS, ATHENA P1,389.93,ATX Mid Tower,Black,Tempered Glass,49.6,2
-case,Fractal Design, Pop Silent,463.41,ATX Mid Tower,White,Tempered Glass,46.2,2
-case,Apevia, Genesis-BK,346.55,ATX Mid Tower,Black,Tempered Glass,,3
-case,Lian Li, ODYSSEY X,1711.54,ATX Full Tower,Silver / Black,Tempered Glass,,3
-case,Jonsbo, D300 4PCS,563.25,MicroATX Mid Tower,Black,Tempered Glass,45.8,2
-case,Silverstone, FARA H1M,319.69,MicroATX Mini Tower,White,Tempered Glass,30.1,2
-case,Montech, SKY ONE LITE,505.18,ATX Mid Tower,Black,Tempered Glass,44.8,2
-case,Silverstone, RVZ01B,590.72,Mini ITX Desktop,Black,,,1
-case,Fractal Design, Define 7 Compact,511.21,ATX Mid Tower,Black,Tempered Glass,42.5,2
-case,Silverstone, SETA D1,680.5,ATX Mid Tower,Black,,56.5,8
-case,Silverstone, FARA R1 PRO V2,525.81,ATX Mid Tower,Black,Tempered Glass,40.1,2
-case,SHARKOON, QB ONE,912.36,Mini ITX Desktop,Black,Mesh,14.9,2
-case,Fractal Design, Meshify 2 Lite,1153.01,ATX Mid Tower,White / Black,Tempered Glass,61.7,2
-case,Zalman, Z7 NEO,346.55,ATX Mid Tower,Black,Tempered Glass,41.2,2
-case,Cooler Master, MasterBox 520 Mesh,697.74,ATX Mid Tower,White,Tempered Glass,52.5,2
-case,Apevia, Genesis Pro,372.59,ATX Mid Tower,White,Tempered Glass,35.7,3
-case,GameMax, Contac Turbo COC,298.93,ATX Mid Tower,Pink / White,Tempered Glass,43.0,2
-case,Vetroo, K1,606.58,ATX Mid Tower,Silver,Tempered Glass,37.4,2
-case,Thermaltake, View 71 ARGB,1018.17,ATX Full Tower,Black,Tempered Glass,,7
-case,Antec, NX260,502.19,ATX Mid Tower,Black,Tempered Glass,,2
-case,BitFenix, Saber Mesh,660.31,ATX Mid Tower,White,Tempered Glass,42.3,2
-case,Fractal Design, Define R6 USB-C,917.95,ATX Mid Tower,Black / White,Tempered Glass,56.7,6
-case,Jonsbo, TK-2 2.0,762.61,ATX Mid Tower,White,Tempered Glass,53.2,1
-case,Fractal Design, Define 7,1923.77,ATX Mid Tower,Black / White,Tempered Glass,62.4,6
-case,SHARKOON, Rebel C20 ITX,1427.25,Mini ITX Desktop,Black,Mesh,29.5,1
-case,Antec, P120 Crystal,519.92,ATX Mid Tower,Black,Tempered Glass,,2
-case,Thermaltake, The Tower 200,563.25,Mini ITX Tower,Green,Tempered Glass,45.1,2
-case,In Win, A3,411.64,MicroATX Mini Tower,Black,Tempered Glass,29.9,2
-case,Silverstone, DS380B,912.92,Mini ITX Tower,Black,,,0
-case,Apevia, CRUSADER-F-PK,333.55,ATX Mid Tower,Pink,Tempered Glass,,2
-case,Corsair, 5000D,714.9,ATX Mid Tower,White / Gray,Tempered Glass,66.2,2
-case,Cougar, MG120,229.56,MicroATX Mini Tower,Black,,,2
-case,Asus, TUF Gaming GT501 Demon Slayer Edition,1165.58,ATX Mid Tower,Yellow / Black,Tempered Glass,75.5,4
-case,HYTE, REVOLT 3,1083.21,Mini ITX Tower,White,Mesh,,1
-case,Gigabyte, AORUS C300,658.57,ATX Mid Tower,Black,Tinted Tempered Glass,,2
-case,SAMA, IM01 Pro,346.55,MicroATX Mini Tower,White,Tempered Glass,26.1,4
-case,KOLINK, KLA-002,407.65,ATX Mid Tower,Black,,25.1,3
-case,Corsair, iCUE 5000X RGB Neon Night,1083.21,ATX Mid Tower,Black / Purple,Tempered Glass,66.2,2
-case,Cougar, Cratus,1889.14,ATX Mid Tower,Black,Tempered Glass,114.3,2
-case,Apevia, Matrix,259.94,ATX Mid Tower,Black,Tempered Glass,37.8,3
-case,Montech, SKY TWO GX,411.64,ATX Mid Tower,White,Tempered Glass,49.5,2
-case,Phanteks, Enthoo 719,736.57,ATX Full Tower,Gray,Tempered Glass,81.4,4
-case,Thermaltake, Ceres 500,649.91,ATX Mid Tower,White,Tempered Glass,65.3,2
-case,Silverstone, ML04B,512.2,HTPC,Black,,16.0,2
-case,Cougar, Duoface RGB,346.6,ATX Mid Tower,White,Tempered Glass,43.6,2
-case,Silverstone, ALTA G1M,684.61,MicroATX Mid Tower,,,,4
-case,Silverstone, RVZ03,632.05,Mini ITX Desktop,Black,,,0
-case,In Win, ModFree Deluxe,1078.92,ATX Full Tower,Black,Tempered Glass,84.5,1
-case,be quiet!, Pure Base 500,367.87,ATX Mid Tower,Gray,,46.0,2
-case,Thermaltake, V150 Tempered Glass ARGB Breeze,419.74,MicroATX Mid Tower,Black,Tempered Glass,,2
-case,Cooler Master, MasterBox MB600L V2,371.21,ATX Mid Tower,Black,,37.7,2
-case,Deepcool, Quadstellar Infinity,1518.28,ATX Mid Tower,Black,Tempered Glass,129.9,3
-case,Thermaltake, The Tower 300 Bubble Pink,649.91,MicroATX Mini Tower,Pink / White,Tempered Glass,53.0,3
-case,Silverstone, ML07B,449.38,HTPC,Black,,13.9,1
-case,Thermaltake, CTE C750 ARGB,779.9,ATX Full Tower,Black,Tempered Glass,110.7,7
-case,KOLINK, Observatory Z Mesh,1038.36,ATX Mid Tower,Black,Tempered Glass,56.4,2
-case,Montech, KING 95,515.63,ATX Mid Tower,Red / Black,Tempered Glass,63.0,5
-case,Fractal Design, Meshify 2 Compact Lite,558.26,ATX Mid Tower,White,Tempered Glass,42.3,2
-case,Fractal Design, Meshify 2 Compact RGB,1102.36,ATX Mid Tower,White,Tempered Glass,42.3,2
-case,RAIJINTEK, ASTERION CLASSIC,432.87,ATX Full Tower,Silver,Tempered Glass,56.0,3
-case,ADATA, XPG Battlecruiser,476.59,ATX Mid Tower,White / Black,Tempered Glass,55.2,2
-case,SHARKOON, VS9 RGB,310.81,ATX Mid Tower,White,Tempered Glass,42.1,2
-case,RAIJINTEK, Metis Plus,348.94,Mini ITX Tower,Black,Acrylic,13.4,2
-case,Silverstone, FARA 513 Type-C,376.06,ATX Mid Tower,Black,,44.6,2
-case,Cooler Master, CMP 510,433.26,ATX Mid Tower,Black,Tempered Glass,42.0,2
-case,Cooler Master, MasterBox MB500,818.89,ATX Mid Tower,Black,Tempered Glass,49.5,2
-case,Rosewill, Legacy V3 Plus-B,389.97,Mini ITX Tower,Black,,10.0,1
-case,GameMax, Mini Abyss H608,298.93,MicroATX Mid Tower,Black,Tempered Glass,32.3,2
-case,BGears, ‎b-BlackWidow-RGB,371.9,ATX Mid Tower,Black,Tinted Tempered Glass,41.2,2
-case,be quiet!, Dark Base 900,1624.88,ATX Full Tower,Black / Silver,,82.0,7
-case,Deepcool, MACUBE 310,499.64,ATX Mid Tower,White,Tempered Glass,45.2,2
-case,RAIJINTEK, PAN Slim,822.84,Mini ITX Desktop,Black,,38.7,2
-case,Montech, SKY ONE LITE,346.21,ATX Mid Tower,White,Tempered Glass,44.8,2
-case,Thermaltake, CTE C700 Air,673.17,ATX Mid Tower,Black,Tempered Glass,93.8,7
-case,Cougar, MX600 RGB,777.64,ATX Full Tower,White,Tempered Glass,57.8,1
-case,Enermax, StarryKnight SK30 V2,441.92,ATX Mid Tower,Black,Tempered Glass,49.7,2
-case,RAIJINTEK, Silenos Pro,259.94,ATX Mid Tower,Black,Tempered Glass,39.8,2
-case,Fractal Design, Define 7,1979.44,ATX Mid Tower,White,,62.4,6
-case,Phanteks, Evolv X,779.9,ATX Mid Tower,White,Tempered Glass,64.9,4
-case,Cooler Master, MasterCase H500P Mesh,688.95,ATX Mid Tower,White,Acrylic,71.4,2
-case,Thermaltake, S300 Tempered Glass Snow Edition,433.26,ATX Mid Tower,White,Tempered Glass,,2
-case,Apevia, Destiny Pro,389.93,ATX Mid Tower,Pink / Black,Tempered Glass,42.0,2
-case,be quiet!, Shadow Base 800 DX,649.52,ATX Mid Tower,White,Tempered Glass,70.9,2
-case,Silverstone, ML08,591.32,HTPC,Black,Acrylic,,0
-case,RAIJINTEK, METIS EVO TGS,324.93,Mini ITX Desktop,White,Tempered Glass,22.3,2
-case,In Win, 301,303.22,MicroATX Mini Tower,White / Blue,Tempered Glass,28.1,1
-case,Silverstone, FARA H1M PRO,400.2,MicroATX Mini Tower,White / Black,Tempered Glass,30.1,2
-case,Jonsbo, MOD5,1334.56,ATX Mid Tower,Gray,Tempered Glass,97.2,1
-case,Silverstone, RVZ02B,467.92,HTPC,Black,,,1
-case,Thermaltake, AH T200,584.87,MicroATX Mid Tower,Black,Tempered Glass,69.1,2
-case,SHARKOON, REV 100,258.72,ATX Mid Tower,Black,Tempered Glass,43.1,3
-case,Jonsbo, BO 100,996.55,Mini ITX Desktop,Silver,Tempered Glass,15.7,1
-case,BGears, b-Voguish RGB,368.26,ATX Mid Tower,Black,Tempered Glass,40.8,2
-case,Antec, P10 FLUX,368.26,ATX Mid Tower,Black,,,3
-case,GameMax, Aero,301.1,ATX Mid Tower,Black / White,Tempered Glass,40.7,2
-case,Fractal Design, Meshify 2 Lite,1141.62,ATX Mid Tower,Black,Tempered Glass,61.7,2
-case,NZXT, H510i Rivals,645.18,ATX Mid Tower,Yellow / Black,Tempered Glass,41.3,2
-case,Thermaltake, CTE C700 TG ARGB,475.03,ATX Mid Tower,Black,Tempered Glass,93.8,7
-case,Thermaltake, Ceres 330 ARGB,476.59,ATX Mid Tower,Black,Tempered Glass,53.9,1
-case,Fractal Design, Define 7 Compact,793.98,ATX Mid Tower,Black,Tinted Tempered Glass,42.5,2
-case,ADATA, XPG DEFENDER,346.6,ATX Mid Tower,Black,Tempered Glass,47.7,2
-case,be quiet!, Dark Base 900,1603.21,ATX Full Tower,Black / Orange,,82.0,7
-case,Antec, P10C,766.38,ATX Mid Tower,Black,,51.0,3
-case,Zalman, Z3 Iceberg,259.94,ATX Mid Tower,Black,Tempered Glass,41.3,2
-case,Cougar, Duoface Pro RGB,532.31,ATX Mid Tower,White,Tempered Glass,55.4,2
-case,Apevia, Genesis Pro,372.59,ATX Mid Tower,Pink,Tempered Glass,35.7,3
-case,Thermaltake, The Tower 100,462.29,Mini ITX Tower,Turquoise / Black,Tempered Glass,32.7,2
-case,ADATA, XPG CRUISER,389.93,ATX Mid Tower,Black,Tempered Glass,53.8,4
-case,Thermaltake, Divider 370 TG ARGB,407.26,ATX Mid Tower,Black,Tempered Glass,50.7,2
-case,Thermaltake, Core P90,801.52,ATX Mid Tower,Black,Tinted Tempered Glass,135.9,3
-case,Apevia, Genesis Pro,363.93,ATX Mid Tower,Black,Tempered Glass,35.7,3
-case,ADATA, XPG INVADER,303.22,ATX Mid Tower,White,Tempered Glass,,2
-case,Cougar, MX330-F,324.54,ATX Mid Tower,Black,Acrylic,39.4,2
-case,Silverstone, SG13,297.63,Mini ITX Tower,Black,,11.5,1
-case,Thermaltake, View 31 TG,346.55,ATX Mid Tower,Black,Acrylic,63.5,3
-case,Jonsbo, TK-3,571.96,ATX Mid Tower,Black,Tempered Glass,52.3,2
-case,Silverstone, FARA 312Z,367.01,MicroATX Mini Tower,Black,Tempered Glass,37.2,2
-case,Thermaltake, Core P6,1018.17,ATX Mid Tower,Blue / Black,Tempered Glass,76.4,4
-case,Lian Li, LANCOOL 205 Mesh,844.94,ATX Mid Tower,White / Black,Tempered Glass,41.3,2
-case,BitFenix, Prodigy M 2022,346.21,MicroATX Mini Tower,Black / White,Tempered Glass,,2
-case,Silverstone, PS15,303.22,MicroATX Mid Tower,White,Tempered Glass,25.7,1
-case,Thermaltake, CTE E600,761.48,ATX Mid Tower,Black,Tempered Glass,77.4,2
-case,Thermaltake, The Tower 200,563.25,Mini ITX Tower,Beige,Tempered Glass,45.1,2
-case,Thermaltake, Versa H15,1040.27,MicroATX Mid Tower,Black,Acrylic,,3
-case,Thermaltake, CTE C750 ARGB,779.9,ATX Full Tower,White,Tempered Glass,110.7,7
-case,Silverstone, ML09,423.98,HTPC,Black,,,0
-case,Thermaltake, CTE T500,731.28,ATX Full Tower,Black,Tempered Glass,87.3,4
-case,SHARKOON, Rebel C70M RGB,553.54,ATX Mid Tower,Brown / Black,Mesh,54.5,3
-case,Chieftec, BX-10B-M-OP,400.07,MicroATX Mid Tower,Black,Mesh,28.8,1
-case,In Win, A5,454.96,ATX Mid Tower,Black,Tempered Glass,34.9,2
-case,Jonsbo, BO 100,996.55,Mini ITX Desktop,Black,Tempered Glass,15.7,1
-case,Antec, P7 NEO,324.89,ATX Mid Tower,Black,,46.3,2
-case,GameMax, Abyss TR,389.88,ATX Mid Tower,Black,Tempered Glass,57.1,3
-case,Fractal Design, Define 7 Compact,693.8,ATX Mid Tower,White,Tempered Glass,42.5,2
-case,Fractal Design, Meshify 2 Compact TG Light Tint,691.07,ATX Mid Tower,Gray / Black,Tempered Glass,42.3,2
-case,ADATA, XPG STARKER AIR,303.22,ATX Mid Tower,White / Black,Tempered Glass,40.0,2
-case,Silverstone, SUGO 15,641.24,Mini ITX Desktop,Silver,,19.1,0
-case,Silverstone, Sugo 16,381.26,Mini ITX Tower,White,,13.0,1
-case,Thermaltake, Ceres 330 ARGB,476.59,ATX Mid Tower,White,Tempered Glass,53.9,1
-case,Silverstone, CS330B,779.9,MicroATX Mini Tower,Black,,30.2,4
-case,Cougar, MX430 Air RGB,514.33,ATX Mid Tower,Black,Tempered Glass,37.6,2
-case,Silverstone, FARA R1,343.0,ATX Mid Tower,White / Black,Tempered Glass,,1
-case,Jonsbo, Jonsplus i400,2157.1,ATX Mid Tower,Silver,Tempered Glass,55.7,6
-case,Thermaltake, The Tower 200,584.87,Mini ITX Tower,Turquoise,Tempered Glass,45.1,2
-case,Thermaltake, H570 TG ARGB,519.92,ATX Mid Tower,White,Tempered Glass,48.8,2
-case,RAIJINTEK, OPHION EVO,673.52,Mini ITX Desktop,Black,Acrylic,,1
-case,Jonsbo, TK-3,571.96,ATX Mid Tower,White,Tempered Glass,52.3,2
-case,Zalman, Z3 Iceberg,259.94,ATX Mid Tower,White,Tempered Glass,41.3,2
-case,Geometric, Future M4 Caliburn,389.54,ATX Mid Tower,Black / Silver,Tempered Glass,37.9,2
-case,CiT, Mirage F6,609.83,ATX Mid Tower,Black,Tempered Glass,29.9,2
-case,Azza, Celesta 340F,264.27,ATX Mid Tower,Black,Tempered Glass,40.2,2
-case,Silverstone, FARA R1 PRO,363.89,ATX Mid Tower,Black,Tempered Glass,36.0,1
-case,SHARKOON, Rebel C20 ITX RGB,1840.27,Mini ITX Desktop,Black,Mesh,29.5,1
-case,KOLINK, UNITY CODE X,1067.65,ATX Mid Tower,Black,Tempered Glass,,2
-case,Azza, Legionaire 470,407.26,ATX Mid Tower,Black,Mesh,46.8,2
-case,Thermaltake, AH T200 Snow,584.87,MicroATX Mid Tower,White,Tempered Glass,69.1,2
-case,ADATA, XPG INVADER X,732.28,ATX Mid Tower,White,Tempered Glass,52.1,3
-case,be quiet!, Silent Base 601,562.86,ATX Mid Tower,Black,Tempered Glass,,3
-case,GAMDIAS, ATLAS M1,389.93,ATX Mid Tower,White,Tempered Glass,41.0,1
-case,RAIJINTEK, PAN Slim,822.84,Mini ITX Desktop,White,,38.7,2
-case,Silverstone, GD07B,887.05,HTPC,Black,,33.4,5
-case,GAMDIAS, ATHENA M1 ELITE,303.27,ATX Mid Tower,Black,Tempered Glass,,2
-case,Apevia, Predator,320.56,ATX Mid Tower,Black,Tempered Glass,35.7,3
-case,G.Skill, Z5i,606.58,Mini ITX Tower,Black,Tempered Glass,24.4,1
-case,Asus, TUF Gaming GT301,866.56,ATX Mid Tower,Pink / Black,Tempered Glass,43.9,2
-case,Thermaltake, CTE E600,749.22,ATX Mid Tower,Blue,Tempered Glass,77.4,2
-case,Cougar, MX330-G Pro,442.53,ATX Mid Tower,White,Tempered Glass,49.1,2
-case,Thermaltake, CTE C700 TG ARGB,632.49,ATX Mid Tower,White,Tempered Glass,93.8,7
-case,NZXT, H510i All Might,645.18,ATX Mid Tower,Blue / Red,Tempered Glass,41.3,2
-case,Antec, P7 Silent,412.41,ATX Mid Tower,Black / Silver,,,2
-case,Aerocool, Playa Slim,553.24,MicroATX Mini Tower,Black,,,1
-case,ADATA, XPG Battlecruiser,476.59,ATX Mid Tower,Black,Tempered Glass,55.2,2
-case,GameMax, Titan Silent,511.25,ATX Mid Tower,Black,,53.8,8
-case,Thermaltake, LANBOX Lite,346.47,MicroATX Mini Tower,Black,,29.6,2
-case,Corsair, iCUE 5000X RGB Glitch,1083.21,ATX Mid Tower,Black / Blue,Tempered Glass,66.2,2
-case,Enermax, LIBLLUSSION LL30,281.64,ATX Mid Tower,Black,Tempered Glass,,2
-case,Silverstone, CS380,1432.1,ATX Mid Tower,Black,,45.0,8
-case,Supermicro, SuperChassis 721TQ-350B2,1178.58,Mini ITX Tower,Black,,14.1,0
-case,Silverstone, PS15 PRO,1126.67,MicroATX Mid Tower,Black,Tempered Glass,25.7,1
-case,Apevia, Prodigy,324.89,MicroATX Mini Tower,White,Tempered Glass,32.5,2
-case,Streacom, DA2 V2,1299.86,Mini ITX Desktop,Silver,,17.5,0
-case,DIYPC, Rainbow-Flash-F4,527.8,ATX Mid Tower,Black,Tempered Glass,33.2,2
-case,Apevia, Enzo,259.94,ATX Mid Tower,Black,Tempered Glass,35.7,3
-case,Silverstone, ALTA G1M,683.62,MicroATX Mid Tower,White,,,4
-case,In Win, IW-MS04,693.02,Mini ITX Desktop,Black,,,4
-case,ADATA, XPG DEFENDER PRO,389.93,ATX Mid Tower,Black,Tempered Glass,47.7,2
-case,Antec, DARK CUBE,1593.68,MicroATX Mini Tower,Black,Tempered Glass,,1
-case,Thermaltake, Divider 300 TG,476.59,ATX Mid Tower,Black,Tempered Glass,48.2,2
-case,RAIJINTEK, PAEAN M,389.93,MicroATX Mini Tower,Black,Tempered Glass,40.9,1
-case,Thermaltake, View 300 MX Snow TG ARGB,628.2,ATX Mid Tower,White,Tempered Glass,58.8,2
-case,Antec, DP505,381.3,ATX Mid Tower,White,Tempered Glass,51.9,2
-case,Geometric, Future Model 6,432.87,ATX Mid Tower,Black / Yellow,Tinted Tempered Glass,43.5,4
-case,FSP, Group CUT593P,584.91,ATX Full Tower,Black,Tempered Glass,62.6,3
-case,Thermaltake, CTE C700 Air,519.92,ATX Mid Tower,White,Tempered Glass,93.8,7
-case,Azza, Hive 450,298.93,ATX Mid Tower,Black,Tempered Glass,41.9,2
-case,Thermaltake, CTE E600,779.9,ATX Mid Tower,White,Tempered Glass,77.4,2
-case,SHARKOON, TG7M RGB,1407.4,ATX Mid Tower,Black,Tempered Glass,52.1,2
-case,Azza, Elise,303.22,MicroATX Mid Tower,Black / Pink,Tempered Glass,34.4,2
-case,Thermaltake, Level 20 RS ARGB,519.79,ATX Mid Tower,Black,Tempered Glass,,3
-case,Silverstone, RVZ03B-ARGB,687.34,Mini ITX Desktop,Black,,,0
-case,Silverstone, SETA A1,634.26,ATX Mid Tower,Pink / Silver,Tempered Glass,45.7,2
-case,ADATA, XPG Battlecruiser II,779.9,ATX Mid Tower,Black,Tempered Glass,62.6,5
-case,Azza, Regis,1733.16,ATX Mid Tower,Black,Tempered Glass,,1
-case,Aerocool, Menace Saturn RGB,340.75,ATX Mid Tower,Black,Tempered Glass,36.7,2
-case,be quiet!, Silent Base 601,717.28,ATX Mid Tower,Black / Orange,Tempered Glass,,3
-case,Chieftec, BS-10B-300,1035.37,MicroATX Mini Tower,Black,,14.4,1
-case,Silverstone, ML04 Type-C,837.48,HTPC,Black,Mesh,16.0,2
-case,Apevia, Destiny Flow,355.26,ATX Mid Tower,Black,Tempered Glass,,2
-case,BitFenix, Tracery,346.21,ATX Mid Tower,White,Tempered Glass,52.8,4
-case,Azza, Cube 802 RGB,1460.18,ATX Mid Tower,Black,Tempered Glass,,1
-case,Segotep, Phoenix T1,519.92,ATX Mid Tower,White,Tempered Glass,65.5,2
-case,Azza, Pyramid Mini 806,1213.2,Mini ITX Tower,Silver / Black,Tempered Glass,,0
-case,KOLINK, Observatory Z,403.79,ATX Mid Tower,Black,Tempered Glass,56.4,2
-case,Silverstone, Precision PS15 RGB,339.92,MicroATX Mid Tower,Black,Tempered Glass,25.7,1
-case,In Win, ModFree Base,693.28,ATX Full Tower,Black,Tempered Glass,57.2,1
-case,Cooler Master, Elite 500 ODD,439.67,ATX Mid Tower,Black,Tempered Glass,43.1,2
-case,Silverstone, FTZ01-E,641.85,Mini ITX Desktop,Black,,,0
-case,Thermaltake, CTE T500,476.59,ATX Full Tower,White,Tempered Glass,87.3,4
-case,Geometric, Future M4 King Arthur,346.21,ATX Mid Tower,White,Tempered Glass,37.9,2
-case,Streacom, DA2,1498.91,Mini ITX Desktop,Silver,,,3
-case,Thermaltake, Divider 200 TG Air Snow,649.78,MicroATX Mini Tower,White,Tempered Glass,51.6,3
-case,Azza, Pyramid Mesh,1733.16,ATX Mid Tower,Silver / Black,Mesh,140.5,1
-case,Silverstone, TJ08B-E,695.19,MicroATX Mini Tower,Black,,30.2,4
-case,Thermaltake, View 300 MX,628.2,ATX Mid Tower,Black,Tempered Glass,58.8,2
-case,darkFlash, DLH21,560.86,Mini ITX Tower,White,,17.2,1
-case,Thermaltake, Divider 200 TG Air,1315.5,MicroATX Mini Tower,White,Tempered Glass,51.6,3
-case,BitFenix, Prodigy M 2022,346.21,MicroATX Mini Tower,White / Black,Tempered Glass,,2
-case,Cougar, Dust 2,722.83,Mini ITX Tower,Black / Gold,Mesh,23.6,0
-case,GameMax, Silent Max,528.58,ATX Mid Tower,Black,,98.5,8
-case,Thermaltake, Versa H24,602.29,ATX Mid Tower,Black,,42.6,3
-case,NOX, Hummer TGM,948.19,ATX Mid Tower,,Tempered Glass,36.6,2
-case,Silverstone, GD06B,831.68,HTPC,Black,,22.4,4
-case,Silverstone, FTZ01,862.83,Mini ITX Desktop,Black,,,1
-case,Thermaltake, AH T200,584.87,MicroATX Mid Tower,Green / Black,Tempered Glass,69.1,2
-case,CiT, Blade ARGB,317.74,ATX Mid Tower,Black,Tempered Glass,38.9,2
-case,Chieftec, CI-01B-OP,919.85,MicroATX Desktop,Black,,33.6,2
-case,Cooler Master, Silencio S400,2397.97,MicroATX Mini Tower,Black,Tempered Glass,,4
-case,Apevia, Destiny Pro,385.59,ATX Mid Tower,White / Black,Tempered Glass,42.0,2
-case,SHARKOON, REV 200,408.17,ATX Mid Tower,Black,Tempered Glass,50.5,2
-case,ADATA, XPG STARKER,303.27,ATX Mid Tower,Black,Tempered Glass,40.0,2
-case,RAIJINTEK, Thetis,523.6,ATX Mid Tower,Silver,Acrylic,27.7,2
-case,Geometric, Future Model 2 The ARK,519.53,MicroATX Mini Tower,White,Mesh,40.7,1
-case,Geometric, Future Model 6,432.87,ATX Mid Tower,Black / Yellow,Tinted Tempered Glass,43.5,4
-case,RAIJINTEK, METIS EVO ALS,324.54,Mini ITX Desktop,Blue,,22.3,2
-case,Cooler Master, MasterCase H100,375.28,Mini ITX Desktop,Black,,,1
-case,Cougar, Archon 2 RGB,519.96,ATX Mid Tower,Black,Tempered Glass,37.5,2
-case,Silverstone, TJ04B-E,1090.66,ATX Mid Tower,Black,,51.0,9
-case,SHARKOON, MS-Y1000,344.6,MicroATX Mid Tower,White,Tempered Glass,26.2,1
-case,Azza, Eclipse 440,277.27,ATX Mid Tower,Black,Tempered Glass,45.5,2
-case,Apevia, Predator,324.89,ATX Mid Tower,White,Tempered Glass,35.7,3
-case,Apevia, Genesis-WH,346.55,ATX Mid Tower,White / Black,Tempered Glass,,3
-case,Cougar, DarkBlader X7,697.18,ATX Mid Tower,Black / Green,Tempered Glass,50.0,2
-case,Silverstone, FARA 511Z,398.46,ATX Mid Tower,Black,Tempered Glass,42.9,2
-case,Thermaltake, Urban S31 Window,415.92,ATX Mid Tower,White,Acrylic,53.6,6
-case,RAIJINTEK, OPHION M EVO TGS,302.88,MicroATX Mid Tower,Black,Tempered Glass,,3
-case,Silverstone, PS07B,472.38,MicroATX Mini Tower,Black,,31.4,5
-case,Silverstone, GD10B,677.29,HTPC,Black,,27.4,2
-case,Geometric, Future Model 2 The ARK,649.52,MicroATX Mini Tower,Gray / Black,Tempered Glass,40.7,1
-case,RAIJINTEK, METIS EVO TGS,324.93,Mini ITX Desktop,Silver,Tempered Glass,22.3,2
-case,be quiet!, Silent Base 601,649.52,ATX Mid Tower,Black / Silver,Tempered Glass,,3
-case,Silverstone, PM02-G,584.91,ATX Mid Tower,Black / Red,Tempered Glass,49.3,3
-case,GameMax, Dragon Knight,558.91,ATX Mid Tower,Black,Acrylic,59.1,8
-case,Cougar, Gemini M,455.96,MicroATX Mini Tower,Black,Tempered Glass,35.7,2
-case,Cougar, DarkBlader X5 RGB,831.24,ATX Mid Tower,Black,Tempered Glass,50.0,2
-case,Silverstone, RL08BR-RGB,648.35,MicroATX Mini Tower,Black / Red,Tempered Glass,,3
-case,Silverstone, FARA 512Z,445.43,ATX Mid Tower,Black,Tempered Glass,43.3,2
-case,RAIJINTEK, METIS EVO ALS,324.54,Mini ITX Desktop,Red,,22.3,2
-case,Silverstone, RVZ03W-ARGB,649.91,Mini ITX Desktop,White,,,0
-case,be quiet!, Silent Base 601,1083.25,ATX Mid Tower,Black / Orange,,,3
-case,Inter-Tech, SC-4100,676.12,Mini ITX Desktop,Black,,10.6,0
-case,ADATA, XPG Battlecruiser II,779.9,ATX Mid Tower,White,Tempered Glass,62.6,5
-case,Azza, Octane A,368.26,ATX Mid Tower,Black,Tempered Glass,44.8,2
-case,Apevia, Matrix,329.22,ATX Mid Tower,Pink,Tempered Glass,37.8,3
-case,RAIJINTEK, Metis Plus,348.94,Mini ITX Tower,White,Acrylic,13.4,2
-case,Geometric, Future Model 8,649.52,ATX Mid Tower,Black / White,Tinted Tempered Glass,57.5,6
-case,BitFenix, Prodigy M 2022 ARGB,389.54,MicroATX Mini Tower,Black / White,Tempered Glass,,2
-case,RAIJINTEK, PAN Slim,822.84,Mini ITX Desktop,Silver,,38.7,2
-case,Thermaltake, Divider 500 TG ARGB,590.72,ATX Mid Tower,Black,Tempered Glass,56.8,2
-case,Zalman, M4,303.27,MicroATX Mini Tower,Black,Tempered Glass,34.0,2
-case,HEC, 6T10LITE,323.98,MicroATX Mini Tower,Black,,24.0,2
-case,RAIJINTEK, OPHION M EVO ALS,302.88,MicroATX Mid Tower,Black,,,3
-case,Chieftec, UE-02B,771.27,MicroATX Mini Tower,,,12.9,1
-case,RAIJINTEK, Metis Plus,348.94,Mini ITX Tower,Silver,Acrylic,13.4,2
-case,Geometric, Future Model 2 The ARK,519.53,MicroATX Mini Tower,Black / Gold,Mesh,40.7,1
-case,Corsair, iCUE 5000X RGB Planetary,1083.21,ATX Mid Tower,Black / Orange,Tempered Glass,66.2,2
-case,Silverstone, FARA R1 PRO,432.69,ATX Mid Tower,White,Tempered Glass,36.0,1
-case,SHARKOON, MS-Y1000,326.45,MicroATX Mid Tower,Black,Tempered Glass,26.2,1
-case,GameMax, Kreator,298.93,ATX Mid Tower,Black,Tempered Glass,40.7,2
-case,ADATA, XPG STARKER,303.27,ATX Mid Tower,White,Tempered Glass,40.0,2
-case,Silverstone, RVZ02B,556.01,HTPC,Black / Clear,Acrylic,,1
-case,Silverstone, Lucid LD03,498.3,Mini ITX Tower,,Tinted Tempered Glass,25.2,1
-case,Streacom, BC1 Mini,595.4,Mini ITX Test Bench,Red,,,0
-case,ADATA, XPG DEFENDER,346.6,ATX Mid Tower,White / Black,Tempered Glass,47.7,2
-case,Geometric, Future Model 8,692.85,ATX Mid Tower,Black / Blue,Tinted Tempered Glass,57.5,6
-case,BitFenix, Dawn TG,476.2,ATX Mid Tower,Black,Tempered Glass,,2
-case,Corsair, iCUE 5000X RGB Triptych,1083.21,ATX Mid Tower,Black / Green,Tempered Glass,66.2,2
-case,DIYPC, Shadow-H3-ARGB,259.72,ATX Mid Tower,Black,Tempered Glass,,3
-case,Cougar, DarkBlader X5,522.78,ATX Mid Tower,White,Tempered Glass,50.0,2
-case,FSP, Group CUT593P,628.24,ATX Full Tower,White,Tempered Glass,62.6,3
-case,Thermaltake, AH T200,584.87,MicroATX Mid Tower,Turquoise / Black,Tempered Glass,69.1,2
-case,Antec, Draco 10,346.64,MicroATX Mini Tower,Black,Tempered Glass,40.0,2
-case,Chieftec, BT-02B-U3-250VS (230V),792.94,Mini ITX Tower,,,9.6,1
-case,RAIJINTEK, Metis Plus,348.94,Mini ITX Tower,Blue,Acrylic,13.4,2
-case,ADATA, XPG CRUISER,389.93,ATX Mid Tower,Black,Tempered Glass,53.8,4
-case,KOLINK, Unity Nexus ARGB,593.66,ATX Mid Tower,Black,Tempered Glass,51.3,2
-case,RAIJINTEK, STYX,371.94,MicroATX Mini Tower,Blue,Acrylic,,3
-case,Silverstone, Lucid LD03-AF,576.25,Mini ITX Tower,Black,Tempered Glass,25.2,1
-case,Silverstone, CS01,641.24,Mini ITX Tower,Silver,,,2
-case,Azza, CUBE MINI 805,1299.86,Mini ITX Tower,Silver / Black,Tempered Glass,17.6,0
-case,Silverstone, SETA A1,604.76,ATX Mid Tower,Silver / Black,Tempered Glass,45.7,2
-case,BitFenix, Prodigy M 2022 ARGB,389.54,MicroATX Mini Tower,White / Black,Tempered Glass,,2
-case,Geometric, Future Model 8,736.18,ATX Mid Tower,Black / Silver,Tinted Tempered Glass,57.5,6
-case,Silverstone, PS14-E,393.48,ATX Mid Tower,Black,Tempered Glass,43.1,2
-case,Thermaltake, Versa N27,866.6,ATX Mid Tower,Black,Acrylic,,4
-case,Fractal Design, Define 7 Light,972.76,ATX Mid Tower,Gray,Tempered Glass,62.4,6
-case,In Win, Z583T.CQ350TB3L,441.92,MicroATX Mini Tower,Black / Silver,,24.2,1
-case,Silverstone, ALTA F1,1161.2,ATX Mid Tower,Black,Tempered Glass,56.8,2
-case,Corsair, iCUE 5000X RGB Shift,1083.21,ATX Mid Tower,Black / Blue,Tempered Glass,66.2,2
-case,ADATA, XPG DEFENDER PRO,457.65,ATX Mid Tower,White / Black,Tempered Glass,47.7,2
-case,Thermaltake, A500,1076.27,ATX Mid Tower,Silver / Black,Tempered Glass,67.4,6
-case,Deco, Gear DGPCS01,368.26,ATX Mid Tower,Black,Tempered Glass,,2
-case,Cougar, DarkBlader X5,506.83,ATX Mid Tower,Black,Tempered Glass,50.0,2
-case,Thermaltake, Divider 300 ARGB Triangular,595.27,ATX Mid Tower,Black,Tempered Glass,48.2,2
-case,Antec, P5,686.87,MicroATX Mini Tower,Black,,,2
-case,Thermaltake, H700 TG,411.55,ATX Mid Tower,White,Tempered Glass,53.5,2
-case,RAIJINTEK, Metis Plus,348.94,Mini ITX Tower,Red,Acrylic,13.4,2
-case,Thermaltake, Divider 500 TG ARGB Snow,537.25,ATX Mid Tower,White,Tempered Glass,56.8,2
-case,SHARKOON, MS-Z1000,344.6,MicroATX Mid Tower,White,Tempered Glass,26.2,1
-case,Azza, Chroma 410,519.96,ATX Mid Tower,Black,Acrylic,,2
-case,Thermaltake, Versa N26,818.94,ATX Mid Tower,Black,Acrylic,44.7,3
-case,Cougar, Turret RGB,803.99,ATX Mid Tower,Black,Tempered Glass,39.9,2
-case,Apevia, Destiny Flow,363.93,ATX Mid Tower,Pink,Tempered Glass,,2
-case,RAIJINTEK, Thetis,566.93,ATX Mid Tower,Silver,,27.7,2
-case,Silverstone, PS14-E,334.64,ATX Mid Tower,Black,,43.1,2
-case,In Win, EFS712,497.3,MicroATX Mini Tower,Black,,25.5,3
-case,Azza, Opus 809,1516.51,ATX Mid Tower,Silver / Black,Tinted Tempered Glass,,1
-case,Thermaltake, Versa T27 TG ARGB,553.84,ATX Mid Tower,Black,Tempered Glass,50.7,2
-case,Silverstone, FARA V1M PRO,326.84,MicroATX Mid Tower,Black,Tempered Glass,36.0,2
-case,RAIJINTEK, STYX,371.94,MicroATX Mini Tower,Silver,Acrylic,,3
-case,Apevia, Destiny Flow,363.93,ATX Mid Tower,White,Tempered Glass,,2
-case,Thermaltake, Commander C34 TG ARGB,324.89,ATX Mid Tower,Black,Tempered Glass,,3
-case,RAIJINTEK, Metis Plus,348.94,Mini ITX Tower,Gold,Acrylic,13.4,2
-case,SHARKOON, MS-Z1000,326.45,MicroATX Mid Tower,Black,Tempered Glass,26.2,1
-case,Aerocool, Menace Saturn FRGB,667.28,ATX Mid Tower,Black,Tempered Glass,36.7,2
-case,Chieftec, BT-04B-U3-250VS (230V),1074.58,Mini ITX Tower,Black,,10.5,1
-case,Thermaltake, Versa H24,710.61,ATX Mid Tower,Black,Acrylic,42.6,3
-case,Silverstone, RV05B,459.56,ATX Mid Tower,Black,,63.8,2
-case,Silverstone, ALTA F1,1223.99,ATX Mid Tower,Silver / Black,Tempered Glass,56.8,2
-case,Thermaltake, Divider 500 TG ARGB Air,693.24,ATX Mid Tower,Black,Tempered Glass,56.8,2
-case,Silverstone, SETA A1,597.43,ATX Mid Tower,Black,Tempered Glass,45.7,2
-case,be quiet!, Silent Base 601,673.95,ATX Mid Tower,Black / Silver,,,3
-case,Azza, Zircon 7000B,736.57,ATX Full Tower,Black,Tempered Glass,61.8,5
-case,Cougar, MG120-G RGB,358.69,ATX Mid Tower,Black,Tempered Glass,34.9,2
-case,SAMA, M2,216.26,ATX Mid Tower,,Tempered Glass,39.2,2
-case,Silverstone, SG12B-V2,702.64,MicroATX Mini Tower,Black / Blue,,,3
-case,BitFenix, Colossus Micro,996.59,MicroATX Mid Tower,Black,,30.6,4
-case,Silverstone, FTZ01,736.57,Mini ITX Desktop,Silver,,,1
-case,MagniumGear, NEO Silent (2023),359.55,ATX Mid Tower,Black,Tempered Glass,41.4,2
-case,Thermaltake, Divider 300 TG Air,519.92,ATX Mid Tower,Black,Tempered Glass,48.2,2
-case,In Win, 904,995.38,ATX Mid Tower,Black,Tempered Glass,,3
-case,RAIJINTEK, STYX,371.94,MicroATX Mini Tower,Silver,,,3
-case,Silverstone, RV05B-W,582.4,ATX Mid Tower,Black,Acrylic,63.8,2
-case,Silverstone, SG04B-F,519.92,MicroATX Mini Tower,Black,,24.7,2
-case,RAIJINTEK, STYX,371.94,MicroATX Mini Tower,Red,Acrylic,,3
-case,Thermaltake, Commander C34 TG Snow ARGB,324.8,ATX Mid Tower,White / Black,Tempered Glass,,3
-case,Silverstone, PM02-G,593.58,ATX Mid Tower,,Tempered Glass,49.3,3
-case,Thermaltake, Divider 500 TG ARGB Air Snow,714.86,ATX Mid Tower,White,Tempered Glass,56.8,2
-case,RAIJINTEK, PAEAN PREMIUM,952.83,ATX Mid Tower,Silver,Tempered Glass,90.6,2
-case,Silverstone, CS01-HS,862.22,Mini ITX Tower,Silver,,,0
-case,Thermaltake, Divider 300 TG Air Snow,519.92,ATX Mid Tower,White,Tempered Glass,48.2,2
-case,Cougar, MX660-T RGB,740.77,ATX Mid Tower,Black,Tempered Glass,50.0,2
+item_type,brand,name,price,quantity,case_size,color,side_panel,external_volume,internal_35_bays
+case,Corsair, 4000D Airflow,454.92,14,ATX Mid Tower,Black,Tinted Tempered Glass,48.6,2
+case,NZXT, H5 Flow,411.59,28,ATX Mid Tower,Black,Tempered Glass,47.0,1
+case,NZXT, H9 Flow,693.24,47,ATX Mid Tower,White,Tempered Glass,66.9,2
+case,NZXT, H9 Flow,671.57,16,ATX Mid Tower,Black,Tempered Glass,66.9,2
+case,Montech, AIR 903 MAX,324.98,4,ATX Mid Tower,Black,Tempered Glass,54.2,2
+case,NZXT, H6 Flow,476.59,14,ATX Mid Tower,White,Tempered Glass,51.8,1
+case,Cooler Master, MasterBox Q300L,203.56,31,MicroATX Mini Tower,Black,Acrylic,33.6,1
+case,NZXT, H6 Flow,438.89,24,ATX Mid Tower,Black,Tempered Glass,51.8,1
+case,Montech, X3 Mesh,281.56,50,ATX Mid Tower,Black,Tempered Glass,,2
+case,Lian Li, O11 Vision,602.03,55,ATX Mid Tower,White,Tempered Glass,67.8,2
+case,Fractal Design, North,606.58,45,ATX Mid Tower,Black,Tempered Glass,45.1,2
+case,Phanteks, XT PRO,216.61,23,ATX Mid Tower,Black,Tempered Glass,51.8,2
+case,NZXT, H6 Flow RGB,576.25,39,ATX Mid Tower,White,Tempered Glass,51.8,1
+case,Phanteks, XT PRO ULTRA,303.27,48,ATX Mid Tower,Black,Tempered Glass,51.8,2
+case,Lian Li, O11 Dynamic EVO,1079.87,16,ATX Mid Tower,White / Gray,Tempered Glass,60.8,6
+case,Lian Li, LANCOOL 216,433.26,1,ATX Mid Tower,Black,Tempered Glass,55.6,2
+case,Deepcool, CH370,257.42,57,MicroATX Mid Tower,Black,Tempered Glass,38.3,2
+case,Silverstone, ALTA F2,4332.96,7,ATX Full Tower,Black,Tempered Glass,98.9,8
+case,Deepcool, CC560 V2,259.94,36,ATX Mid Tower,Black,Tempered Glass,44.9,2
+case,Fractal Design, Terra,779.81,12,Mini ITX Desktop,Black / Brown,Mesh,11.4,0
+case,NZXT, H5 Flow,407.26,26,ATX Mid Tower,White,Tempered Glass,47.0,1
+case,Deepcool, MATREXX 40,203.56,12,MicroATX Mini Tower,Black,Tempered Glass,,2
+case,NZXT, H6 Flow RGB,584.91,41,ATX Mid Tower,Black,Tempered Glass,51.8,1
+case,HYTE, Y70 Touch,1559.84,53,ATX Mid Tower,White,Tempered Glass,70.7,2
+case,Lian Li, O11 Vision,563.25,26,ATX Mid Tower,Black,Tempered Glass,67.8,2
+case,Montech, AIR 903 BASE,281.64,22,ATX Mid Tower,Black,Tempered Glass,54.2,2
+case,Corsair, 3000D AIRFLOW,324.89,33,ATX Mid Tower,Black,Tempered Glass,49.5,2
+case,Fractal Design, Pop Air RGB,389.93,51,ATX Mid Tower,Black,Tempered Glass,46.2,2
+case,Corsair, 5000D AIRFLOW,693.24,12,ATX Mid Tower,Black,Tempered Glass,66.2,2
+case,NZXT, H7 Flow,563.25,39,ATX Mid Tower,Black,Tempered Glass,55.8,2
+case,Montech, KING 95 PRO,645.62,15,ATX Mid Tower,Black,Tempered Glass,63.0,5
+case,Asus, Prime AP201,346.6,48,MicroATX Mini Tower,Black,Mesh,33.0,3
+case,Cooler Master, MasterBox NR200,498.25,10,Mini ITX Desktop,Black,,,2
+case,Corsair, 4000D Airflow,454.92,41,ATX Mid Tower,White,Tinted Tempered Glass,48.6,2
+case,Lian Li, O11D EVO RGB,693.24,3,ATX Mid Tower,Black,Tempered Glass,65.3,4
+case,Fractal Design, Pop Mini Air,389.84,39,MicroATX Mid Tower,Black,Tempered Glass,36.5,2
+case,Corsair, iCUE 4000X RGB,519.92,35,ATX Mid Tower,Black,Tempered Glass,48.6,2
+case,Lian Li, O11 Dynamic Mini Snow Edition,519.92,40,ATX Mid Tower,White,Tempered Glass,43.0,2
+case,Fractal Design, North XL,779.9,55,ATX Full Tower,Black,Tinted Tempered Glass,61.4,2
+case,Montech, KING 95 PRO,688.95,8,ATX Mid Tower,White,Tempered Glass,63.0,5
+case,HYTE, Y70 Touch,1559.84,1,ATX Mid Tower,Black,Tempered Glass,70.7,2
+case,SAMA, ARGB-Q5,233.29,52,MicroATX Mini Tower,Black,Tempered Glass,31.5,2
+case,Phanteks, Eclipse G360A,303.27,18,ATX Mid Tower,White,Tempered Glass,42.3,2
+case,Montech, AIR 903 MAX,298.98,58,ATX Mid Tower,White,Tempered Glass,54.2,2
+case,Lian Li, O11 Dynamic EVO XL,1005.21,19,ATX Full Tower,Black,Tempered Glass,84.4,4
+case,Fractal Design, Terra,779.9,51,Mini ITX Desktop,Green / Brown,Mesh,11.4,0
+case,Fractal Design, Meshify C,433.26,16,ATX Mid Tower,Black,Tinted Tempered Glass,40.6,2
+case,NZXT, H5 Flow RGB,433.26,21,ATX Mid Tower,Black,Tempered Glass,47.0,1
+case,Fractal Design, Pop Mini Air,303.22,56,MicroATX Mid Tower,White,Tempered Glass,36.5,2
+case,HYTE, Y60,779.9,18,ATX Mid Tower,Black,Tempered Glass,,2
+case,Phanteks, NV5,433.26,41,ATX Mid Tower,Black,Tempered Glass,60.2,3
+case,HYTE, Y70,953.22,12,ATX Mid Tower,White,Tempered Glass,70.7,2
+case,Montech, SKY TWO,385.64,2,ATX Mid Tower,Black,Tempered Glass,45.3,2
+case,Fractal Design, Pop Air,346.51,4,ATX Mid Tower,Black,Tempered Glass,46.2,2
+case,Corsair, 7000D AIRFLOW,823.23,4,ATX Full Tower,Black,Tempered Glass,81.8,6
+case,Deepcool, CC360 ARGB,259.94,1,MicroATX Mini Tower,Black,Tinted Tempered Glass,38.7,2
+case,NZXT, H9 Elite,996.55,32,ATX Mid Tower,Black,Tempered Glass,66.9,2
+case,Lian Li, A4-H20 X4,671.57,5,Mini ITX Desktop,Black,Mesh,11.1,0
+case,NZXT, H9 Elite,966.22,19,ATX Mid Tower,White,Tempered Glass,66.9,2
+case,Fractal Design, Pop XL Air,476.5,25,ATX Full Tower,Black,Tempered Glass,62.4,3
+case,Montech, AIR 100 ARGB,290.22,29,MicroATX Mid Tower,White,Tempered Glass,36.1,2
+case,HYTE, Y60 Snow White,779.9,52,ATX Mid Tower,White,Tempered Glass,,2
+case,Lian Li, O11 Dynamic Mini,487.51,31,ATX Mid Tower,Black,Tempered Glass,43.0,2
+case,Lian Li, PC-O11 Dynamic,519.92,51,ATX Full Tower,White,Tempered Glass,54.0,3
+case,Zalman, S2,229.61,59,ATX Mid Tower,Black,Acrylic,38.4,2
+case,Fractal Design, North,606.58,0,ATX Mid Tower,White,Tempered Glass,45.1,2
+case,Lian Li, O11 Dynamic EVO XL,996.55,5,ATX Full Tower,White,Tempered Glass,84.4,4
+case,be quiet!, Pure Base 500DX,346.21,33,ATX Mid Tower,Black,Tempered Glass,48.3,2
+case,Lian Li, LANCOOL 216,407.3,48,ATX Mid Tower,Black,Tempered Glass,55.6,2
+case,Zalman, P30,433.26,43,MicroATX Mini Tower,White,Tempered Glass,45.7,2
+case,BitFenix, Nova Mesh M ARGB,250.88,21,MicroATX Mini Tower,Black,Tempered Glass,31.6,2
+case,Asus, Prime AP201,368.26,46,MicroATX Mini Tower,White,Mesh,33.0,3
+case,Lian Li, O11D EVO RGB,693.24,3,ATX Mid Tower,White,Tempered Glass,65.3,4
+case,Cooler Master, MasterBox NR200P V2,519.92,25,Mini ITX Desktop,Black,Mesh,20.1,1
+case,Asus, Prime AP201,303.22,38,MicroATX Mini Tower,Black,Tempered Glass,33.0,3
+case,Montech, AIR 903 BASE,246.98,8,ATX Mid Tower,White,Tempered Glass,54.2,2
+case,Fractal Design, Ridge PCIe 4.0,563.25,28,Mini ITX Tower,Black,Mesh,16.3,0
+case,Corsair, iCUE 4000D RGB AIRFLOW,649.91,21,ATX Mid Tower,Black,Tempered Glass,48.6,2
+case,Fractal Design, Terra,779.9,7,Mini ITX Desktop,Silver / Brown,Mesh,11.4,0
+case,NZXT, H5 Flow RGB,433.26,17,ATX Mid Tower,White,Tempered Glass,47.0,1
+case,Fractal Design, Core 1000 USB 3.0,164.57,46,MicroATX Mid Tower,Black,,25.8,2
+case,SAMA, IM01,242.21,45,MicroATX Mini Tower,Black,,21.9,5
+case,NZXT, H510,428.88,12,ATX Mid Tower,Black,Tempered Glass,41.3,2
+case,Deepcool, MACUBE 110,262.97,19,MicroATX Mini Tower,Black,Tempered Glass,38.8,2
+case,Lian Li, O11 Air Mini,433.26,10,ATX Mid Tower,Black,Tempered Glass,44.2,4
+case,HYTE, Y70,953.22,0,ATX Mid Tower,Black,Tempered Glass,70.7,2
+case,Deepcool, CH370,259.94,10,MicroATX Mid Tower,White,Tempered Glass,38.3,2
+case,Lian Li, LANCOOL 216,409.43,42,ATX Mid Tower,White,Tempered Glass,55.6,2
+case,Asus, ROG Strix Helios,1321.52,22,ATX Full Tower,Black,Tempered Glass,83.5,2
+case,MSI, MAG FORGE 112R,372.64,34,ATX Mid Tower,Black,Tempered Glass,42.5,2
+case,Fractal Design, North,606.58,34,ATX Mid Tower,Black,Mesh,45.1,2
+case,NZXT, H5 Elite,454.75,29,ATX Mid Tower,Black,Tempered Glass,47.0,1
+case,HYTE, Y40,433.26,37,ATX Mid Tower,Black,Tempered Glass,49.7,1
+case,Cooler Master, MasterBox Q300L,203.56,9,MicroATX Mini Tower,White,Acrylic,33.6,1
+case,Lian Li, LANCOOL 205M MESH,346.55,45,MicroATX Mini Tower,Black,Tempered Glass,33.8,2
+case,Phanteks, NV5,454.92,25,ATX Mid Tower,White,Tempered Glass,60.2,3
+case,Cooler Master, Q300L V2,259.89,25,MicroATX Mini Tower,Black,Tempered Glass,34.1,1
+case,Corsair, 2000D AIRFLOW,433.26,28,Mini ITX Tower,Black,Mesh,24.8,0
+case,Fractal Design, Torrent,823.23,12,ATX Mid Tower,Black,Tinted Tempered Glass,69.8,2
+case,Cougar, MX330-X,233.94,41,ATX Mid Tower,Black,,39.4,2
+case,Phanteks, Enthoo Pro,433.26,12,ATX Full Tower,Black,Acrylic,68.6,6
+case,Fractal Design, Focus 2,303.27,10,ATX Mid Tower,Black,,45.8,2
+case,Antec, NX100,174.27,20,ATX Mid Tower,Black / Gray,Acrylic,37.7,2
+case,NZXT, H7 Flow,420.26,12,ATX Mid Tower,White,Tempered Glass,55.8,2
+case,Corsair, 3000D RGB AIRFLOW,433.26,33,ATX Mid Tower,Black,Tempered Glass,49.5,2
+case,Fractal Design, Pop Air,303.22,44,ATX Mid Tower,Black,,46.2,2
+case,SAMA, Sama-S88-BK,181.86,21,ATX Mid Tower,Black / Red,Tempered Glass,37.7,2
+case,Corsair, Obsidian Series 1000D,2274.78,45,ATX Full Tower,Black,Tempered Glass,149.1,5
+case,NZXT, H7 Flow,389.93,5,ATX Mid Tower,White / Black,Tempered Glass,55.8,2
+case,Cooler Master, MasterBox NR200,407.26,28,Mini ITX Desktop,White / Black,,,2
+case,Fractal Design, Ridge PCIe 4.0,563.25,56,Mini ITX Tower,White,Mesh,16.3,0
+case,Corsair, iCUE 7000X RGB,996.55,18,ATX Full Tower,Black,Tempered Glass,81.8,6
+case,MSI, MPG GUNGNIR 110R,399.46,20,ATX Mid Tower,Black,Tempered Glass,,2
+case,Thermaltake, The Tower 300,606.58,23,MicroATX Mini Tower,Black,Tempered Glass,53.0,3
+case,Cooler Master, MasterBox TD500 Mesh V2,493.88,16,ATX Mid Tower,,Tempered Glass,52.4,2
+case,Montech, X3 Mesh,276.88,6,ATX Mid Tower,White,Tempered Glass,,2
+case,HYTE, Y60,758.23,43,ATX Mid Tower,White / Black,Tempered Glass,,2
+case,Asus, TUF Gaming GT502,649.91,22,ATX Mid Tower,Black,Tempered Glass,57.2,4
+case,Lian Li, LANCOOL 215,389.93,29,ATX Mid Tower,Black,Tempered Glass,,2
+case,Thermaltake, Core V1,216.61,36,Mini ITX Desktop,Black,,22.4,2
+case,Corsair, iCUE 5000D RGB AIRFLOW,953.22,29,ATX Mid Tower,Black,Tempered Glass,66.2,2
+case,Fractal Design, Focus G,259.89,59,ATX Mid Tower,Black,Acrylic,42.2,2
+case,Antec, NX200M,216.61,19,MicroATX Mid Tower,Black,Tempered Glass,,2
+case,Montech, SKY TWO,402.93,21,ATX Mid Tower,White,Tempered Glass,45.3,2
+case,Corsair, 6500X,866.56,49,ATX Mid Tower,Black,Tempered Glass,78.3,2
+case,Fractal Design, Define R5,541.58,39,ATX Mid Tower,Black,,54.2,8
+case,Lian Li, A4-H20 A4,675.9,30,Mini ITX Desktop,Silver / Black,Mesh,11.1,0
+case,Phanteks, XT PRO ULTRA,303.27,57,ATX Mid Tower,White,Tempered Glass,51.8,2
+case,Fractal Design, North XL,779.9,3,ATX Full Tower,Black,Mesh,61.4,2
+case,NZXT, H510,433.21,53,ATX Mid Tower,White,Tempered Glass,41.3,2
+case,Fractal Design, North,606.58,59,ATX Mid Tower,White,Mesh,45.1,2
+case,SAMA, ARGB-Q5,231.77,42,MicroATX Mini Tower,White,Tempered Glass,31.5,2
+case,MSI, MAG FORGE 100R,406.57,32,ATX Mid Tower,Black,Tempered Glass,,2
+case,NZXT, H5 Elite,454.75,17,ATX Mid Tower,White,Tempered Glass,47.0,1
+case,MSI, MAG PANO M100R PZ,389.93,18,MicroATX Mid Tower,White,Tempered Glass,41.9,1
+case,Corsair, iCUE 4000X RGB,519.92,10,ATX Mid Tower,White,Tempered Glass,48.6,2
+case,Thermaltake, Versa H18,238.27,42,MicroATX Mini Tower,Black,Tempered Glass,30.4,2
+case,Asus, ProArt PA602,1169.87,54,ATX Mid Tower,Black,Tempered Glass,81.4,4
+case,Corsair, 2500X,693.24,4,MicroATX Mini Tower,Black,Tempered Glass,54.8,2
+case,Montech, KING 95,346.6,17,ATX Mid Tower,Black,Tempered Glass,63.0,5
+case,Deepcool, CH560,384.16,29,ATX Mid Tower,Black,Tempered Glass,49.6,2
+case,NZXT, H510i,446.26,22,ATX Mid Tower,White,Tempered Glass,41.3,2
+case,Thermaltake, S100,303.44,43,MicroATX Mini Tower,Black,Tempered Glass,,2
+case,BitFenix, Nova Mesh M ARGB,250.88,17,MicroATX Mini Tower,White,Tempered Glass,31.6,2
+case,Thermaltake, Versa H17,216.61,37,MicroATX Mini Tower,Black,,30.4,2
+case,be quiet!, Pure Base 500 FX,476.2,29,ATX Mid Tower,Black,Tempered Glass,48.3,2
+case,Fractal Design, Node 304,381.22,23,Mini ITX Tower,Black / White,,19.5,6
+case,Cooler Master, MasterBox TD500 Mesh White w/ Controller,368.26,25,ATX Mid Tower,White,Tempered Glass,,2
+case,NZXT, H7 Flow RGB,584.91,38,ATX Mid Tower,Black,Tempered Glass,55.8,2
+case,Asus, Prime AP201,303.22,38,MicroATX Mini Tower,White,Tempered Glass,33.0,3
+case,Deepcool, MACUBE 110,369.6,43,MicroATX Mini Tower,White,Tempered Glass,38.8,2
+case,Corsair, 6500X,866.56,53,ATX Mid Tower,White,Tempered Glass,78.3,2
+case,Fractal Design, Meshify C,433.17,30,ATX Mid Tower,Black,Tempered Glass,40.6,2
+case,Fractal Design, North XL,779.9,41,ATX Full Tower,White,Tempered Glass,61.4,2
+case,HYTE, Y40,441.92,41,ATX Mid Tower,White,Tempered Glass,49.7,1
+case,Lian Li, LANCOOL III RGB,714.9,3,ATX Mid Tower,Black,Tempered Glass,65.5,4
+case,Fractal Design, Node 804,541.58,39,MicroATX Mid Tower,Black,Acrylic,41.1,10
+case,Antec, C8,476.59,7,ATX Mid Tower,Black,Tempered Glass,66.9,2
+case,SAMA, SAMA-Z4,233.94,33,ATX Mid Tower,White / Black,Tempered Glass,39.2,2
+case,Corsair, iCUE 5000X RGB,714.9,34,ATX Mid Tower,Black,Tempered Glass,66.2,2
+case,HYTE, Y70,953.22,59,ATX Mid Tower,White / Black,Tempered Glass,70.7,2
+case,Deepcool, CH560 DIGITAL,476.59,5,ATX Mid Tower,Black,Tempered Glass,49.6,2
+case,Fractal Design, Pop XL Air,389.93,29,ATX Full Tower,White,Tempered Glass,62.4,3
+case,Lian Li, O11 Vision Chrome,606.58,50,ATX Mid Tower,Black,Tinted Tempered Glass,67.8,2
+case,Fractal Design, Pop Mini Silent,346.6,51,MicroATX Mid Tower,Black,,36.5,2
+case,Fractal Design, Pop Air,389.93,25,ATX Mid Tower,White,Tempered Glass,46.2,2
+case,be quiet!, Shadow Base 800 FX,736.18,1,ATX Mid Tower,Black,Tempered Glass,70.9,2
+case,Deepcool, CK560,298.93,29,ATX Mid Tower,Black,Tempered Glass,,2
+case,Montech, AIR 1000 PREMIUM,281.56,36,ATX Mid Tower,Black,Tempered Glass,,2
+case,NZXT, H7 Elite (2023),433.26,14,ATX Mid Tower,Black,Tempered Glass,55.8,2
+case,HYTE, Y40,433.26,5,ATX Mid Tower,White / Black,Tempered Glass,49.7,1
+case,Fractal Design, Meshify 2 XL,866.56,54,ATX Full Tower,Black,Tinted Tempered Glass,81.5,6
+case,Zalman, T6,216.61,54,ATX Mid Tower,Black,,32.4,2
+case,Phanteks, XT View,346.6,17,ATX Mid Tower,Black,Tempered Glass,50.6,2
+case,Deepcool, MATREXX 50 ADD-RGB 4F,317.44,11,ATX Mid Tower,Black,Tempered Glass,44.5,2
+case,Cooler Master, MasterBox NR200P V2,502.58,37,Mini ITX Desktop,White,Mesh,20.1,1
+case,Fractal Design, Meshify C,346.55,44,ATX Mid Tower,White / Black,Tempered Glass,40.6,2
+case,Lian Li, LANCOOL 205M MESH,389.93,21,MicroATX Mini Tower,White,Tempered Glass,33.8,2
+case,Antec, NX410,290.27,2,ATX Mid Tower,Black,Tempered Glass,39.7,2
+case,Apex, DM-387,376.88,36,HTPC,Black,,12.8,1
+case,be quiet!, Pure Base 500,302.88,28,ATX Mid Tower,Black,,46.0,2
+case,Lian Li, LANCOOL III,649.91,10,ATX Mid Tower,Black,Tempered Glass,65.5,4
+case,Cooler Master, N200,259.94,36,MicroATX Mini Tower,Black,,33.8,3
+case,NZXT, H510 Elite,736.57,49,ATX Mid Tower,White / Black,Tempered Glass,41.3,2
+case,Corsair, iCUE 4000D RGB AIRFLOW,649.91,36,ATX Mid Tower,White,Tempered Glass,48.6,2
+case,MSI, MAG PANO M100R PZ,472.3,40,MicroATX Mid Tower,Black,Tempered Glass,41.9,1
+case,Antec, C8,541.58,22,ATX Mid Tower,White,Tempered Glass,66.9,2
+case,Thermaltake, The Tower 100,389.93,30,Mini ITX Tower,Black,Tempered Glass,32.7,2
+case,Lian Li, LANCOOL 205 Mesh C,541.58,31,ATX Mid Tower,Pink,Tempered Glass,41.3,2
+case,Corsair, 2500X,693.24,47,MicroATX Mini Tower,White,Tempered Glass,54.8,2
+case,Fractal Design, Torrent,823.23,30,ATX Mid Tower,Black,,69.8,2
+case,Antec, AX61 ELITE,259.94,22,ATX Mid Tower,Black,Tempered Glass,36.4,2
+case,Fractal Design, Focus 2,303.27,28,ATX Mid Tower,Black,Tempered Glass,45.8,2
+case,Thermaltake, The Tower 300,649.91,30,MicroATX Mini Tower,White,Tempered Glass,53.0,3
+case,Phanteks, Enthoo Elite,3899.66,45,ATX Full Tower,Black,Tinted Tempered Glass,124.5,6
+case,HYTE, Y70 Touch,1559.84,44,ATX Mid Tower,Black / White,Tempered Glass,70.7,2
+case,Lian Li, O11 Air Mini,476.59,14,ATX Mid Tower,White,Tempered Glass,44.2,4
+case,Lian Li, PC-O11 Dynamic Razer,1260.04,50,ATX Full Tower,Black,Tempered Glass,54.0,3
+case,Phanteks, NV7,823.23,15,ATX Full Tower,Black,Tempered Glass,78.9,2
+case,Fractal Design, Meshify 2,693.24,54,ATX Mid Tower,Black,Tinted Tempered Glass,61.7,6
+case,Fractal Design, Define 7,779.33,56,ATX Mid Tower,Black,,62.4,6
+case,Phanteks, ECLIPSE G500A DRGB,519.92,16,ATX Mid Tower,Black,Tempered Glass,61.8,2
+case,ZZEW, A1 Plus,476.59,55,Mini ITX Tower,Silver,Mesh,5.8,0
+case,Thermaltake, S200 TG ARGB,346.55,52,ATX Mid Tower,Black,Tempered Glass,38.2,2
+case,In Win, Chopin MAX,647.39,1,Mini ITX Desktop,Gray,Mesh,4.4,0
+case,Cooler Master, HAF 700 EVO,2058.13,49,ATX Full Tower,Gray / Black,Tempered Glass,,12
+case,Corsair, 4000D Airflow,628.2,8,ATX Mid Tower,Black,Tempered Glass,48.6,2
+case,Fractal Design, Define 7 XL,974.88,7,ATX Full Tower,Black,,82.0,6
+case,Lian Li, Lancool II Mesh,857.93,27,ATX Mid Tower,Black,Tempered Glass,54.1,3
+case,Phanteks, NV7,866.56,49,ATX Full Tower,White,Tempered Glass,78.9,2
+case,Corsair, 2500D Airflow,693.24,24,MicroATX Mini Tower,Black,Tempered Glass,54.8,2
+case,Phanteks, Enthoo Pro 2,606.58,5,ATX Full Tower,Black,Tempered Glass,,12
+case,Thermaltake, Core V21,281.56,59,MicroATX Mini Tower,Black,Acrylic,45.6,3
+case,MSI, MPG VELOX 100R,515.63,32,ATX Mid Tower,Black,Tempered Glass,53.7,2
+case,MSI, MAG FORGE 100M,567.62,56,ATX Mid Tower,Black,Tempered Glass,44.1,2
+case,NZXT, H7 Elite (2023),433.26,14,ATX Mid Tower,White,Tempered Glass,55.8,2
+case,Zalman, S3,229.61,19,ATX Mid Tower,Black,Acrylic,38.4,2
+case,Corsair, iCUE 5000D RGB AIRFLOW,953.22,51,ATX Mid Tower,White,Tempered Glass,66.2,2
+case,Deepcool, CC360 ARGB,259.89,25,MicroATX Mini Tower,White,Tinted Tempered Glass,38.7,2
+case,Phanteks, NV9,1083.21,45,ATX Full Tower,Black,Tempered Glass,99.0,3
+case,Asus, TUF Gaming GT301,389.93,32,ATX Mid Tower,Black,Tempered Glass,43.9,2
+case,Fractal Design, Meshify 2 Mini,822.32,51,MicroATX Mid Tower,Black,Tinted Tempered Glass,33.0,2
+case,Asus, TUF Gaming GT501,707.93,30,ATX Mid Tower,Black / Gray,Tempered Glass,75.5,4
+case,Antec, DF700 FLUX,389.93,32,ATX Mid Tower,Black,Tempered Glass,49.9,3
+case,Fractal Design, Meshify 2 Compact TG Light Tint,541.58,34,ATX Mid Tower,Black,Tempered Glass,42.3,2
+case,Thermaltake, Versa H18,259.94,41,MicroATX Mini Tower,Black,Acrylic,30.4,2
+case,Corsair, 3000D AIRFLOW,281.6,14,ATX Mid Tower,White,Tempered Glass,49.5,2
+case,Deepcool, CH360,362.02,44,MicroATX Mid Tower,Black,Tempered Glass,39.7,2
+case,Thermaltake, The Tower 200,433.26,35,Mini ITX Tower,Black,Tempered Glass,45.1,2
+case,Fractal Design, Torrent RGB,996.55,5,ATX Mid Tower,Black,Tinted Tempered Glass,69.8,2
+case,Phanteks, XT View,346.6,14,ATX Mid Tower,White,Tempered Glass,50.6,2
+case,Corsair, 2000D RGB AIRFLOW,498.25,20,Mini ITX Tower,Black,Mesh,24.8,0
+case,Fractal Design, Meshify C,303.27,34,ATX Mid Tower,Black,,40.6,2
+case,NZXT, H7 Flow RGB,584.91,1,ATX Mid Tower,White,Tempered Glass,55.8,2
+case,Cooler Master, MasterBox TD500 Mesh w/ Controller,368.26,49,ATX Mid Tower,Black,Tempered Glass,,2
+case,Corsair, 6500D Airflow,866.56,41,ATX Mid Tower,Black,Tempered Glass,78.3,2
+case,HYTE, Y70 Touch,1559.84,22,ATX Mid Tower,Black / Red,Tempered Glass,70.7,2
+case,Thermaltake, Core V1,216.61,3,Mini ITX Desktop,White,Acrylic,22.4,2
+case,Cooler Master, QUBE 500 Flatpack,441.92,26,ATX Mid Tower,Black,Tempered Glass,38.9,4
+case,Phanteks, EVOLV SHIFT XT,476.59,52,Mini ITX Desktop,Silver / Black,Tempered Glass,17.5,0
+case,Corsair, iCUE 7000X RGB,996.55,15,ATX Full Tower,White,Tempered Glass,81.8,6
+case,Antec, Performance 1 FT,576.25,19,ATX Full Tower,Black,Tempered Glass,62.7,2
+case,Jonsbo, N3,727.94,51,Mini ITX Desktop,Black,,18.2,8
+case,Montech, KING 95,389.93,47,ATX Mid Tower,White,Tempered Glass,63.0,5
+case,Thermaltake, Core W200,2195.79,33,ATX Full Tower,Black,Acrylic,,4
+case,Corsair, 2000D AIRFLOW,454.92,59,Mini ITX Tower,White,Mesh,24.8,0
+case,Corsair, 3000D RGB AIRFLOW,389.93,4,ATX Mid Tower,White,Tempered Glass,49.5,2
+case,BitFenix, Nova Mesh SE,281.21,34,ATX Mid Tower,Black,Tempered Glass,36.1,2
+case,Fractal Design, Torrent Nano,390.4,44,Mini ITX Tower,White / Black,Tempered Glass,34.6,1
+case,Cooler Master, TD300 Mesh,411.59,47,MicroATX Mini Tower,Black,Tempered Glass,,2
+case,GAMDIAS, TALOS E3 MESH,236.32,44,ATX Mid Tower,White,Tempered Glass,34.1,2
+case,HYTE, REVOLT 3,866.56,41,Mini ITX Tower,Black,Mesh,,1
+case,Phanteks, Enthoo Pro 2,563.25,38,ATX Full Tower,Black,,,12
+case,Fractal Design, Core 1100,229.56,10,MicroATX Mini Tower,Black,,47.9,2
+case,Corsair, iCUE 220T RGB Airflow,504.23,4,ATX Mid Tower,Black,Tempered Glass,37.3,2
+case,Lian Li, O11D XL-X,866.56,39,ATX Full Tower,Black,Tempered Glass,68.9,4
+case,Lian Li, LANCOOL III RGB,658.57,36,ATX Mid Tower,White,Tempered Glass,65.5,4
+case,Jonsbo, D31 MESH,443.4,47,MicroATX Mini Tower,Black,Tempered Glass,31.3,1
+case,Fractal Design, North XL,779.9,9,ATX Full Tower,White,Mesh,61.4,2
+case,SSUPD, Meshroom S w/PCIe 4.0 Riser,649.91,44,ATX Mini Tower,Gray,Mesh,14.9,0
+case,be quiet!, Pure Base 500DX,411.2,44,ATX Mid Tower,White,Tempered Glass,48.3,2
+case,Jonsbo, C6,238.32,32,MicroATX Mini Tower,Black,Mesh,15.9,1
+case,Montech, AIR 1000 PREMIUM,303.22,34,ATX Mid Tower,White,Tempered Glass,,2
+case,Phanteks, Enthoo Pro Tempered Glass,480.92,58,ATX Full Tower,Black,Tinted Tempered Glass,69.1,6
+case,Thermaltake, S100 Snow Edition,309.25,49,MicroATX Mini Tower,White / Black,Tempered Glass,,2
+case,Lian Li, LANCOOL 205 Mesh C,411.59,6,ATX Mid Tower,Black,Tempered Glass,41.3,2
+case,Cooler Master, N400,324.93,33,ATX Mid Tower,Black,,40.2,7
+case,Thermaltake, Versa H15,262.06,58,MicroATX Mid Tower,Black,,,3
+case,Corsair, iCUE 5000T RGB,1516.51,35,ATX Mid Tower,Black,Tempered Glass,74.5,2
+case,Thermaltake, V250 TG ARGB Air,342.22,8,ATX Mid Tower,Black,Tempered Glass,44.4,2
+case,Antec, AX20,402.06,0,ATX Mid Tower,Black,Tempered Glass,33.4,2
+case,Antec, NX410,290.27,55,ATX Mid Tower,White,Tempered Glass,39.7,2
+case,be quiet!, Silent Base 802,649.52,34,ATX Mid Tower,Black,Tempered Glass,83.8,3
+case,MSI, MPG GUNGNIR 300R AIRFLOW,736.57,7,ATX Mid Tower,Black,Tempered Glass,60.5,2
+case,Fractal Design, Core 2300,333.55,27,ATX Mid Tower,Black,,37.8,3
+case,Jonsbo, D31 MESH,389.93,30,MicroATX Mini Tower,White,Tempered Glass,31.3,1
+case,Deepcool, CG560,554.58,53,ATX Mid Tower,Black,Tempered Glass,48.9,2
+case,Cooler Master, MasterBox NR600 (w/o ODD),389.93,0,ATX Mid Tower,Black,Tempered Glass,47.3,4
+case,MSI, MAG VAMPIRIC 100R,321.77,48,ATX Mid Tower,Black,Tempered Glass,36.5,2
+case,Thermaltake, Ceres 300 TG ARGB,389.93,25,ATX Mid Tower,Black,Tempered Glass,53.9,1
+case,Corsair, 275R Airflow,855.81,57,ATX Mid Tower,Black,Tempered Glass,,2
+case,Fractal Design, Pop XL Silent,433.26,17,ATX Full Tower,Black,,62.4,3
+case,Lian Li, Lancool II Mesh C RGB,454.53,1,ATX Mid Tower,White,Tempered Glass,54.1,3
+case,Fractal Design, Meshify 2,649.91,17,ATX Mid Tower,Black,,61.7,6
+case,Fractal Design, Focus G,268.56,46,ATX Mid Tower,White,Acrylic,42.2,2
+case,GAMDIAS, AURA GC1,238.27,15,ATX Mid Tower,Black,Tempered Glass,31.1,2
+case,Fractal Design, Pop Silent,346.6,38,ATX Mid Tower,Black,,46.2,2
+case,Fractal Design, Focus 2 RGB,389.88,51,ATX Mid Tower,Black,Tempered Glass,45.8,2
+case,Fractal Design, Torrent Compact RGB,736.57,50,ATX Mid Tower,Black,Tinted Tempered Glass,46.7,1
+case,Corsair, 5000D AIRFLOW,758.23,54,ATX Mid Tower,White / Gray,Tempered Glass,66.2,2
+case,Lian Li, V3000 PLUS,2166.46,45,ATX Full Tower,Black,Tempered Glass,127.6,8
+case,Jonsbo, Jonsplus Z20,459.3,20,MicroATX Desktop,Black,Tempered Glass,25.3,1
+case,SSUPD, Meshroom S w/PCIe 4.0 Riser,1214.11,57,ATX Mini Tower,Black,Mesh,14.9,0
+case,Fractal Design, Torrent Compact,1134.94,15,ATX Mid Tower,Black,,46.7,1
+case,HYTE, Y70,909.89,53,ATX Mid Tower,Black / Red,Tempered Glass,70.7,2
+case,Fractal Design, Focus G,259.94,0,ATX Mid Tower,Black / Blue,Acrylic,42.2,2
+case,Lian Li, LANCOOL II-W,324.93,45,ATX Mid Tower,White / Black,Tempered Glass,,3
+case,Cooler Master, MasterBox MB311L ARGB,322.2,3,MicroATX Mid Tower,Black,Tempered Glass,,2
+case,Silverstone, SG13 V2,281.56,16,Mini ITX Tower,Black,,11.5,1
+case,Thermaltake, View 270,303.27,54,ATX Mid Tower,Black,Tempered Glass,47.6,2
+case,Corsair, 7000D AIRFLOW,823.23,29,ATX Full Tower,White / Black,Tempered Glass,81.8,6
+case,Deepcool, CC560 ARGB,778.64,20,ATX Mid Tower,Black,Tempered Glass,41.7,2
+case,Fractal Design, Torrent Nano RGB,796.1,47,Mini ITX Tower,Black,Tinted Tempered Glass,34.6,1
+case,Corsair, 4000D Airflow,671.53,51,ATX Mid Tower,White,Tempered Glass,48.6,2
+case,Cooler Master, MasterBox MB600L V2 w/ODD,226.96,25,ATX Mid Tower,Black,,42.7,2
+case,Thermaltake, View 270,303.27,50,ATX Mid Tower,White,Tempered Glass,47.6,2
+case,Fractal Design, Meshify 2 Compact,759.31,13,ATX Mid Tower,Black,,42.3,2
+case,Jonsbo, N2,658.62,5,Mini ITX Desktop,Black,,11.1,5
+case,Fractal Design, Torrent,823.23,50,ATX Mid Tower,White,Tempered Glass,69.8,2
+case,Cooler Master, HAF 500,368.26,16,ATX Mid Tower,Black,Tempered Glass,,2
+case,HYTE, Y60,779.9,22,ATX Mid Tower,Red / Black,Tempered Glass,,2
+case,Antec, NX200M,238.27,50,MicroATX Mid Tower,White,Tempered Glass,,2
+case,Lian Li, O11D XL-W,1682.2,27,ATX Full Tower,White / Black,Tempered Glass,68.9,4
+case,Thermaltake, S200 TG ARGB,346.55,14,ATX Mid Tower,White,Tempered Glass,38.2,2
+case,be quiet!, Pure Base 600,389.54,40,ATX Mid Tower,Black,,50.9,3
+case,Phanteks, NV9,1039.88,7,ATX Full Tower,White,Tempered Glass,99.0,3
+case,Cooler Master, QUBE 500 Flatpack,311.93,28,ATX Mid Tower,White,Tempered Glass,38.9,4
+case,Fractal Design, Focus 2 RGB,346.6,32,ATX Mid Tower,White / Black,Tempered Glass,45.8,2
+case,Phanteks, Enthoo Pro,433.26,40,ATX Full Tower,Black,,68.6,6
+case,HYTE, REVOLT 3,563.25,7,Mini ITX Tower,Black,Mesh,,1
+case,Asus, TUF Gaming GT502,671.57,27,ATX Mid Tower,White,Tempered Glass,57.2,4
+case,Cougar, MX330,242.65,45,ATX Mid Tower,Black,Acrylic,39.4,2
+case,Fractal Design, Meshify 2,519.87,0,ATX Mid Tower,Black,Tinted Tempered Glass,61.7,6
+case,Thermaltake, Tower 900 Snow Edition,1018.17,6,ATX Full Tower,White,Tempered Glass,153.6,6
+case,Corsair, iCUE LINK 6500X RGB,1169.87,33,ATX Mid Tower,Black,Tempered Glass,78.3,2
+case,GAMDIAS, NESO P1,649.91,7,ATX Full Tower,Black,Tempered Glass,75.2,5
+case,Fractal Design, Focus G Mini,268.56,27,MicroATX Mini Tower,Black,Acrylic,36.4,2
+case,Thermaltake, V100 Perforated,216.61,31,ATX Mid Tower,Black,,36.6,2
+case,Lian Li, TU150,688.38,7,Mini ITX Desktop,Black,Tempered Glass,23.8,1
+case,Fractal Design, Define 7 XL Dark,1018.21,25,ATX Full Tower,Black,Tinted Tempered Glass,82.0,6
+case,Asus, A21,484.47,50,MicroATX Mini Tower,Black,Tempered Glass,44.0,2
+case,Zalman, S5,303.22,16,ATX Mid Tower,White / Black,Tempered Glass,,2
+case,Thermaltake, View 200 TG ARGB,346.55,6,ATX Mid Tower,Black,Tempered Glass,38.2,2
+case,Deepcool, CH560,389.93,8,ATX Mid Tower,White,Tempered Glass,49.6,2
+case,Corsair, 2500D Airflow,693.24,29,MicroATX Mini Tower,White,Tempered Glass,54.8,2
+case,Fractal Design, Pop Air,389.93,58,ATX Mid Tower,Orange / Black,Tempered Glass,46.2,2
+case,Fractal Design, Pop Air,389.93,42,ATX Mid Tower,Cyan / Black,Tempered Glass,46.2,2
+case,Antec, NX500M,238.27,3,MicroATX Mini Tower,Black,Tempered Glass,34.6,2
+case,Thermaltake, Versa H21,259.89,8,ATX Mid Tower,Black,,42.8,3
+case,Fractal Design, Define 7 Compact,498.25,8,ATX Mid Tower,Black,,42.5,2
+case,Corsair, iCUE 5000X RGB QL Edition,1299.86,30,ATX Mid Tower,White,Tempered Glass,66.2,2
+case,be quiet!, Silent Base 802,692.85,50,ATX Mid Tower,Black,,83.8,3
+case,Cougar, Archon 2 Mesh RGB,290.22,47,ATX Mid Tower,Black,Tempered Glass,37.5,2
+case,Antec, P101 Silent,433.26,50,ATX Mid Tower,Black,,,8
+case,Jonsbo, N1,649.95,54,Mini ITX Desktop,Silver,,12.7,5
+case,Lian Li, V3000 PLUS White GGF Edition,2060.12,54,ATX Full Tower,White,Tempered Glass,127.6,8
+case,SAMA, AR01-RGB,376.71,37,MicroATX Mini Tower,White,Tempered Glass,46.2,2
+case,Cougar, MX360 RGB,309.98,43,ATX Mid Tower,Black,Tempered Glass,36.5,2
+case,Deepcool, CH360 DIGITAL,389.93,14,MicroATX Mid Tower,Black,Tempered Glass,39.7,2
+case,Fractal Design, Meshify C Mini,672.91,22,MicroATX Mini Tower,Black,Tinted Tempered Glass,36.6,2
+case,Asus, GX601,1317.19,8,ATX Full Tower,White / Black,Tempered Glass,83.5,2
+case,Fractal Design, Pop Air,433.21,29,ATX Mid Tower,Pink / Black,Tempered Glass,46.2,2
+case,Thermaltake, The Tower 500,649.91,43,ATX Mid Tower,Black,Tempered Glass,93.9,8
+case,Corsair, iCUE 220T RGB Airflow,507.05,35,ATX Mid Tower,White,Tempered Glass,37.3,2
+case,be quiet!, Shadow Base 800,476.59,24,ATX Mid Tower,Black,Tempered Glass,70.9,2
+case,Antec, P20C,324.93,7,ATX Mid Tower,Black,Tempered Glass,50.6,2
+case,Jonsbo, D30,433.26,39,MicroATX Mini Tower,Black,Tempered Glass,26.6,1
+case,be quiet!, Pure Base 500,346.21,15,ATX Mid Tower,Black,Tempered Glass,46.0,2
+case,Montech, SKY TWO GX,385.64,44,ATX Mid Tower,Black,Tempered Glass,49.5,2
+case,Jonsbo, TK-1,693.28,32,MicroATX Mini Tower,Black,Tempered Glass,32.0,2
+case,Cooler Master, MasterBox TD500 Mesh V2,411.59,16,ATX Mid Tower,White,Tempered Glass,52.4,2
+case,Lian Li, LANCOOL III,584.91,43,ATX Mid Tower,White,Tempered Glass,65.5,4
+case,Fractal Design, Focus G,251.27,2,ATX Mid Tower,Black / Red,Acrylic,42.2,2
+case,Deepcool, CH780,563.25,2,ATX Full Tower,Black,Tempered Glass,72.7,2
+case,Fractal Design, Meshify 2 RGB,758.23,5,ATX Mid Tower,Black,Tempered Glass,61.7,6
+case,MSI, MAG VAMPIRIC 010,731.84,40,ATX Mid Tower,Black,Tempered Glass,41.9,2
+case,Deepcool, CH560 DIGITAL,498.25,59,ATX Mid Tower,White,Tempered Glass,49.6,2
+case,Lian Li, Lancool II Mesh C Performance,772.83,48,ATX Mid Tower,Black,Tempered Glass,54.1,3
+case,MSI, MPG GUNGNIR 120R,389.93,55,ATX Mid Tower,Black,Tempered Glass,45.5,2
+case,Silverstone, SG13,304.57,37,Mini ITX Tower,Black,,11.5,1
+case,Zalman, Z1 Iceberg,259.94,4,MicroATX Mid Tower,Black,Tempered Glass,38.5,2
+case,Silverstone, SG05-LITE,300.93,9,Mini ITX Desktop,Black,,10.7,1
+case,Fractal Design, Pop Air,433.21,55,ATX Mid Tower,White,Tempered Glass,46.2,2
+case,Corsair, Crystal Series 680X RGB,1096.21,31,ATX Mid Tower,Black,Tempered Glass,73.5,3
+case,Lian Li, LANCOOL 205 Mesh C,441.92,6,ATX Mid Tower,White,Tempered Glass,41.3,2
+case,Jonsbo, D41 Mesh,450.63,51,ATX Mid Tower,Black,Tempered Glass,35.4,2
+case,Thermaltake, V250 TG ARGB,337.89,27,ATX Mid Tower,Black,Tempered Glass,,2
+case,Jonsbo, D30,433.26,35,MicroATX Mini Tower,White,Tempered Glass,26.6,1
+case,Fractal Design, Define 7 Mini,476.59,43,MicroATX Mini Tower,Black,,33.2,2
+case,HYTE, Y40,558.96,22,ATX Mid Tower,Red / Black,Tempered Glass,49.7,1
+case,Fractal Design, Torrent Nano,642.32,56,Mini ITX Tower,Black,,34.6,1
+case,Thermaltake, Core P3 TG Pro,541.58,57,ATX Mid Tower,,Tempered Glass,71.7,4
+case,Corsair, 4000D,411.59,45,ATX Mid Tower,Black,Tempered Glass,48.6,2
+case,SAMA, AR01-RGB,389.88,2,MicroATX Mini Tower,Black,Tempered Glass,46.2,2
+case,Jonsbo, TK-1,693.28,22,MicroATX Mini Tower,White,Tempered Glass,32.0,2
+case,In Win, CE685.FH300TB3,513.94,35,MicroATX Slim,Black,,11.8,1
+case,Silverstone, GD09B,508.69,0,HTPC,Black,,26.5,2
+case,Vetroo, AL-MESH-7C,303.22,27,ATX Mid Tower,White,Tempered Glass,40.9,2
+case,Phanteks, Eclipse P600S,519.92,14,ATX Mid Tower,Black,Tinted Tempered Glass,,4
+case,Montech, KING 95 PRO,732.28,35,ATX Mid Tower,Blue / Black,Tempered Glass,63.0,5
+case,Thermaltake, View 200 TG ARGB,277.27,17,ATX Mid Tower,White,Tempered Glass,38.2,2
+case,Phanteks, Enthoo Pro 2 Server Edition,628.24,54,ATX Full Tower,Black,,78.0,4
+case,Corsair, iCUE 5000X RGB,714.9,52,ATX Mid Tower,White / Gray,Tempered Glass,66.2,2
+case,Cougar, MX331 MESH-X,194.94,32,ATX Mid Tower,Black,,43.5,2
+case,ADATA, XPG INVADER X,732.28,11,ATX Mid Tower,Black,Tempered Glass,52.1,3
+case,Zalman, i4,303.22,59,ATX Mid Tower,Black,Mesh,43.1,2
+case,Silverstone, FARA H1M,299.8,57,MicroATX Mini Tower,Black,Tempered Glass,30.1,2
+case,Cooler Master, TD300 Mesh,359.64,24,MicroATX Mini Tower,White / Black,Tempered Glass,,2
+case,Phanteks, ECLIPSE G500A DRGB,476.59,8,ATX Mid Tower,White,Tempered Glass,61.8,2
+case,Fractal Design, Meshify 2 Nano,1356.79,11,Mini ITX Tower,Black,Tempered Glass,29.3,1
+case,MSI, MEG PROSPECT 700R,1343.19,23,ATX Mid Tower,Black,Tempered Glass,80.7,2
+case,MSI, MPG GUNGNIR 110R,428.97,22,ATX Mid Tower,White,Tempered Glass,,2
+case,Thermaltake, Tower 900,1321.48,15,ATX Full Tower,Black,Tempered Glass,153.6,6
+case,Corsair, iCUE LINK 6500X RGB,1169.87,35,ATX Mid Tower,White,Tempered Glass,78.3,2
+case,Cooler Master, MasterCase H500 ARGB,602.24,11,ATX Mid Tower,Black,Tempered Glass,,2
+case,GAMDIAS, APOLLO E2 ELITE,303.22,5,ATX Mid Tower,Black,Tempered Glass,,2
+case,Zalman, S2,238.27,36,ATX Mid Tower,Black,Tempered Glass,38.4,2
+case,MSI, MEG MAESTRO 700L PZ,1650.87,34,ATX Mid Tower,Black,Tempered Glass,66.8,0
+case,Fractal Design, Focus G,268.56,48,ATX Mid Tower,Black / Gray,Acrylic,42.2,2
+case,HYTE, REVOLT 3,563.25,14,Mini ITX Tower,White,Mesh,,1
+case,NZXT, H7 Elite (2022),866.56,16,ATX Mid Tower,,Tempered Glass,55.8,2
+case,Jonsbo, C6 Handle,272.94,43,MicroATX Mini Tower,Black,Mesh,15.9,1
+case,Deepcool, MORPHEUS,693.24,54,ATX Full Tower,Black,Tempered Glass,72.7,2
+case,Phanteks, ECLIPSE G500A DRGB (Fanless),476.59,55,ATX Mid Tower,Black,Tempered Glass,61.8,2
+case,Deepcool, CH780,563.25,57,ATX Full Tower,White,Tempered Glass,72.7,2
+case,Zalman, S4,238.27,51,ATX Mid Tower,Black,Tinted Acrylic,,2
+case,Phanteks, ECLIPSE G500A Performance,519.92,45,ATX Mid Tower,Black,Tempered Glass,61.8,2
+case,Razer, Tomahawk Mini-ITX,597.91,40,Mini ITX Tower,Black / Green,Tinted Tempered Glass,,0
+case,be quiet!, Dark Base 701,866.17,47,ATX Mid Tower,Black,Tempered Glass,73.6,2
+case,Jonsbo, Jonsplus Z20,433.26,39,MicroATX Desktop,White,Tempered Glass,25.3,1
+case,Phanteks, Enthoo Pro 2 Server Edition,736.57,14,ATX Full Tower,Black,Tempered Glass,78.0,4
+case,Asus, ROG Z11,600.03,15,Mini ITX Tower,Black,Tinted Tempered Glass,,1
+case,be quiet!, Pure Base 500,346.21,54,ATX Mid Tower,White,,46.0,2
+case,Lian Li, LANCOOL 215,433.26,3,ATX Mid Tower,White,Tempered Glass,,2
+case,Fractal Design, Pop XL Silent,564.76,46,ATX Full Tower,Black,Tempered Glass,62.4,3
+case,Silverstone, MILO 11,316.22,57,MicroATX Desktop,Black / Silver,,10.3,1
+case,Corsair, 6500D Airflow,866.56,5,ATX Mid Tower,White,Tempered Glass,78.3,2
+case,Deepcool, MATREXX 50,374.93,52,ATX Mid Tower,Black,Tempered Glass,44.5,2
+case,Fractal Design, Pop Mini Silent,514.15,24,MicroATX Mid Tower,Black,Tempered Glass,36.5,2
+case,Cooler Master, HAF 700,1252.15,34,ATX Full Tower,Black,Tempered Glass,83.6,9
+case,Asus, TUF Gaming GT501,671.57,34,ATX Mid Tower,White / Black,Tempered Glass,75.5,4
+case,Corsair, 2000D RGB AIRFLOW,606.58,21,Mini ITX Tower,White,Mesh,24.8,0
+case,Lian Li, TU150,661.82,44,Mini ITX Desktop,Silver,Tempered Glass,23.8,1
+case,NZXT, H7,433.26,40,ATX Mid Tower,White,Tempered Glass,55.8,2
+case,Fractal Design, Meshify 2 XL,888.22,46,ATX Full Tower,Black,Tinted Tempered Glass,81.5,6
+case,Montech, KING 95 PRO,732.28,33,ATX Mid Tower,Red / Black,Tempered Glass,63.0,5
+case,Fractal Design, Torrent RGB,996.55,25,ATX Mid Tower,White,Tempered Glass,69.8,2
+case,Cooler Master, Cosmos C700M,2383.11,32,ATX Full Tower,Silver / Black,Tempered Glass,,4
+case,Cooler Master, MasterCase H500M,953.04,0,ATX Mid Tower,Black,Tempered Glass,73.7,2
+case,Montech, SKY TWO,472.3,9,ATX Mid Tower,Blue,Tempered Glass,45.3,2
+case,Phanteks, Evolv X,736.57,17,ATX Mid Tower,Black,Tinted Tempered Glass,64.9,4
+case,Gigabyte, C200 Glass,294.56,13,ATX Mid Tower,Black,Tempered Glass,43.8,2
+case,Antec, Dark Phantom DP301M,281.56,5,MicroATX Mid Tower,Black,Acrylic,,2
+case,Zalman, S3,238.27,12,ATX Mid Tower,Black,Tempered Glass,38.4,2
+case,Gigabyte, C301 GLASS,411.59,49,ATX Mid Tower,Black,Tempered Glass,50.6,2
+case,Lian Li, Lancool II Mesh C RGB,549.08,25,ATX Mid Tower,Black,Tempered Glass,54.1,3
+case,Silverstone, GD11,732.23,41,HTPC,Black,,30.9,3
+case,Silverstone, SUGO 14,945.29,18,Mini ITX Desktop,Black / Yellow,,19.5,0
+case,Thermaltake, The Tower 100 Snow,433.26,50,Mini ITX Tower,White,Tempered Glass,32.7,2
+case,Fractal Design, Meshify 2 Nano,389.93,32,Mini ITX Tower,White,Tempered Glass,29.3,1
+case,MSI, MPG VELOX 100R,602.29,28,ATX Mid Tower,White,Tempered Glass,53.7,2
+case,Cooler Master, MasterBox 520 Mesh,692.24,23,ATX Mid Tower,Black / White,Tempered Glass,52.5,2
+case,Corsair, 5000D CORE AIRFLOW,590.11,26,ATX Mid Tower,White,Tempered Glass,66.2,2
+case,MSI, MPG GUNGNIR 111R,1023.45,7,ATX Mid Tower,Black,Tempered Glass,44.4,2
+case,Cougar, Duoface Pro RGB,433.26,44,ATX Mid Tower,Black,Tempered Glass,55.4,2
+case,Corsair, iCUE 5000T RGB,1728.87,58,ATX Mid Tower,White / Gray,Tempered Glass,74.5,2
+case,Corsair, Crystal 280X RGB,801.56,11,MicroATX Mid Tower,White,Tempered Glass,,2
+case,Jonsbo, D300,589.29,43,MicroATX Mid Tower,Black,Tempered Glass,45.8,2
+case,Fractal Design, Meshify 2 Mini,776.26,38,MicroATX Mid Tower,White / Black,Tempered Glass,33.0,2
+case,Fractal Design, Torrent Nano,960.11,5,Mini ITX Tower,Black,Tinted Tempered Glass,34.6,1
+case,Thermaltake, View 71 TG RGB,831.89,0,ATX Full Tower,Black,Acrylic,,7
+case,NZXT, H7 Elite (2022),866.56,59,ATX Mid Tower,,Tempered Glass,55.8,2
+case,Thermaltake, Ceres 300 TG ARGB,827.56,7,ATX Mid Tower,Green,Tempered Glass,53.9,1
+case,Cooler Master, N300,646.22,45,ATX Mid Tower,Black,Acrylic,39.5,7
+case,Fractal Design, Meshify 2,791.64,36,ATX Mid Tower,White / Black,Tempered Glass,61.7,6
+case,Fractal Design, Define Mini C TG,590.85,48,MicroATX Mid Tower,Black,Tempered Glass,36.9,2
+case,be quiet!, Pure Base 600,389.54,46,ATX Mid Tower,Black / Orange,Tempered Glass,50.9,3
+case,Deepcool, CH510 MESH DIGITAL,476.59,44,ATX Mid Tower,Black,Tempered Glass,49.2,2
+case,Deepcool, MATREXX 55 V3 ADD-RGB 3F,507.44,11,ATX Mid Tower,Black,Tempered Glass,,2
+case,be quiet!, Shadow Base 800 FX,779.51,30,ATX Mid Tower,White,Tempered Glass,70.9,2
+case,Aerocool, Bolt,463.63,51,ATX Mid Tower,Black,Acrylic,35.3,2
+case,Cooler Master, QUBE 500 Flatpack Macaron Edition,363.93,4,ATX Mid Tower,Multicolor,Tempered Glass,38.9,4
+case,be quiet!, Shadow Base 800 DX,606.19,5,ATX Mid Tower,Black,Tempered Glass,70.9,2
+case,Antec, DF600 FLUX,368.26,46,ATX Mid Tower,Black,Tempered Glass,,3
+case,Antec, VSK4000E U3,311.98,21,ATX Mid Tower,Black,,,5
+case,Fractal Design, Torrent Compact,773.31,1,ATX Mid Tower,Black,Tinted Tempered Glass,46.7,1
+case,Silverstone, Sugo 16,372.59,8,Mini ITX Tower,Black,,13.0,1
+case,Cooler Master, HAF 500,368.26,23,ATX Mid Tower,White,Tempered Glass,,2
+case,Thermaltake, Level 20,3271.24,59,ATX Full Tower,Black / Silver,Tempered Glass,141.0,8
+case,In Win, CJ712,410.51,53,MicroATX Desktop,Black,,8.0,1
+case,Thermaltake, The Tower 500,554.58,20,ATX Mid Tower,White,Tempered Glass,93.9,8
+case,Fractal Design, Define 7 XL Light,1876.02,22,ATX Full Tower,Black,Tempered Glass,82.0,6
+case,Corsair, 5000D CORE AIRFLOW,606.58,8,ATX Mid Tower,Black,Tinted Tempered Glass,66.2,2
+case,BitFenix, FLOW,302.88,26,ATX Mid Tower,Black,Tempered Glass,42.3,2
+case,Fractal Design, Meshify 2 Compact TG Dark Tint,643.45,15,ATX Mid Tower,Black,Tinted Tempered Glass,42.3,2
+case,Cooler Master, MasterBox MB320L ARGB,364.54,43,MicroATX Mini Tower,Black,Tempered Glass,38.8,2
+case,Antec, AX90,324.93,28,ATX Mid Tower,Black,Tempered Glass,48.3,2
+case,Gigabyte, AORUS C500 GLASS,1018.21,6,ATX Mid Tower,Black,Tempered Glass,116.6,2
+case,Phanteks, Eclipse P400A Digital,660.52,28,ATX Mid Tower,White,Tempered Glass,45.9,2
+case,Cougar, Archon 2 Mesh RGB,294.56,23,ATX Mid Tower,White,Tempered Glass,37.5,2
+case,be quiet!, Dark Base 700,1516.55,18,ATX Mid Tower,Black,Tempered Glass,,7
+case,Cooler Master, Cosmos C700P Black Edition,2289.08,38,ATX Full Tower,Black,Tempered Glass,127.3,2
+case,Thermaltake, The Tower 200,541.58,4,Mini ITX Tower,White,Tempered Glass,45.1,2
+case,Thermaltake, The Tower 300,649.91,21,MicroATX Mini Tower,Green / Black,Tempered Glass,53.0,3
+case,Asus, TUF Gaming GT302 ARGB,1347.04,3,ATX Mid Tower,Black,Tempered Glass,59.3,2
+case,Jonsbo, C6,259.98,2,MicroATX Mini Tower,White,Mesh,15.9,1
+case,Jonsbo, TK-2 2.0,662.95,33,ATX Mid Tower,Black,Tempered Glass,53.2,1
+case,Deepcool, CH360,368.26,25,MicroATX Mid Tower,White,Tempered Glass,39.7,2
+case,NZXT, H7,563.25,17,ATX Mid Tower,Black,Tempered Glass,55.8,2
+case,Thermaltake, View 51 ARGB Edition,779.9,34,ATX Full Tower,Black,Tempered Glass,91.0,2
+case,Silverstone, CS382,1083.21,2,ATX Mid Tower,Black,,39.6,1
+case,Thermaltake, Core P3 TG Pro Snow,606.58,40,ATX Mid Tower,,Tempered Glass,71.7,4
+case,Lian Li, O11D XL-A,866.56,37,ATX Full Tower,Silver / Black,Tempered Glass,68.9,4
+case,Thermaltake, Divider 170 TG ARGB,346.55,39,MicroATX Mid Tower,Black,Tempered Glass,36.5,2
+case,GAMDIAS, ARGUS E4 ELITE,249.67,54,ATX Mid Tower,Black,Tempered Glass,,2
+case,Lian Li, Lancool II Mesh,992.26,41,ATX Mid Tower,White,Tempered Glass,54.1,3
+case,Phanteks, EVOLV SHIFT XT,623.43,36,Mini ITX Desktop,Black,Tempered Glass,17.5,0
+case,SAMA, IM01 Pro,346.55,28,MicroATX Mini Tower,Black,Tempered Glass,26.1,4
+case,Aerocool, Aero One Eclipse,270.77,8,ATX Mid Tower,White / Black,Tempered Glass,,2
+case,be quiet!, Dark Base Pro 901,1299.42,55,ATX Full Tower,White,Tempered Glass,94.5,2
+case,NZXT, H510i,740.73,42,ATX Mid Tower,Black,Tempered Glass,41.3,2
+case,Fractal Design, Focus 2,407.95,45,ATX Mid Tower,White / Black,Tempered Glass,45.8,2
+case,RAIJINTEK, PAEAN MINI,302.88,6,Mini ITX Tower,Black,Tempered Glass,26.0,1
+case,Antec, Dark League DF800 FLUX,411.59,40,ATX Mid Tower,Black,Tempered Glass,,3
+case,Thermaltake, CTE T500 Air,502.58,9,ATX Full Tower,White,Tempered Glass,87.3,4
+case,Silverstone, SUGO 15,756.63,36,Mini ITX Desktop,Black,,19.1,0
+case,Thermaltake, Ceres 500,649.91,0,ATX Mid Tower,Black,Tempered Glass,65.3,2
+case,Thermaltake, Divider 170 TG Snow ARGB,346.55,51,MicroATX Mid Tower,White / Black,Tempered Glass,36.5,2
+case,GAMDIAS, TALOS E3 WH,259.94,35,ATX Mid Tower,White / Black,Tempered Glass,,2
+case,Silverstone, SUGO 14,266.39,0,Mini ITX Desktop,White,,19.5,0
+case,Thermaltake, Core X71,649.91,44,ATX Full Tower,Black,Acrylic,,3
+case,Antec, NX416L,389.93,4,ATX Mid Tower,Black,Tempered Glass,49.9,2
+case,GAMDIAS, NESO P1,649.91,4,ATX Full Tower,White,Tempered Glass,75.2,5
+case,MSI, MPG GUNGNIR 300R AIRFLOW,649.91,0,ATX Mid Tower,White,Tempered Glass,60.5,2
+case,be quiet!, Pure Base 600,389.54,44,ATX Mid Tower,Black,Tempered Glass,50.9,3
+case,Antec, VSK 3000 Elite,226.49,11,MicroATX Mini Tower,Black,,27.5,4
+case,Cougar, MX410 MESH-G RGB,307.56,30,ATX Mid Tower,Black,Tempered Glass,36.3,2
+case,BitFenix, Nova Mesh SE,294.21,26,ATX Mid Tower,White,Tempered Glass,36.1,2
+case,RAIJINTEK, Silenos,227.57,56,ATX Mid Tower,Black,Tempered Glass,39.8,2
+case,Thermaltake, CTE T500 Air,673.17,44,ATX Full Tower,Black,Tempered Glass,87.3,4
+case,Thermaltake, H550 TG ARGB,960.41,40,ATX Mid Tower,Black,Tempered Glass,,2
+case,Thermaltake, CTE C750 Air ARGB,775.91,34,ATX Full Tower,Black,Tempered Glass,110.7,7
+case,Deepcool, MATREXX 55 V3 ADD-RGB WH 3F,359.03,18,ATX Mid Tower,White / Black,Tempered Glass,,2
+case,Thermaltake, Ceres 300 TG ARGB,389.93,36,ATX Mid Tower,White,Tempered Glass,53.9,1
+case,Cooler Master, MasterCase H500,602.24,17,ATX Mid Tower,Black,Tinted Tempered Glass,,2
+case,Thermaltake, Core P8 TG,1018.17,32,ATX Full Tower,Black,Tempered Glass,107.4,3
+case,Antec, NX360,483.87,35,ATX Mid Tower,Black,Tempered Glass,37.5,1
+case,Thermaltake, The Tower 300 Matcha,649.91,40,MicroATX Mini Tower,Green,Tempered Glass,53.0,3
+case,Cooler Master, MasterCase H500P Mesh ARGB,688.95,13,ATX Mid Tower,White,Tempered Glass,71.4,2
+case,Phanteks, Eclipse P500A D-RGB,611.73,14,ATX Mid Tower,Black,Tempered Glass,,2
+case,Silverstone, RM42-502,1468.19,21,ATX Mid Tower,Black,,35.4,0
+case,Phanteks, Enthoo 719,736.57,41,ATX Full Tower,Black,Tempered Glass,81.4,4
+case,Fractal Design, Torrent,1094.78,1,ATX Mid Tower,Gray,Tinted Tempered Glass,69.8,2
+case,Jonsbo, D300,589.29,1,MicroATX Mid Tower,White,Tempered Glass,45.8,2
+case,Fractal Design, Define 7 Dark,823.23,20,ATX Mid Tower,Black,Tinted Tempered Glass,62.4,6
+case,Fractal Design, Torrent Compact,939.78,54,ATX Mid Tower,White,Tempered Glass,46.7,1
+case,Thermaltake, Core P3,594.14,31,ATX Mid Tower,Black,Tempered Glass,80.1,2
+case,Gigabyte, C301 GLASS,433.26,39,ATX Mid Tower,White,Tempered Glass,50.6,2
+case,Fractal Design, Define C,537.6,38,ATX Mid Tower,Black,,39.3,2
+case,Fractal Design, Meshify 2 RGB,758.23,31,ATX Mid Tower,White / Black,Tempered Glass,61.7,6
+case,Thermaltake, The Tower 300 Hydrangea,649.91,7,MicroATX Mini Tower,Blue,Tempered Glass,53.0,3
+case,Fractal Design, Meshify 2 Compact Lite RGB,687.82,45,ATX Mid Tower,Black,Tinted Tempered Glass,42.3,2
+case,Silverstone, CS351,831.89,25,MicroATX Desktop,Black,,22.8,2
+case,SHARKOON, TG6 RGB,349.07,6,ATX Mid Tower,Black,Tempered Glass,,3
+case,Corsair, iCUE 4000D RGB Airflow QL Edition,1083.21,40,ATX Mid Tower,White,Tempered Glass,48.6,2
+case,Zalman, Z1 Iceberg,259.94,4,MicroATX Mid Tower,White,Tempered Glass,38.5,2
+case,Silverstone, SG13 V2,295.42,25,Mini ITX Tower,Pink,,11.5,1
+case,Cooler Master, Silencio S400,563.25,2,MicroATX Mini Tower,Black,,,4
+case,Silverstone, ML03B,433.95,41,HTPC,Black,,15.5,2
+case,Corsair, iCUE 465X RGB,987.92,58,ATX Mid Tower,White / Black,Tempered Glass,,2
+case,Fractal Design, Define 7 Mini,1393.67,17,MicroATX Mini Tower,Black,Tinted Tempered Glass,33.2,2
+case,Corsair, Crystal Series 680X RGB,1191.53,45,ATX Mid Tower,White / Black,Tempered Glass,73.5,3
+case,RAIJINTEK, PAEAN C7,303.27,53,ATX Mid Tower,White,Tempered Glass,45.5,2
+case,be quiet!, Silent Base 601,562.86,41,ATX Mid Tower,Black,,,3
+case,G.Skill, LT1,303.22,48,MicroATX Mini Tower,Black,Tempered Glass,35.0,1
+case,Antec, Performance 1 FT,584.91,14,ATX Full Tower,White,Tempered Glass,62.7,2
+case,In Win, EM048,452.63,20,MicroATX Mini Tower,Black,,,1
+case,Cooler Master, MasterBox NR400 (w/ODD),368.26,45,MicroATX Mid Tower,Black,Tempered Glass,35.5,4
+case,Cooler Master, MasterFrame 700,758.23,16,ATX Full Tower,Black,Tempered Glass,,4
+case,Silverstone, PS15,296.12,39,MicroATX Mid Tower,Black,Tempered Glass,25.7,1
+case,Antec, P20C ARGB,504.92,15,ATX Mid Tower,Black,Tempered Glass,50.6,2
+case,Thermaltake, The Tower 300 Bumblebee,649.91,13,MicroATX Mini Tower,Yellow / Black,Tempered Glass,53.0,3
+case,Cougar, MX330-G Pro,321.99,29,ATX Mid Tower,Black,Tempered Glass,49.1,2
+case,be quiet!, Pure Base 500,346.21,57,ATX Mid Tower,White,Tempered Glass,46.0,2
+case,Fractal Design, Torrent Nano RGB,1538.56,28,Mini ITX Tower,White,Tempered Glass,34.6,1
+case,Deepcool, MORPHEUS,736.52,44,ATX Full Tower,White,Tempered Glass,72.7,2
+case,Silverstone, ML06B,366.7,14,HTPC,Black,,7.1,0
+case,Silverstone, FARA H1M PRO,395.13,20,MicroATX Mini Tower,Black,Tempered Glass,30.1,2
+case,Thermaltake, AH T600 Snow,1299.86,22,ATX Full Tower,White / Black,Tempered Glass,161.6,2
+case,Lian Li, ODYSSEY X,597.87,51,ATX Full Tower,Black,Tempered Glass,,3
+case,Thermaltake, Core P6,693.24,22,ATX Mid Tower,Black,Tempered Glass,76.4,4
+case,Thermaltake, Core P6,819.98,50,ATX Mid Tower,White / Black,Tempered Glass,76.4,4
+case,GAMDIAS, NESO P1,601.77,1,ATX Full Tower,Black / White,Tempered Glass,75.2,5
+case,Antec, DF700 FLUX,433.26,2,ATX Mid Tower,White,Tempered Glass,49.9,3
+case,Deepcool, CK560,578.07,22,ATX Mid Tower,White / Black,Tempered Glass,,2
+case,Thermaltake, View 270,303.27,51,ATX Mid Tower,Green / Black,Tempered Glass,47.6,2
+case,Thermaltake, Core P6,866.56,38,ATX Mid Tower,Green / Black,Tempered Glass,76.4,4
+case,Fractal Design, Define R6,845.58,45,ATX Mid Tower,Black / White,,56.7,6
+case,Thermaltake, View 71 TG Snow,953.22,23,ATX Full Tower,White,Acrylic,,7
+case,Deepcool, CH360 DIGITAL,389.93,20,MicroATX Mid Tower,White,Tempered Glass,39.7,2
+case,SHARKOON, VS8,232.25,39,ATX Mid Tower,Black,,42.1,2
+case,Cooler Master, MasterCase H100 ARGB,350.89,9,Mini ITX Desktop,Black,,,1
+case,Silverstone, SG13,303.22,5,Mini ITX Tower,White / Black,,11.5,1
+case,NZXT, H5 Flow,563.25,9,ATX Mid Tower,White / Blue,Tempered Glass,47.0,1
+case,Montech, KING 95,541.62,23,ATX Mid Tower,Blue / Black,Tempered Glass,63.0,5
+case,Silverstone, Milo 12,732.23,4,HTPC,Black,Mesh,15.6,0
+case,Silverstone, SG05-LITE,301.06,1,Mini ITX Desktop,White,,10.7,1
+case,be quiet!, Pure Base 500,367.87,41,ATX Mid Tower,Gray,Tempered Glass,46.0,2
+case,Apex, MI-008,293.69,22,Mini ITX Tower,Black,,8.5,1
+case,Fractal Design, Torrent Compact RGB,1018.47,7,ATX Mid Tower,White,Tempered Glass,46.7,1
+case,Silverstone, PS16B,331.39,7,MicroATX Mini Tower,Black,,,3
+case,Thermaltake, Core P3 TG Snow Edition,563.25,51,ATX Mid Tower,White,Tempered Glass,80.1,2
+case,Antec, TORQUE,1646.5,18,ATX Mid Tower,Black / Red,Tempered Glass,114.0,1
+case,Jonsbo, D41 Mesh,459.3,46,ATX Mid Tower,White,Tempered Glass,35.4,2
+case,Thermaltake, AH T600,994.42,6,ATX Full Tower,Black,Tempered Glass,161.6,2
+case,Silverstone, GD09 Type-C,874.92,26,HTPC,Black,Mesh,26.5,2
+case,Thermaltake, View 51 Snow ARGB Edition,779.9,19,ATX Full Tower,White,Tempered Glass,91.0,2
+case,Fractal Design, Meshify 2 Lite,675.3,41,ATX Mid Tower,Black,Tempered Glass,61.7,2
+case,Cooler Master, CMP 510,516.19,36,ATX Mid Tower,Black,Tempered Glass,42.0,2
+case,Cooler Master, MasterBox MB530P,519.92,29,ATX Mid Tower,Black,Tempered Glass,,2
+case,GAMDIAS, ATLAS M1,402.93,7,ATX Mid Tower,Black,Tempered Glass,41.0,1
+case,FSP, Group CUT593A,454.92,17,ATX Full Tower,Black,Tempered Glass,62.6,3
+case,Phanteks, Enthoo Series Primo Aluminum,996.55,58,ATX Full Tower,Black,Acrylic,96.8,6
+case,Antec, P20C,324.93,46,ATX Mid Tower,White,Tempered Glass,50.6,2
+case,Thermaltake, Divider 370 TG Snow ARGB,433.26,46,ATX Mid Tower,White / Black,Tempered Glass,50.7,2
+case,Vetroo, AL700,368.26,48,ATX Mid Tower,White,Tempered Glass,48.1,1
+case,Apex, TX-606-U3,358.56,9,MicroATX Mid Tower,Black,,27.9,5
+case,Fractal Design, Meshify 2 Compact White TG Clear Tint,793.2,40,ATX Mid Tower,White / Black,Tempered Glass,42.3,2
+case,Cooler Master, Silencio S600,596.57,47,ATX Mid Tower,Black,,47.0,4
+case,Phanteks, Eclipse P600S,519.92,44,ATX Mid Tower,Black,,,4
+case,Fractal Design, Meshify 2,870.5,20,ATX Mid Tower,Gray,Tinted Tempered Glass,61.7,6
+case,Phanteks, Eclipse P400,920.72,6,ATX Mid Tower,Black,Tinted Tempered Glass,45.9,2
+case,be quiet!, Silent Base 802,714.51,10,ATX Mid Tower,White,Tempered Glass,83.8,3
+case,Silverstone, GD08B,910.15,6,HTPC,Black,,33.4,8
+case,BitFenix, Tracery,346.21,1,ATX Mid Tower,Black,Tempered Glass,52.8,4
+case,Corsair, Obsidian Series 500D Premium,1699.71,21,ATX Mid Tower,Black,Tinted Tempered Glass,59.4,2
+case,HYTE, Y60 Hakos Baelz,1213.24,36,ATX Mid Tower,Red / Black,Tempered Glass,,2
+case,Corsair, iCUE 220T RGB,476.41,10,ATX Mid Tower,Black,Tempered Glass,37.3,2
+case,Segotep, Phoenix T1,519.92,49,ATX Mid Tower,Black,Tempered Glass,65.5,2
+case,MSI, MPG SEKIRA 500X,907.98,40,ATX Mid Tower,Black,Tempered Glass,67.1,4
+case,BitFenix, Nova Mesh SE,294.21,21,ATX Mid Tower,White / Purple,Tempered Glass,36.1,2
+case,Fractal Design, Pop Silent,501.54,17,ATX Mid Tower,Black,Tempered Glass,46.2,2
+case,Fractal Design, Define 7 Light,952.48,19,ATX Mid Tower,Black,Tempered Glass,62.4,6
+case,be quiet!, Silent Base 802,649.52,38,ATX Mid Tower,White,,83.8,3
+case,Silverstone, ML05B,320.34,16,HTPC,Black,,,0
+case,Thermaltake, Ceres 330 ARGB,493.23,43,ATX Mid Tower,Blue,Tempered Glass,53.9,1
+case,Corsair, 5000D,714.9,21,ATX Mid Tower,Black,Tempered Glass,66.2,2
+case,Fractal Design, Meshify 2 Compact Lite,920.76,56,ATX Mid Tower,Black,Tinted Tempered Glass,42.3,2
+case,Jonsbo, N2,641.28,13,Mini ITX Desktop,White,,11.1,5
+case,ADATA, XPG STARKER AIR,303.27,21,ATX Mid Tower,Black,Tempered Glass,40.0,2
+case,Cougar, PANZER MAX-G,753.9,4,ATX Full Tower,Black,Tempered Glass,90.5,2
+case,Phanteks, Eclipse P600S,606.58,2,ATX Mid Tower,White,Tempered Glass,,4
+case,Fractal Design, Define R6,948.54,1,ATX Mid Tower,Black / White,Tempered Glass,56.7,6
+case,Cooler Master, MasterBox Lite 3.1,396.43,38,MicroATX Mid Tower,Black / Red,Tempered Glass,36.1,2
+case,Silverstone, FARA H1M,305.74,27,MicroATX Mini Tower,Black,,30.1,2
+case,Thermaltake, S300 Tempered Glass Edition,454.88,20,ATX Mid Tower,Black,Tempered Glass,,2
+case,be quiet!, Pure Base 600,478.28,40,ATX Mid Tower,Black / Silver,,50.9,3
+case,ADATA, XPG INVADER,303.22,41,ATX Mid Tower,Black,Tempered Glass,,2
+case,Lian Li, LANCOOL 205 Mesh,844.94,10,ATX Mid Tower,Black,Tempered Glass,41.3,2
+case,Fractal Design, Core 1000,292.82,19,MicroATX Mini Tower,Black,,26.1,2
+case,be quiet!, Dark Base 701,1039.49,8,ATX Mid Tower,White,Tempered Glass,73.6,2
+case,In Win, B1 Pure,554.62,27,Mini ITX Desktop,White / Brown,,7.8,0
+case,Fractal Design, Torrent,1360.74,24,ATX Mid Tower,Black,Tinted Tempered Glass,69.8,2
+case,Thermaltake, The Tower 100,454.88,8,Mini ITX Tower,Green / Black,Tempered Glass,32.7,2
+case,GAMDIAS, NESO P1,595.01,52,ATX Full Tower,Black / Red,Tempered Glass,75.2,5
+case,RAIJINTEK, OPHION ELITE WHITE,346.21,4,Mini ITX Tower,White,Mesh,24.9,3
+case,Fractal Design, Define 7,1310.69,20,ATX Mid Tower,White,Tempered Glass,62.4,6
+case,Thermaltake, The Tower 200 Bumblebee,563.25,53,Mini ITX Tower,Yellow / Black,Tempered Glass,45.1,2
+case,Silverstone, Sugo SG11,494.48,16,MicroATX Mini Tower,Black,,,3
+case,Antec, P20CE,433.26,41,ATX Mid Tower,Black,,50.6,2
+case,Thermaltake, CTE C750 Air ARGB,761.48,56,ATX Full Tower,White,Tempered Glass,110.7,7
+case,Antec, NX416L,389.93,19,ATX Mid Tower,White,Tempered Glass,49.9,2
+case,Cougar, PANZER EVO RGB,827.56,46,ATX Full Tower,Black,Tempered Glass,,2
+case,In Win, BK623.BH300TB3,419.09,58,MicroATX Mini Tower,Black / Silver,,12.3,1
+case,Thermaltake, Core V71 TG,1102.01,30,ATX Full Tower,Black,Tempered Glass,,8
+case,Fractal Design, Define 7,941.3,1,ATX Mid Tower,Gray,,62.4,6
+case,GAMDIAS, ATHENA P1,389.93,16,ATX Mid Tower,Black,Tempered Glass,49.6,2
+case,Fractal Design, Pop Silent,463.41,55,ATX Mid Tower,White,Tempered Glass,46.2,2
+case,Lian Li, ODYSSEY X,1711.54,7,ATX Full Tower,Silver / Black,Tempered Glass,,3
+case,Jonsbo, D300 4PCS,563.25,42,MicroATX Mid Tower,Black,Tempered Glass,45.8,2
+case,Silverstone, FARA H1M,319.69,27,MicroATX Mini Tower,White,Tempered Glass,30.1,2
+case,Montech, SKY ONE LITE,505.18,7,ATX Mid Tower,Black,Tempered Glass,44.8,2
+case,Silverstone, RVZ01B,590.72,5,Mini ITX Desktop,Black,,,1
+case,Fractal Design, Define 7 Compact,511.21,19,ATX Mid Tower,Black,Tempered Glass,42.5,2
+case,Silverstone, SETA D1,680.5,21,ATX Mid Tower,Black,,56.5,8
+case,Silverstone, FARA R1 PRO V2,525.81,39,ATX Mid Tower,Black,Tempered Glass,40.1,2
+case,SHARKOON, QB ONE,912.36,21,Mini ITX Desktop,Black,Mesh,14.9,2
+case,Fractal Design, Meshify 2 Lite,1153.01,14,ATX Mid Tower,White / Black,Tempered Glass,61.7,2
+case,Zalman, Z7 NEO,346.55,24,ATX Mid Tower,Black,Tempered Glass,41.2,2
+case,Cooler Master, MasterBox 520 Mesh,697.74,4,ATX Mid Tower,White,Tempered Glass,52.5,2
+case,Vetroo, K1,606.58,48,ATX Mid Tower,Silver,Tempered Glass,37.4,2
+case,Thermaltake, View 71 ARGB,1018.17,40,ATX Full Tower,Black,Tempered Glass,,7
+case,Antec, NX260,502.19,23,ATX Mid Tower,Black,Tempered Glass,,2
+case,BitFenix, Saber Mesh,660.31,1,ATX Mid Tower,White,Tempered Glass,42.3,2
+case,Fractal Design, Define R6 USB-C,917.95,52,ATX Mid Tower,Black / White,Tempered Glass,56.7,6
+case,Jonsbo, TK-2 2.0,762.61,46,ATX Mid Tower,White,Tempered Glass,53.2,1
+case,Fractal Design, Define 7,1923.77,1,ATX Mid Tower,Black / White,Tempered Glass,62.4,6
+case,SHARKOON, Rebel C20 ITX,1427.25,22,Mini ITX Desktop,Black,Mesh,29.5,1
+case,Antec, P120 Crystal,519.92,50,ATX Mid Tower,Black,Tempered Glass,,2
+case,Thermaltake, The Tower 200,563.25,21,Mini ITX Tower,Green,Tempered Glass,45.1,2
+case,In Win, A3,411.64,20,MicroATX Mini Tower,Black,Tempered Glass,29.9,2
+case,Silverstone, DS380B,912.92,3,Mini ITX Tower,Black,,,0
+case,Corsair, 5000D,714.9,36,ATX Mid Tower,White / Gray,Tempered Glass,66.2,2
+case,Cougar, MG120,229.56,3,MicroATX Mini Tower,Black,,,2
+case,Asus, TUF Gaming GT501 Demon Slayer Edition,1165.58,56,ATX Mid Tower,Yellow / Black,Tempered Glass,75.5,4
+case,HYTE, REVOLT 3,1083.21,36,Mini ITX Tower,White,Mesh,,1
+case,Gigabyte, AORUS C300,658.57,5,ATX Mid Tower,Black,Tinted Tempered Glass,,2
+case,SAMA, IM01 Pro,346.55,5,MicroATX Mini Tower,White,Tempered Glass,26.1,4
+case,Corsair, iCUE 5000X RGB Neon Night,1083.21,5,ATX Mid Tower,Black / Purple,Tempered Glass,66.2,2
+case,Cougar, Cratus,1889.14,33,ATX Mid Tower,Black,Tempered Glass,114.3,2
+case,Montech, SKY TWO GX,411.64,3,ATX Mid Tower,White,Tempered Glass,49.5,2
+case,Phanteks, Enthoo 719,736.57,29,ATX Full Tower,Gray,Tempered Glass,81.4,4
+case,Thermaltake, Ceres 500,649.91,50,ATX Mid Tower,White,Tempered Glass,65.3,2
+case,Silverstone, ML04B,512.2,5,HTPC,Black,,16.0,2
+case,Cougar, Duoface RGB,346.6,30,ATX Mid Tower,White,Tempered Glass,43.6,2
+case,Silverstone, ALTA G1M,684.61,56,MicroATX Mid Tower,,,,4
+case,Silverstone, RVZ03,632.05,8,Mini ITX Desktop,Black,,,0
+case,In Win, ModFree Deluxe,1078.92,50,ATX Full Tower,Black,Tempered Glass,84.5,1
+case,be quiet!, Pure Base 500,367.87,12,ATX Mid Tower,Gray,,46.0,2
+case,Thermaltake, V150 Tempered Glass ARGB Breeze,419.74,8,MicroATX Mid Tower,Black,Tempered Glass,,2
+case,Cooler Master, MasterBox MB600L V2,371.21,4,ATX Mid Tower,Black,,37.7,2
+case,Deepcool, Quadstellar Infinity,1518.28,34,ATX Mid Tower,Black,Tempered Glass,129.9,3
+case,Thermaltake, The Tower 300 Bubble Pink,649.91,45,MicroATX Mini Tower,Pink / White,Tempered Glass,53.0,3
+case,Silverstone, ML07B,449.38,17,HTPC,Black,,13.9,1
+case,Thermaltake, CTE C750 ARGB,779.9,32,ATX Full Tower,Black,Tempered Glass,110.7,7
+case,Montech, KING 95,515.63,27,ATX Mid Tower,Red / Black,Tempered Glass,63.0,5
+case,Fractal Design, Meshify 2 Compact Lite,558.26,55,ATX Mid Tower,White,Tempered Glass,42.3,2
+case,Fractal Design, Meshify 2 Compact RGB,1102.36,52,ATX Mid Tower,White,Tempered Glass,42.3,2
+case,RAIJINTEK, ASTERION CLASSIC,432.87,12,ATX Full Tower,Silver,Tempered Glass,56.0,3
+case,ADATA, XPG Battlecruiser,476.59,0,ATX Mid Tower,White / Black,Tempered Glass,55.2,2
+case,SHARKOON, VS9 RGB,310.81,48,ATX Mid Tower,White,Tempered Glass,42.1,2
+case,RAIJINTEK, Metis Plus,348.94,13,Mini ITX Tower,Black,Acrylic,13.4,2
+case,Silverstone, FARA 513 Type-C,376.06,46,ATX Mid Tower,Black,,44.6,2
+case,Cooler Master, CMP 510,433.26,18,ATX Mid Tower,Black,Tempered Glass,42.0,2
+case,Cooler Master, MasterBox MB500,818.89,48,ATX Mid Tower,Black,Tempered Glass,49.5,2
+case,be quiet!, Dark Base 900,1624.88,50,ATX Full Tower,Black / Silver,,82.0,7
+case,Deepcool, MACUBE 310,499.64,57,ATX Mid Tower,White,Tempered Glass,45.2,2
+case,RAIJINTEK, PAN Slim,822.84,2,Mini ITX Desktop,Black,,38.7,2
+case,Montech, SKY ONE LITE,346.21,14,ATX Mid Tower,White,Tempered Glass,44.8,2
+case,Thermaltake, CTE C700 Air,673.17,8,ATX Mid Tower,Black,Tempered Glass,93.8,7
+case,Cougar, MX600 RGB,777.64,17,ATX Full Tower,White,Tempered Glass,57.8,1
+case,Enermax, StarryKnight SK30 V2,441.92,29,ATX Mid Tower,Black,Tempered Glass,49.7,2
+case,RAIJINTEK, Silenos Pro,259.94,50,ATX Mid Tower,Black,Tempered Glass,39.8,2
+case,Fractal Design, Define 7,1979.44,39,ATX Mid Tower,White,,62.4,6
+case,Phanteks, Evolv X,779.9,37,ATX Mid Tower,White,Tempered Glass,64.9,4
+case,Cooler Master, MasterCase H500P Mesh,688.95,59,ATX Mid Tower,White,Acrylic,71.4,2
+case,Thermaltake, S300 Tempered Glass Snow Edition,433.26,58,ATX Mid Tower,White,Tempered Glass,,2
+case,be quiet!, Shadow Base 800 DX,649.52,42,ATX Mid Tower,White,Tempered Glass,70.9,2
+case,Silverstone, ML08,591.32,2,HTPC,Black,Acrylic,,0
+case,RAIJINTEK, METIS EVO TGS,324.93,25,Mini ITX Desktop,White,Tempered Glass,22.3,2
+case,In Win, 301,303.22,22,MicroATX Mini Tower,White / Blue,Tempered Glass,28.1,1
+case,Silverstone, FARA H1M PRO,400.2,6,MicroATX Mini Tower,White / Black,Tempered Glass,30.1,2
+case,Jonsbo, MOD5,1334.56,24,ATX Mid Tower,Gray,Tempered Glass,97.2,1
+case,Silverstone, RVZ02B,467.92,1,HTPC,Black,,,1
+case,Thermaltake, AH T200,584.87,6,MicroATX Mid Tower,Black,Tempered Glass,69.1,2
+case,SHARKOON, REV 100,258.72,22,ATX Mid Tower,Black,Tempered Glass,43.1,3
+case,Jonsbo, BO 100,996.55,46,Mini ITX Desktop,Silver,Tempered Glass,15.7,1
+case,Antec, P10 FLUX,368.26,20,ATX Mid Tower,Black,,,3
+case,Fractal Design, Meshify 2 Lite,1141.62,35,ATX Mid Tower,Black,Tempered Glass,61.7,2
+case,NZXT, H510i Rivals,645.18,11,ATX Mid Tower,Yellow / Black,Tempered Glass,41.3,2
+case,Thermaltake, CTE C700 TG ARGB,475.03,23,ATX Mid Tower,Black,Tempered Glass,93.8,7
+case,Thermaltake, Ceres 330 ARGB,476.59,6,ATX Mid Tower,Black,Tempered Glass,53.9,1
+case,Fractal Design, Define 7 Compact,793.98,5,ATX Mid Tower,Black,Tinted Tempered Glass,42.5,2
+case,ADATA, XPG DEFENDER,346.6,15,ATX Mid Tower,Black,Tempered Glass,47.7,2
+case,be quiet!, Dark Base 900,1603.21,42,ATX Full Tower,Black / Orange,,82.0,7
+case,Antec, P10C,766.38,2,ATX Mid Tower,Black,,51.0,3
+case,Zalman, Z3 Iceberg,259.94,35,ATX Mid Tower,Black,Tempered Glass,41.3,2
+case,Cougar, Duoface Pro RGB,532.31,48,ATX Mid Tower,White,Tempered Glass,55.4,2
+case,Thermaltake, The Tower 100,462.29,39,Mini ITX Tower,Turquoise / Black,Tempered Glass,32.7,2
+case,ADATA, XPG CRUISER,389.93,19,ATX Mid Tower,Black,Tempered Glass,53.8,4
+case,Thermaltake, Divider 370 TG ARGB,407.26,28,ATX Mid Tower,Black,Tempered Glass,50.7,2
+case,Thermaltake, Core P90,801.52,25,ATX Mid Tower,Black,Tinted Tempered Glass,135.9,3
+case,ADATA, XPG INVADER,303.22,5,ATX Mid Tower,White,Tempered Glass,,2
+case,Cougar, MX330-F,324.54,1,ATX Mid Tower,Black,Acrylic,39.4,2
+case,Silverstone, SG13,297.63,22,Mini ITX Tower,Black,,11.5,1
+case,Thermaltake, View 31 TG,346.55,42,ATX Mid Tower,Black,Acrylic,63.5,3
+case,Jonsbo, TK-3,571.96,31,ATX Mid Tower,Black,Tempered Glass,52.3,2
+case,Silverstone, FARA 312Z,367.01,50,MicroATX Mini Tower,Black,Tempered Glass,37.2,2
+case,Thermaltake, Core P6,1018.17,47,ATX Mid Tower,Blue / Black,Tempered Glass,76.4,4
+case,Lian Li, LANCOOL 205 Mesh,844.94,57,ATX Mid Tower,White / Black,Tempered Glass,41.3,2
+case,BitFenix, Prodigy M 2022,346.21,51,MicroATX Mini Tower,Black / White,Tempered Glass,,2
+case,Silverstone, PS15,303.22,46,MicroATX Mid Tower,White,Tempered Glass,25.7,1
+case,Thermaltake, CTE E600,761.48,5,ATX Mid Tower,Black,Tempered Glass,77.4,2
+case,Thermaltake, The Tower 200,563.25,14,Mini ITX Tower,Beige,Tempered Glass,45.1,2
+case,Thermaltake, Versa H15,1040.27,14,MicroATX Mid Tower,Black,Acrylic,,3
+case,Thermaltake, CTE C750 ARGB,779.9,24,ATX Full Tower,White,Tempered Glass,110.7,7
+case,Silverstone, ML09,423.98,7,HTPC,Black,,,0
+case,Thermaltake, CTE T500,731.28,59,ATX Full Tower,Black,Tempered Glass,87.3,4
+case,SHARKOON, Rebel C70M RGB,553.54,56,ATX Mid Tower,Brown / Black,Mesh,54.5,3
+case,In Win, A5,454.96,19,ATX Mid Tower,Black,Tempered Glass,34.9,2
+case,Jonsbo, BO 100,996.55,10,Mini ITX Desktop,Black,Tempered Glass,15.7,1
+case,Antec, P7 NEO,324.89,1,ATX Mid Tower,Black,,46.3,2
+case,Fractal Design, Define 7 Compact,693.8,12,ATX Mid Tower,White,Tempered Glass,42.5,2
+case,Fractal Design, Meshify 2 Compact TG Light Tint,691.07,19,ATX Mid Tower,Gray / Black,Tempered Glass,42.3,2
+case,ADATA, XPG STARKER AIR,303.22,22,ATX Mid Tower,White / Black,Tempered Glass,40.0,2
+case,Silverstone, SUGO 15,641.24,36,Mini ITX Desktop,Silver,,19.1,0
+case,Silverstone, Sugo 16,381.26,46,Mini ITX Tower,White,,13.0,1
+case,Thermaltake, Ceres 330 ARGB,476.59,22,ATX Mid Tower,White,Tempered Glass,53.9,1
+case,Silverstone, CS330B,779.9,39,MicroATX Mini Tower,Black,,30.2,4
+case,Cougar, MX430 Air RGB,514.33,41,ATX Mid Tower,Black,Tempered Glass,37.6,2
+case,Silverstone, FARA R1,343.0,39,ATX Mid Tower,White / Black,Tempered Glass,,1
+case,Jonsbo, Jonsplus i400,2157.1,37,ATX Mid Tower,Silver,Tempered Glass,55.7,6
+case,Thermaltake, The Tower 200,584.87,30,Mini ITX Tower,Turquoise,Tempered Glass,45.1,2
+case,Thermaltake, H570 TG ARGB,519.92,45,ATX Mid Tower,White,Tempered Glass,48.8,2
+case,RAIJINTEK, OPHION EVO,673.52,33,Mini ITX Desktop,Black,Acrylic,,1
+case,Jonsbo, TK-3,571.96,50,ATX Mid Tower,White,Tempered Glass,52.3,2
+case,Zalman, Z3 Iceberg,259.94,58,ATX Mid Tower,White,Tempered Glass,41.3,2
+case,Silverstone, FARA R1 PRO,363.89,25,ATX Mid Tower,Black,Tempered Glass,36.0,1
+case,SHARKOON, Rebel C20 ITX RGB,1840.27,29,Mini ITX Desktop,Black,Mesh,29.5,1
+case,Thermaltake, AH T200 Snow,584.87,48,MicroATX Mid Tower,White,Tempered Glass,69.1,2
+case,ADATA, XPG INVADER X,732.28,32,ATX Mid Tower,White,Tempered Glass,52.1,3
+case,be quiet!, Silent Base 601,562.86,25,ATX Mid Tower,Black,Tempered Glass,,3
+case,GAMDIAS, ATLAS M1,389.93,5,ATX Mid Tower,White,Tempered Glass,41.0,1
+case,RAIJINTEK, PAN Slim,822.84,1,Mini ITX Desktop,White,,38.7,2
+case,Silverstone, GD07B,887.05,56,HTPC,Black,,33.4,5
+case,GAMDIAS, ATHENA M1 ELITE,303.27,14,ATX Mid Tower,Black,Tempered Glass,,2
+case,G.Skill, Z5i,606.58,55,Mini ITX Tower,Black,Tempered Glass,24.4,1
+case,Asus, TUF Gaming GT301,866.56,12,ATX Mid Tower,Pink / Black,Tempered Glass,43.9,2
+case,Thermaltake, CTE E600,749.22,14,ATX Mid Tower,Blue,Tempered Glass,77.4,2
+case,Cougar, MX330-G Pro,442.53,10,ATX Mid Tower,White,Tempered Glass,49.1,2
+case,Thermaltake, CTE C700 TG ARGB,632.49,4,ATX Mid Tower,White,Tempered Glass,93.8,7
+case,NZXT, H510i All Might,645.18,47,ATX Mid Tower,Blue / Red,Tempered Glass,41.3,2
+case,Antec, P7 Silent,412.41,49,ATX Mid Tower,Black / Silver,,,2
+case,Aerocool, Playa Slim,553.24,18,MicroATX Mini Tower,Black,,,1
+case,ADATA, XPG Battlecruiser,476.59,31,ATX Mid Tower,Black,Tempered Glass,55.2,2
+case,Thermaltake, LANBOX Lite,346.47,30,MicroATX Mini Tower,Black,,29.6,2
+case,Corsair, iCUE 5000X RGB Glitch,1083.21,2,ATX Mid Tower,Black / Blue,Tempered Glass,66.2,2
+case,Enermax, LIBLLUSSION LL30,281.64,22,ATX Mid Tower,Black,Tempered Glass,,2
+case,Silverstone, CS380,1432.1,22,ATX Mid Tower,Black,,45.0,8
+case,Supermicro, SuperChassis 721TQ-350B2,1178.58,1,Mini ITX Tower,Black,,14.1,0
+case,Silverstone, PS15 PRO,1126.67,58,MicroATX Mid Tower,Black,Tempered Glass,25.7,1
+case,Silverstone, ALTA G1M,683.62,34,MicroATX Mid Tower,White,,,4
+case,In Win, IW-MS04,693.02,37,Mini ITX Desktop,Black,,,4
+case,ADATA, XPG DEFENDER PRO,389.93,44,ATX Mid Tower,Black,Tempered Glass,47.7,2
+case,Antec, DARK CUBE,1593.68,11,MicroATX Mini Tower,Black,Tempered Glass,,1
+case,Thermaltake, Divider 300 TG,476.59,42,ATX Mid Tower,Black,Tempered Glass,48.2,2
+case,RAIJINTEK, PAEAN M,389.93,30,MicroATX Mini Tower,Black,Tempered Glass,40.9,1
+case,Thermaltake, View 300 MX Snow TG ARGB,628.2,31,ATX Mid Tower,White,Tempered Glass,58.8,2
+case,Antec, DP505,381.3,24,ATX Mid Tower,White,Tempered Glass,51.9,2
+case,FSP, Group CUT593P,584.91,45,ATX Full Tower,Black,Tempered Glass,62.6,3
+case,Thermaltake, CTE C700 Air,519.92,12,ATX Mid Tower,White,Tempered Glass,93.8,7
+case,Thermaltake, CTE E600,779.9,8,ATX Mid Tower,White,Tempered Glass,77.4,2
+case,SHARKOON, TG7M RGB,1407.4,40,ATX Mid Tower,Black,Tempered Glass,52.1,2
+case,Thermaltake, Level 20 RS ARGB,519.79,14,ATX Mid Tower,Black,Tempered Glass,,3
+case,Silverstone, RVZ03B-ARGB,687.34,37,Mini ITX Desktop,Black,,,0
+case,Silverstone, SETA A1,634.26,19,ATX Mid Tower,Pink / Silver,Tempered Glass,45.7,2
+case,ADATA, XPG Battlecruiser II,779.9,25,ATX Mid Tower,Black,Tempered Glass,62.6,5
+case,Aerocool, Menace Saturn RGB,340.75,51,ATX Mid Tower,Black,Tempered Glass,36.7,2
+case,be quiet!, Silent Base 601,717.28,59,ATX Mid Tower,Black / Orange,Tempered Glass,,3
+case,Silverstone, ML04 Type-C,837.48,42,HTPC,Black,Mesh,16.0,2
+case,BitFenix, Tracery,346.21,30,ATX Mid Tower,White,Tempered Glass,52.8,4
+case,Segotep, Phoenix T1,519.92,30,ATX Mid Tower,White,Tempered Glass,65.5,2
+case,Silverstone, Precision PS15 RGB,339.92,45,MicroATX Mid Tower,Black,Tempered Glass,25.7,1
+case,In Win, ModFree Base,693.28,43,ATX Full Tower,Black,Tempered Glass,57.2,1
+case,Cooler Master, Elite 500 ODD,439.67,29,ATX Mid Tower,Black,Tempered Glass,43.1,2
+case,Silverstone, FTZ01-E,641.85,18,Mini ITX Desktop,Black,,,0
+case,Thermaltake, CTE T500,476.59,43,ATX Full Tower,White,Tempered Glass,87.3,4
+case,Thermaltake, Divider 200 TG Air Snow,649.78,37,MicroATX Mini Tower,White,Tempered Glass,51.6,3
+case,Silverstone, TJ08B-E,695.19,24,MicroATX Mini Tower,Black,,30.2,4
+case,Thermaltake, View 300 MX,628.2,40,ATX Mid Tower,Black,Tempered Glass,58.8,2
+case,darkFlash, DLH21,560.86,53,Mini ITX Tower,White,,17.2,1
+case,Thermaltake, Divider 200 TG Air,1315.5,41,MicroATX Mini Tower,White,Tempered Glass,51.6,3
+case,BitFenix, Prodigy M 2022,346.21,43,MicroATX Mini Tower,White / Black,Tempered Glass,,2
+case,Cougar, Dust 2,722.83,12,Mini ITX Tower,Black / Gold,Mesh,23.6,0
+case,Thermaltake, Versa H24,602.29,31,ATX Mid Tower,Black,,42.6,3
+case,Silverstone, GD06B,831.68,27,HTPC,Black,,22.4,4
+case,Silverstone, FTZ01,862.83,27,Mini ITX Desktop,Black,,,1
+case,Thermaltake, AH T200,584.87,52,MicroATX Mid Tower,Green / Black,Tempered Glass,69.1,2
+case,Cooler Master, Silencio S400,2397.97,43,MicroATX Mini Tower,Black,Tempered Glass,,4
+case,SHARKOON, REV 200,408.17,18,ATX Mid Tower,Black,Tempered Glass,50.5,2
+case,ADATA, XPG STARKER,303.27,59,ATX Mid Tower,Black,Tempered Glass,40.0,2
+case,RAIJINTEK, Thetis,523.6,10,ATX Mid Tower,Silver,Acrylic,27.7,2
+case,RAIJINTEK, METIS EVO ALS,324.54,48,Mini ITX Desktop,Blue,,22.3,2
+case,Cooler Master, MasterCase H100,375.28,55,Mini ITX Desktop,Black,,,1
+case,Cougar, Archon 2 RGB,519.96,48,ATX Mid Tower,Black,Tempered Glass,37.5,2
+case,Silverstone, TJ04B-E,1090.66,58,ATX Mid Tower,Black,,51.0,9
+case,SHARKOON, MS-Y1000,344.6,58,MicroATX Mid Tower,White,Tempered Glass,26.2,1
+case,Cougar, DarkBlader X7,697.18,35,ATX Mid Tower,Black / Green,Tempered Glass,50.0,2
+case,Silverstone, FARA 511Z,398.46,27,ATX Mid Tower,Black,Tempered Glass,42.9,2
+case,Thermaltake, Urban S31 Window,415.92,49,ATX Mid Tower,White,Acrylic,53.6,6
+case,RAIJINTEK, OPHION M EVO TGS,302.88,21,MicroATX Mid Tower,Black,Tempered Glass,,3
+case,Silverstone, PS07B,472.38,37,MicroATX Mini Tower,Black,,31.4,5
+case,Silverstone, GD10B,677.29,15,HTPC,Black,,27.4,2
+case,RAIJINTEK, METIS EVO TGS,324.93,6,Mini ITX Desktop,Silver,Tempered Glass,22.3,2
+case,be quiet!, Silent Base 601,649.52,35,ATX Mid Tower,Black / Silver,Tempered Glass,,3
+case,Silverstone, PM02-G,584.91,25,ATX Mid Tower,Black / Red,Tempered Glass,49.3,3
+case,Cougar, Gemini M,455.96,1,MicroATX Mini Tower,Black,Tempered Glass,35.7,2
+case,Cougar, DarkBlader X5 RGB,831.24,10,ATX Mid Tower,Black,Tempered Glass,50.0,2
+case,Silverstone, RL08BR-RGB,648.35,26,MicroATX Mini Tower,Black / Red,Tempered Glass,,3
+case,Silverstone, FARA 512Z,445.43,12,ATX Mid Tower,Black,Tempered Glass,43.3,2
+case,RAIJINTEK, METIS EVO ALS,324.54,5,Mini ITX Desktop,Red,,22.3,2
+case,Silverstone, RVZ03W-ARGB,649.91,18,Mini ITX Desktop,White,,,0
+case,be quiet!, Silent Base 601,1083.25,15,ATX Mid Tower,Black / Orange,,,3
+case,ADATA, XPG Battlecruiser II,779.9,45,ATX Mid Tower,White,Tempered Glass,62.6,5
+case,RAIJINTEK, Metis Plus,348.94,14,Mini ITX Tower,White,Acrylic,13.4,2
+case,BitFenix, Prodigy M 2022 ARGB,389.54,13,MicroATX Mini Tower,Black / White,Tempered Glass,,2
+case,RAIJINTEK, PAN Slim,822.84,20,Mini ITX Desktop,Silver,,38.7,2
+case,Thermaltake, Divider 500 TG ARGB,590.72,32,ATX Mid Tower,Black,Tempered Glass,56.8,2
+case,Zalman, M4,303.27,58,MicroATX Mini Tower,Black,Tempered Glass,34.0,2
+case,RAIJINTEK, OPHION M EVO ALS,302.88,27,MicroATX Mid Tower,Black,,,3
+case,RAIJINTEK, Metis Plus,348.94,56,Mini ITX Tower,Silver,Acrylic,13.4,2
+case,Corsair, iCUE 5000X RGB Planetary,1083.21,26,ATX Mid Tower,Black / Orange,Tempered Glass,66.2,2
+case,Silverstone, FARA R1 PRO,432.69,52,ATX Mid Tower,White,Tempered Glass,36.0,1
+case,SHARKOON, MS-Y1000,326.45,26,MicroATX Mid Tower,Black,Tempered Glass,26.2,1
+case,ADATA, XPG STARKER,303.27,35,ATX Mid Tower,White,Tempered Glass,40.0,2
+case,Silverstone, RVZ02B,556.01,46,HTPC,Black / Clear,Acrylic,,1
+case,Silverstone, Lucid LD03,498.3,12,Mini ITX Tower,,Tinted Tempered Glass,25.2,1
+case,ADATA, XPG DEFENDER,346.6,46,ATX Mid Tower,White / Black,Tempered Glass,47.7,2
+case,BitFenix, Dawn TG,476.2,26,ATX Mid Tower,Black,Tempered Glass,,2
+case,Corsair, iCUE 5000X RGB Triptych,1083.21,28,ATX Mid Tower,Black / Green,Tempered Glass,66.2,2
+case,Cougar, DarkBlader X5,522.78,23,ATX Mid Tower,White,Tempered Glass,50.0,2
+case,FSP, Group CUT593P,628.24,58,ATX Full Tower,White,Tempered Glass,62.6,3
+case,Thermaltake, AH T200,584.87,6,MicroATX Mid Tower,Turquoise / Black,Tempered Glass,69.1,2
+case,Antec, Draco 10,346.64,53,MicroATX Mini Tower,Black,Tempered Glass,40.0,2
+case,RAIJINTEK, Metis Plus,348.94,44,Mini ITX Tower,Blue,Acrylic,13.4,2
+case,ADATA, XPG CRUISER,389.93,51,ATX Mid Tower,Black,Tempered Glass,53.8,4
+case,RAIJINTEK, STYX,371.94,31,MicroATX Mini Tower,Blue,Acrylic,,3
+case,Silverstone, Lucid LD03-AF,576.25,46,Mini ITX Tower,Black,Tempered Glass,25.2,1
+case,Silverstone, CS01,641.24,50,Mini ITX Tower,Silver,,,2
+case,Silverstone, SETA A1,604.76,49,ATX Mid Tower,Silver / Black,Tempered Glass,45.7,2
+case,BitFenix, Prodigy M 2022 ARGB,389.54,57,MicroATX Mini Tower,White / Black,Tempered Glass,,2
+case,Silverstone, PS14-E,393.48,34,ATX Mid Tower,Black,Tempered Glass,43.1,2
+case,Thermaltake, Versa N27,866.6,3,ATX Mid Tower,Black,Acrylic,,4
+case,Fractal Design, Define 7 Light,972.76,14,ATX Mid Tower,Gray,Tempered Glass,62.4,6
+case,In Win, Z583T.CQ350TB3L,441.92,31,MicroATX Mini Tower,Black / Silver,,24.2,1
+case,Silverstone, ALTA F1,1161.2,51,ATX Mid Tower,Black,Tempered Glass,56.8,2
+case,Corsair, iCUE 5000X RGB Shift,1083.21,43,ATX Mid Tower,Black / Blue,Tempered Glass,66.2,2
+case,ADATA, XPG DEFENDER PRO,457.65,11,ATX Mid Tower,White / Black,Tempered Glass,47.7,2
+case,Thermaltake, A500,1076.27,8,ATX Mid Tower,Silver / Black,Tempered Glass,67.4,6
+case,Cougar, DarkBlader X5,506.83,46,ATX Mid Tower,Black,Tempered Glass,50.0,2
+case,Thermaltake, Divider 300 ARGB Triangular,595.27,17,ATX Mid Tower,Black,Tempered Glass,48.2,2
+case,Antec, P5,686.87,3,MicroATX Mini Tower,Black,,,2
+case,Thermaltake, H700 TG,411.55,53,ATX Mid Tower,White,Tempered Glass,53.5,2
+case,RAIJINTEK, Metis Plus,348.94,48,Mini ITX Tower,Red,Acrylic,13.4,2
+case,Thermaltake, Divider 500 TG ARGB Snow,537.25,58,ATX Mid Tower,White,Tempered Glass,56.8,2
+case,SHARKOON, MS-Z1000,344.6,8,MicroATX Mid Tower,White,Tempered Glass,26.2,1
+case,Thermaltake, Versa N26,818.94,9,ATX Mid Tower,Black,Acrylic,44.7,3
+case,Cougar, Turret RGB,803.99,40,ATX Mid Tower,Black,Tempered Glass,39.9,2
+case,RAIJINTEK, Thetis,566.93,30,ATX Mid Tower,Silver,,27.7,2
+case,Silverstone, PS14-E,334.64,45,ATX Mid Tower,Black,,43.1,2
+case,In Win, EFS712,497.3,41,MicroATX Mini Tower,Black,,25.5,3
+case,Thermaltake, Versa T27 TG ARGB,553.84,44,ATX Mid Tower,Black,Tempered Glass,50.7,2
+case,Silverstone, FARA V1M PRO,326.84,50,MicroATX Mid Tower,Black,Tempered Glass,36.0,2
+case,RAIJINTEK, STYX,371.94,11,MicroATX Mini Tower,Silver,Acrylic,,3
+case,Thermaltake, Commander C34 TG ARGB,324.89,59,ATX Mid Tower,Black,Tempered Glass,,3
+case,RAIJINTEK, Metis Plus,348.94,25,Mini ITX Tower,Gold,Acrylic,13.4,2
+case,SHARKOON, MS-Z1000,326.45,12,MicroATX Mid Tower,Black,Tempered Glass,26.2,1
+case,Aerocool, Menace Saturn FRGB,667.28,36,ATX Mid Tower,Black,Tempered Glass,36.7,2
+case,Thermaltake, Versa H24,710.61,3,ATX Mid Tower,Black,Acrylic,42.6,3
+case,Silverstone, RV05B,459.56,35,ATX Mid Tower,Black,,63.8,2
+case,Silverstone, ALTA F1,1223.99,43,ATX Mid Tower,Silver / Black,Tempered Glass,56.8,2
+case,Thermaltake, Divider 500 TG ARGB Air,693.24,23,ATX Mid Tower,Black,Tempered Glass,56.8,2
+case,Silverstone, SETA A1,597.43,27,ATX Mid Tower,Black,Tempered Glass,45.7,2
+case,be quiet!, Silent Base 601,673.95,58,ATX Mid Tower,Black / Silver,,,3
+case,Cougar, MG120-G RGB,358.69,38,ATX Mid Tower,Black,Tempered Glass,34.9,2
+case,SAMA, M2,216.26,20,ATX Mid Tower,,Tempered Glass,39.2,2
+case,Silverstone, SG12B-V2,702.64,44,MicroATX Mini Tower,Black / Blue,,,3
+case,BitFenix, Colossus Micro,996.59,52,MicroATX Mid Tower,Black,,30.6,4
+case,Silverstone, FTZ01,736.57,48,Mini ITX Desktop,Silver,,,1
+case,Thermaltake, Divider 300 TG Air,519.92,46,ATX Mid Tower,Black,Tempered Glass,48.2,2
+case,In Win, 904,995.38,4,ATX Mid Tower,Black,Tempered Glass,,3
+case,RAIJINTEK, STYX,371.94,40,MicroATX Mini Tower,Silver,,,3
+case,Silverstone, RV05B-W,582.4,54,ATX Mid Tower,Black,Acrylic,63.8,2
+case,Silverstone, SG04B-F,519.92,23,MicroATX Mini Tower,Black,,24.7,2
+case,RAIJINTEK, STYX,371.94,37,MicroATX Mini Tower,Red,Acrylic,,3
+case,Thermaltake, Commander C34 TG Snow ARGB,324.8,53,ATX Mid Tower,White / Black,Tempered Glass,,3
+case,Silverstone, PM02-G,593.58,6,ATX Mid Tower,,Tempered Glass,49.3,3
+case,Thermaltake, Divider 500 TG ARGB Air Snow,714.86,51,ATX Mid Tower,White,Tempered Glass,56.8,2
+case,RAIJINTEK, PAEAN PREMIUM,952.83,17,ATX Mid Tower,Silver,Tempered Glass,90.6,2
+case,Silverstone, CS01-HS,862.22,19,Mini ITX Tower,Silver,,,0
+case,Thermaltake, Divider 300 TG Air Snow,519.92,22,ATX Mid Tower,White,Tempered Glass,48.2,2
+case,Cougar, MX660-T RGB,740.77,58,ATX Mid Tower,Black,Tempered Glass,50.0,2

@@ -1,18 +1,19 @@
-from sqlalchemy import DateTime, ForeignKey, JSON
+from sqlalchemy import ForeignKey, func
 from sqlalchemy.orm import mapped_column, Mapped
 from datetime import datetime
-from main import Base
+# import json
+from app.models.main import Base
 
-class Order(Base):
+class OrderModel(Base):
     __tablename__ = "order"
 
-    id: Mapped[int]
-    order_list: Mapped[JSON]
+    id: Mapped[int] = mapped_column(primary_key=True, index=True, autoincrement=True)
+    # order_list: Mapped[json]
     customer_email: Mapped[str]
-    order_time: Mapped[DateTime] = mapped_column(default=datetime.now())
+    order_time: Mapped[datetime] = mapped_column(default=func.now())
     status: Mapped[str]
 
-class Feedback(Base):
+class FeedbackModel(Base):
     __tablename__ = "feedback"
 
     id: Mapped[int] = mapped_column(primary_key=True, index=True, autoincrement=True)

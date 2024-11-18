@@ -4,28 +4,22 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, Session
 from fastapi import Depends
 from typing import Annotated
+
+load_dotenv("app/.env")
 # from google.cloud.sql.connector import Connector
-
-load_dotenv("app/core/environment/.env")
-
-DB_USER = os.getenv("DB_USER")
-DB_PASSWORD = os.getenv("DB_PASSWORD")
-DB_HOST = os.getenv("DB_HOST")
-DB_PORT = os.getenv("DB_PORT")
-DB_NAME = os.getenv("DB_NAME")
-# INSTANCE_NAME = os.getenv("INSTANCE_NAME")
 
 # def gcloud_engine():
 #     connector = Connector()
 #     conn = connector.connect(
-#         INSTANCE_NAME,
+#         settings.INSTANCE_NAME,
 #         "psycopg2",
-#         user=DB_USER,
-#         password=DB_PASSWORD,
-#         db=DB_NAME
+#         user=settings.PG_USER,
+#         password=settings.PG_PASSWORD,
+#         db=settings.PG_DB_NAME
 #     )
 #     return create_engine("postgresql+psycopg2://", creator=conn)
-DB_URL = "postgresql+pg8000://{0}:{1}@{2}:{3}/{4}".format(DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, DB_NAME)
+
+DB_URL = f"postgresql+psycopg2://{os.getenv('PG_USER')}:admin@{os.getenv('PG_HOST')}:{os.getenv('PG_PORT')}/{os.getenv('PG_DB_NAME')}"
 engine = create_engine(
     DB_URL,
     pool_size=5,
@@ -45,7 +39,6 @@ def get_db():
     try:
         yield database
         print(f"Connected to database.")
-        # database.execute(text('CREATE EXTENSION IF NOT EXISTS vector'))
     finally:
         database.close()
 
