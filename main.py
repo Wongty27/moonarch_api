@@ -7,8 +7,8 @@ import auth
 import dashboard
 import user_profile
 import build
-
-
+import cart
+import orders
 app = FastAPI()
 
 models.Base.metadata.create_all(bind=engine)
@@ -25,7 +25,5 @@ app.include_router(auth.router)
 app.include_router(dashboard.dashboard_router)
 app.include_router(user_profile.router)
 app.include_router(build.router)
-
-@app.get('/test')
-async def test():
-    return {"message": "Hello, World!"}
+app.include_router(cart.router)
+app.include_router(orders.router)

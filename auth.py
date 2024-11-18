@@ -1,14 +1,17 @@
+import os
 from fastapi import APIRouter, Depends, Path, HTTPException
 from pydantic import BaseModel
-from models import Users
-from database import SessionLocal
 from typing import Annotated, Optional
 from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from jose import jwt, JWTError
 from datetime import timedelta, datetime, timezone
-import os
+from database import db_dependency
+
+from models import Users
+from database import SessionLocal
+from schemas import UserRequest, Token
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
@@ -16,22 +19,6 @@ router = APIRouter(prefix="/auth", tags=["Authentication"])
 oauth2_bearer = OAuth2PasswordBearer(tokenUrl="auth/token")  
 SECRET_KEY = os.getenv("SECRET_KEY")
 ALGORITHM = os.getenv("ALGORITHM")
-
-class UserRequest(BaseModel):
-    email: str
-    password: str
-    user_type: str = "customer"  # Default to customer
-
-class Token(BaseModel):
-    access_token: str
-    token_type: str
-
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
 
 def authenticate_user(email: str, password: str, db):
     user = db.query(Users).filter(Users.email == email).first()
@@ -66,7 +53,6 @@ async def get_current_user(token: Annotated[str, Depends(oauth2_bearer)]):
         raise HTTPException(status_code=401, detail="Could not validate user.")
     
 current_user_dependency = Annotated[dict, Depends(get_current_user)]
-db_dependency = Annotated[Session, Depends(get_db)]
 bcrypt_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 @router.post("/users", response_model=dict)
@@ -84,11 +70,14 @@ async def add_users(db: db_dependency, user_request: UserRequest):
         new_user = Users(
             email=user_request.email,
             password=bcrypt_context.hash(user_request.password),
-            user_type=user_request.user_type,
             # These will automatically be NULL in database
             full_name=None,
             phone_number=None,
-            address=None
+            street_address=None,
+            city=None,
+            state=None,
+            postcode=None,
+            country=None
         )
 
         db.add(new_user)

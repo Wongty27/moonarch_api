@@ -1,12 +1,15 @@
-from fastapi import APIRouter, Depends, Path, HTTPException
 import models
-from models import Products,OrderDetails,OrderItems,Feedbacks,Traffics,PrebuiltPCs,PrebuiltOrderItems
+from fastapi import APIRouter, Depends, Path, HTTPException
 from database import engine, SessionLocal
 from typing import Annotated
+from sqlalchemy import func, asc, literal_column, union_all
 from sqlalchemy.orm import Session
 from datetime import date
-from sqlalchemy import func, asc, literal_column, union_all
-from auth import get_db, master_required, db_dependency
+
+from auth import master_required
+from database import db_dependency, get_db
+from models import Products,OrderDetails,OrderItems,Feedbacks,Traffics,PrebuiltPCs,PrebuiltOrderItems
+
 
 models.Base.metadata.create_all(bind=engine)
 

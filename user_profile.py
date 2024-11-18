@@ -1,30 +1,19 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel, Field
-from models import Users, OrderDetails, OrderItems, Products, Feedbacks
-from database import SessionLocal
 from typing import Annotated, Optional, List
 from sqlalchemy.orm import Session, joinedload
-from auth import  bcrypt_context, db_dependency, customer_required, current_user_dependency
 from uuid import UUID
+
+from models import Users, OrderDetails, OrderItems, Products, Feedbacks, PrebuiltOrderItems
+from schemas import ProfileUpdate, PasswordUpdate, FeedbackData
+from database import SessionLocal, db_dependency
+from auth import  bcrypt_context, customer_required, current_user_dependency
 
 router = APIRouter(
     prefix="/user",
     tags=["User Profile"],
     dependencies=[Depends(customer_required)]
 )
-
-class ProfileUpdate(BaseModel):
-    full_name: Optional[str] = None
-    phone_number: Optional[str] = None
-    address: Optional[str] = None
-
-class PasswordUpdate(BaseModel):
-    old_password: str
-    new_password: str
-
-class FeedbackData(BaseModel):
-    rating: int = Field(..., ge=1, le=5)  # Rating must be between 1 and 5
-    platform: str = Field(..., pattern="^(Facebook|Youtube|Twitter|Instagram|Tiktok)$")
 
 @router.get("/orders")
 async def get_user_orders(
@@ -35,24 +24,37 @@ async def get_user_orders(
         OrderDetails.user_id == current_user["id"]
     ).options(
         joinedload(OrderDetails.order_items_relate).joinedload(OrderItems.products_relate),
-        joinedload(OrderDetails.feedbacks_relate)  # Add this line to load feedback
+        joinedload(OrderDetails.prebuilt_order_items_relate).joinedload(PrebuiltOrderItems.prebuilt_relate),
+        joinedload(OrderDetails.feedbacks_relate)
     ).all()
 
     response = []
     for order in orders:
         items = []
+        
+        # Handle regular product items
         for item in order.order_items_relate:
             items.append({
                 "product_name": item.products_relate.product_name,
                 "category": item.products_relate.category,
                 "quantity": item.quantity,
-                "price": float(item.products_relate.sales_price)
+                "price": float(item.products_relate.sales_price),
+                "type": "product"  # Add type to distinguish between products and prebuilts
+            })
+        
+        # Handle prebuilt PC items
+        for prebuilt_item in order.prebuilt_order_items_relate:
+            items.append({
+                "product_name": prebuilt_item.prebuilt_relate.build_name,
+                "category": "Prebuilt PC",  # Fixed category for prebuilts
+                "quantity": prebuilt_item.quantity,
+                "price": float(prebuilt_item.prebuilt_relate.build_price),
+                "type": "prebuilt"  # Add type to distinguish between products and prebuilts
             })
         
         # Get feedback if it exists
         feedback = None
         if order.feedbacks_relate:
-            # Get the first feedback (assuming one feedback per order)
             feedback_record = order.feedbacks_relate[0]
             feedback = {
                 "rating": feedback_record.rating,
@@ -64,7 +66,7 @@ async def get_user_orders(
             "order_time": order.order_time.isoformat(),
             "order_status": order.order_status,
             "items": items,
-            "feedback": feedback  # Add feedback to response
+            "feedback": feedback
         })
 
     return response
@@ -82,7 +84,11 @@ async def get_user_profile(
         "email": user.email,
         "full_name": user.full_name,
         "phone_number": user.phone_number,
-        "address": user.address
+        "street_address": user.street_address,
+        "city": user.city,
+        "state": user.state,
+        "postcode": user.postcode,
+        "country": user.country
     }
     return response
 
@@ -96,13 +102,14 @@ async def update_user_profile(
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
 
-    # Update other fields if provided
-    if profile_data.full_name is not None:
-        user.full_name = profile_data.full_name
-    if profile_data.phone_number is not None:
-        user.phone_number = profile_data.phone_number
-    if profile_data.address is not None:
-        user.address = profile_data.address
+    # Update using dict comprehension to handle all fields
+    update_data = {
+        k: v for k, v in profile_data.dict(exclude_unset=True).items()
+        if v is not None
+    }
+    
+    for key, value in update_data.items():
+        setattr(user, key, value)
 
     try:
         db.commit()
@@ -124,6 +131,13 @@ async def change_password(
     # Verify old password
     if not bcrypt_context.verify(password_data.old_password, user.password):
         raise HTTPException(status_code=400, detail="Incorrect password")
+    
+        # Additional password validation could go here
+    if password_data.old_password == password_data.new_password:
+        raise HTTPException(
+            status_code=400, 
+            detail="New password must be different from old password"
+        )
 
     # Update password
     user.password = bcrypt_context.hash(password_data.new_password)

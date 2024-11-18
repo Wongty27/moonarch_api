@@ -8,7 +8,7 @@ siti.zubaidah@myemail.my
 hashed_password_3
 
 tan.ahmad@example.my
-hashed_password_4
+12345
 
 azlan.rahman@myemail.com
 hashed_password_5
