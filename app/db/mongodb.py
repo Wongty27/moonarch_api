@@ -1,4 +1,4 @@
-only use for add new data
+# only use for add new data
 
 import os
 from dotenv import load_dotenv
