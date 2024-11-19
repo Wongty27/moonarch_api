@@ -1,13 +1,11 @@
 from fastapi import APIRouter, Depends, HTTPException, status
-from pydantic import BaseModel, Field
-from typing import Annotated, Optional, List
-from sqlalchemy.orm import Session, joinedload
+from sqlalchemy.orm import joinedload
 from uuid import UUID
 
-from models import Users, OrderDetails, OrderItems, Products, Feedbacks, PrebuiltOrderItems
+from models import Users, OrderDetails, OrderItems, Feedbacks, PrebuiltOrderItems
 from schemas import ProfileUpdate, PasswordUpdate, FeedbackData
-from database import SessionLocal, db_dependency
-from auth import  bcrypt_context, customer_required, current_user_dependency
+from app.db.postgres import db_dependency
+from app.routers.auth import bcrypt_context, customer_required, current_user_dependency
 
 router = APIRouter(
     prefix="/user",
@@ -127,7 +125,7 @@ async def change_password(
     user = db.query(Users).filter(Users.user_id == current_user["id"]).first()
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
-
+    
     # Verify old password
     if not bcrypt_context.verify(password_data.old_password, user.password):
         raise HTTPException(status_code=400, detail="Incorrect password")

@@ -1,14 +1,14 @@
 from fastapi import FastAPI
-from database import engine
+from app.db.postgres import engine
 from fastapi.middleware.cors import CORSMiddleware
 
 import models
-import auth
-import dashboard
-import user_profile
-import build
-import cart
-import orders
+import app.routers.auth as auth
+import app.routers.dashboard as dashboard
+import app.routers.user_profile as user_profile
+import app.routers.build as build
+import app.routers.cart as cart
+import app.routers.orders as orders
 app = FastAPI()
 
 models.Base.metadata.create_all(bind=engine)

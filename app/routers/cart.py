@@ -1,11 +1,10 @@
-from fastapi import APIRouter, Depends, HTTPException
-from typing import List, Annotated
-from sqlalchemy.orm import Session, joinedload
+from fastapi import APIRouter, HTTPException
+from sqlalchemy.orm import joinedload
 
 from models import CartItems, PrebuiltPCs, Products
 from schemas import  CartResponse, CartItemCreate, CartItemMessage, CartAddResponse
-from auth import current_user_dependency
-from database import db_dependency
+from app.routers.auth import current_user_dependency
+from app.db.postgres import db_dependency
 
 router = APIRouter(prefix="/cart", tags=["Cart"])
 
