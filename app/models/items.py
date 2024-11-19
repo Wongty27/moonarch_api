@@ -1,34 +1,28 @@
-import random
 from app.models.main import Base
-from sqlalchemy import Text, ForeignKey
+from sqlalchemy import Text, ForeignKey, Identity
+# from sqlalchemy.dialects.postgresql import TSVECTOR
+# from pgvector.sqlalchemy import Vector
 from sqlalchemy.orm import mapped_column, Mapped
 
-def random_quantity(start:int = 1, end:int = 100) -> int:
-    return random.randint(start, end)
-
-def id_generator():
-    pass
-
 class ItemType(Base):
-    __tablename__ = "itemtype"
+    __tablename__ = "item_type"
 
-    id: Mapped[int] = mapped_column(primary_key=True, index=True, autoincrement=True)
+    id: Mapped[int] = mapped_column(primary_key=True, index=True)
     name: Mapped[str]
 
 class Item(Base):
     __tablename__ = "item"
-    id: Mapped[int] = mapped_column(primary_key=True, index=True, autoincrement=True)
-    # necessary?
-    # item_id: Mapped[str] = mapped_column(default=id_generator(), unique=True)
-    type: Mapped[str] = mapped_column(ForeignKey("itemtype.name"))
-    brand: Mapped[str]
+
+    id: Mapped[int] = mapped_column(Identity(start=10000), primary_key=True, index=True)
+    type_id: Mapped[str] = mapped_column(ForeignKey("item_type.id")) # int or str?
+    brand: Mapped[str] 
     name: Mapped[str]
     price: Mapped[float]
-    quantity: Mapped[float] = mapped_column(default=random_quantity())
+    quantity: Mapped[float]
 
-# combine item and itemdetail?
-class ItemDetail(Base):
-    __tablename__ = "itemdetail"
+# class ItemDetail(Base):
+#     __tablename__ = "item_detail"
 
-    id: Mapped[int] = mapped_column(ForeignKey("item.id"), primary_key=True)
-    description = mapped_column(Text)
+#     id: Mapped[int] = mapped_column(ForeignKey("item.id"), primary_key=True)
+#     description: Mapped[str] = mapped_column(Text())
+    

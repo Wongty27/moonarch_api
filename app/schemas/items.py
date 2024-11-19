@@ -7,7 +7,7 @@ class ItemType(BaseModel):
 
 class Item(BaseModel):
     id: str
-    item_type: Literal["cpu", "gpu", "mobo", "case", "fan", "cooler", "hdd" "ram", "psu"]
+    # item_type: Literal["cpu", "gpu", "mobo", "case", "fan", "cooler", "hdd" "ram", "psu"]
     item_brand: str
     item_name: str
     price: float = Field(gt=0)
