@@ -1,33 +1,30 @@
-from fastapi import FastAPI, Depends
-from app.models import main as models
-from fastapi.middleware.cors import CORSMiddleware
-from app.routers import orders, items, feedbacks, chatbot
+from fastapi import FastAPI
 from app.db.postgres import engine
+from fastapi.middleware.cors import CORSMiddleware
 
-api = FastAPI(
-    # dependencies=db_dependency,
-)
+import models
+import app.routers.auth as auth
+import app.routers.dashboard as dashboard
+import app.routers.user_profile as user_profile
+import app.routers.build as build
+import app.routers.cart as cart
+import app.routers.orders as orders
+app = FastAPI()
 
 models.Base.metadata.create_all(bind=engine)
 
-origins = [
-    "http://localhost:3000",
-]
-
-api.add_middleware(
+app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-api.include_router(chatbot.router, prefix="/chatbot", tags=["chatbot"])
-# api.include_router(auth.router, prefix="/auth", tags=["auth"])
-# api.include_router(feedbacks.router,  prefix="/feedbacks", tags=["feedbacks"])
-# api.include_router(items.router, prefix="/items", tags=["items"])
-# api.include_router(orders.router, prefix="/orders", tags=["orders"])
-
-@api.get("/")
-async def read_root():
-    return "Welcome."
+app.include_router(auth.router)
+app.include_router(dashboard.dashboard_router)
+app.include_router(user_profile.router)
+app.include_router(build.router)
+app.include_router(cart.router)
+app.include_router(orders.router)
+app.include_router(chatbot.router)
