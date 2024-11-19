@@ -20,9 +20,9 @@ class Item(Base):
     price: Mapped[float]
     quantity: Mapped[float]
 
-class ItemDetail(Base):
-    __tablename__ = "item_detail"
+# class ItemDetail(Base):
+#     __tablename__ = "item_detail"
 
-    id: Mapped[int] = mapped_column(ForeignKey("item.id"), primary_key=True)
-    description: Mapped[str] = mapped_column(Text())
-    embeddings: Mapped[list[float]] = mapped_column(Vector(384))
+#     id: Mapped[int] = mapped_column(ForeignKey("item.id"), primary_key=True)
+#     description: Mapped[str] = mapped_column(Text())
+    

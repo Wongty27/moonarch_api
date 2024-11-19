@@ -1,11 +1,14 @@
 import os
 import pandas as pd
+from app.db.postgres import get_db, DB_URL
 from dotenv import load_dotenv
 from pymongo import MongoClient
+from langchain.agents import create_sql_agent
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
+from langchain_community.agent_toolkits.sql.toolkit import SQLDatabaseToolkit
+from langchain_community.utilities import SQLDatabase
 from langchain_mongodb.vectorstores import MongoDBAtlasVectorSearch
 from langchain_mongodb.cache import MongoDBAtlasSemanticCache
-from langchain_mongodb.chat_message_histories import MongoDBChatMessageHistory
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain.chains.retrieval_qa.base import RetrievalQA
 from langchain_core.prompts import PromptTemplate
@@ -31,14 +34,6 @@ semantic_cache = MongoDBAtlasSemanticCache(
 )
 set_llm_cache(semantic_cache)
 
-def get_session_history(session_id: str) -> MongoDBChatMessageHistory:
-    return MongoDBChatMessageHistory(
-        connection_string=MONGO_URI,
-        session_id=session_id,
-        database_name=MONGODB_NAME,
-        collection_name="history"
-    )
-
 llm = ChatGoogleGenerativeAI(model='gemini-1.5-flash', api_key=GEMINI_API_KEY)
 
 custom_prompt_template = """You are a knowledgeable and helpful AI customer service. Your primary task is to answer questions based on the information provided to you, but you can also draw on your general knowledge when necessary to provide comprehensive and accurate responses.
@@ -59,20 +54,31 @@ Instructions:
 
 """
 
+
+
 CUSTOM_PROMPT = PromptTemplate(
     template=custom_prompt_template, input_variables=["context", "question"]
 )
 
-df = pd.read_csv('students.csv')
-
-
-def retrieve_db(question: str):
+def csv_agent(question: str) -> str:
+    df = pd.read_csv('app/data/items.csv')
     agent = create_pandas_dataframe_agent(
         llm,
         df,
         verbose=True,
         allow_dangerous_code=True
     )
+    result = agent.invoke(question)
+    return result["output"]
+
+def db_agent(question: str) -> str:
+    db = SQLDatabase.from_uri(DB_URL)
+    toolkit = SQLDatabaseToolkit(db=db, llm=llm)
+    sql_agent = create_sql_agent(llm=llm, toolkit=toolkit, verbose=True, allow_dangerous_code=True)
+    result = sql_agent.invoke(question)
+    return result["output"]
+
+def retrieve_db(question: str) -> str:
     client = MongoClient(os.getenv("MONGO_URI"))
     vector_store = MongoDBAtlasVectorSearch(
         collection=client[MONGODB_NAME][COLLECTION_NAME],
@@ -88,7 +94,7 @@ def retrieve_db(question: str):
         )
 
         # user_question = agent
-        result = chain.invoke(user_question)
+        result = chain.invoke(question)
         return result['result'] 
     finally:
         client.close()
