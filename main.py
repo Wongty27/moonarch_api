@@ -2,13 +2,14 @@ from fastapi import FastAPI
 from app.db.postgres import engine
 from fastapi.middleware.cors import CORSMiddleware
 
-import models
+import app.models as models
 import app.routers.auth as auth
 import app.routers.dashboard as dashboard
 import app.routers.user_profile as user_profile
 import app.routers.build as build
 import app.routers.cart as cart
 import app.routers.orders as orders
+from app.routers import chatbot
 app = FastAPI()
 
 models.Base.metadata.create_all(bind=engine)

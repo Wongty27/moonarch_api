@@ -2,8 +2,8 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import joinedload
 from uuid import UUID
 
-from models import Users, OrderDetails, OrderItems, Feedbacks, PrebuiltOrderItems
-from schemas import ProfileUpdate, PasswordUpdate, FeedbackData
+from app.models import Users, OrderDetails, OrderItems, Feedbacks, PrebuiltOrderItems
+from app.schemas import ProfileUpdate, PasswordUpdate, FeedbackData
 from app.db.postgres import db_dependency
 from app.routers.auth import bcrypt_context, customer_required, current_user_dependency
 

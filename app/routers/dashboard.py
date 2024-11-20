@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends
 from sqlalchemy import func
 from app.routers.auth import master_required
 from app.db.postgres import db_dependency
-from models import Products,OrderDetails,OrderItems,Feedbacks,Traffics,PrebuiltPCs,PrebuiltOrderItems
+from app.models import Products,OrderDetails,OrderItems,Feedbacks,Traffics,PrebuiltPCs,PrebuiltOrderItems
 
 # Assuming master_required is a dependency function that restricts access
 dashboard_router = APIRouter(

@@ -6,8 +6,8 @@ from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from jose import jwt, JWTError
 from datetime import timedelta, datetime, timezone
 from app.db.postgres import db_dependency
-from models import Users
-from schemas import UserRequest, Token
+from app.models import Users
+from app.schemas import UserRequest, Token
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 

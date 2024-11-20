@@ -1,9 +1,9 @@
 from fastapi import APIRouter, HTTPException
 from typing import List
 
-from models import PrebuiltPCs
+from app.models import PrebuiltPCs
 from app.db.postgres import db_dependency
-from schemas import PrebuiltPCResponse
+from app.schemas import PrebuiltPCResponse
 
 router = APIRouter(prefix="/shop", tags=["Shop"])
 

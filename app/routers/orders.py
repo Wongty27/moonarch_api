@@ -2,10 +2,10 @@ from fastapi import APIRouter, HTTPException
 from datetime import datetime
 import uuid
 
-from models import CartItems, OrderDetails, OrderItems, Products, PrebuiltPCs, PrebuiltOrderItems, OrderDeliveryInfo, OrderPaymentInfo
+from app.models import CartItems, OrderDetails, OrderItems, Products, PrebuiltPCs, PrebuiltOrderItems, OrderDeliveryInfo, OrderPaymentInfo
 from app.routers.auth import current_user_dependency
 from app.db.postgres import db_dependency
-from schemas import OrderCreate  # Import from your schemas.py
+from app.schemas import OrderCreate  # Import from your schemas.py
 from pydantic import ValidationError  # Add this import
 
 router = APIRouter(prefix="/orders", tags=["Orders"])

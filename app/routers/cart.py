@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException
 from sqlalchemy.orm import joinedload
 
-from models import CartItems, PrebuiltPCs, Products
-from schemas import  CartResponse, CartItemCreate, CartItemMessage, CartAddResponse
+from app.models import CartItems, PrebuiltPCs, Products
+from app.schemas import  CartResponse, CartItemCreate, CartItemMessage, CartAddResponse
 from app.routers.auth import current_user_dependency
 from app.db.postgres import db_dependency
 

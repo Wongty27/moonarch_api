@@ -1,11 +1,11 @@
 import os
 import pandas as pd
-from app.db.postgres import get_db, DB_URL
+from app.db.postgres import SQLALCHEMY_DATABASE_URL
 from dotenv import load_dotenv
 from pymongo import MongoClient
-from langchain.agents import create_sql_agent
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 from langchain_community.agent_toolkits.sql.toolkit import SQLDatabaseToolkit
+from langchain_community.agent_toolkits.sql.base import create_sql_agent
 from langchain_community.utilities import SQLDatabase
 from langchain_mongodb.vectorstores import MongoDBAtlasVectorSearch
 from langchain_mongodb.cache import MongoDBAtlasSemanticCache
@@ -54,8 +54,6 @@ Instructions:
 
 """
 
-
-
 CUSTOM_PROMPT = PromptTemplate(
     template=custom_prompt_template, input_variables=["context", "question"]
 )
@@ -72,10 +70,11 @@ def csv_agent(question: str) -> str:
     return result["output"]
 
 def db_agent(question: str) -> str:
-    db = SQLDatabase.from_uri(DB_URL)
+    db = SQLDatabase.from_uri(SQLALCHEMY_DATABASE_URL)
     toolkit = SQLDatabaseToolkit(db=db, llm=llm)
     sql_agent = create_sql_agent(llm=llm, toolkit=toolkit, verbose=True, allow_dangerous_code=True)
     result = sql_agent.invoke(question)
+
     return result["output"]
 
 def retrieve_db(question: str) -> str:
