@@ -11,7 +11,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 load_dotenv("app/.env")
 
 MONGODB_NAME = "moonarch"
-COLLECTION_NAME="faq_collection"
+COLLECTION_NAME="chatbot_collection"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 class MongoDB:
@@ -28,7 +28,7 @@ class MongoDB:
     def vector_search_index(self):
         try:
             # Create Vector Search Index
-            self.vector_store.create_vector_search_index(dimensions=768, filters=)
+            self.vector_store.create_vector_search_index(dimensions=768)
             print("Vector Store Created!")
         finally:
             self.client.close()
@@ -46,6 +46,6 @@ class MongoDB:
 
 # example
 
-# mongo = MongoDB(db_name=MONGODB_NAME, collection_name="history", index_name='faq-index')
+mongo = MongoDB(db_name=MONGODB_NAME, collection_name=COLLECTION_NAME, index_name='chatbot-index')
 # mongo.vector_search_index()
-# mongo.add_documents("app/data/FAQ.pdf")
+mongo.add_documents("app/data/pc-components_final.pdf")
