@@ -2,13 +2,8 @@ from fastapi import FastAPI
 from database import engine
 from fastapi.middleware.cors import CORSMiddleware
 
-import models
-import auth
-import dashboard
-import user_profile
-import build
-import cart
-import orders
+import models, auth, dashboard, user_profile, build, cart, orders, products
+    
 app = FastAPI()
 
 models.Base.metadata.create_all(bind=engine)
@@ -22,8 +17,9 @@ app.add_middleware(
 )
 
 app.include_router(auth.router)
-app.include_router(dashboard.dashboard_router)
 app.include_router(user_profile.router)
+app.include_router(products.router)
 app.include_router(build.router)
 app.include_router(cart.router)
 app.include_router(orders.router)
+app.include_router(dashboard.dashboard_router)
