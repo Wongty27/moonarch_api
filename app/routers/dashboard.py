@@ -1,17 +1,8 @@
-import models
-from fastapi import APIRouter, Depends, Path, HTTPException
-from database import engine, SessionLocal
-from typing import Annotated
-from sqlalchemy import func, asc, literal_column, union_all
-from sqlalchemy.orm import Session
-from datetime import date
-
-from auth import master_required
-from database import db_dependency, get_db
+from fastapi import APIRouter, Depends
+from sqlalchemy import func
+from app.routers.auth import master_required
+from app.db.postgres import db_dependency
 from models import Products,OrderDetails,OrderItems,Feedbacks,Traffics,PrebuiltPCs,PrebuiltOrderItems
-
-
-models.Base.metadata.create_all(bind=engine)
 
 # Assuming master_required is a dependency function that restricts access
 dashboard_router = APIRouter(
@@ -202,4 +193,3 @@ async def read_sources(db: db_dependency):
     result = db.query(Feedbacks.platform, func.count(Feedbacks.platform)).group_by(Feedbacks.platform).all()
     response = [{"platform": platform, "platform_count":platform_count} for platform,platform_count in result]
     return response
-

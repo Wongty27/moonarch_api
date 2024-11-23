@@ -1,10 +1,8 @@
-from fastapi import APIRouter, Depends, HTTPException
-from sqlalchemy.orm import Session
+from fastapi import APIRouter, HTTPException
 from typing import List
-from pydantic import BaseModel
 
 from models import PrebuiltPCs
-from database import SessionLocal, db_dependency
+from app.db.postgres import db_dependency
 from schemas import PrebuiltPCResponse
 
 router = APIRouter(prefix="/shop", tags=["Shop"])
