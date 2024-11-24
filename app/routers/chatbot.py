@@ -69,20 +69,28 @@ def initialize_vector_store():
 VECTOR_STORE = initialize_vector_store()
 
 PROMPT_TEMPLATE = """
-You are a PC building expert. Given a budget of RM{budget}, recommend ONE product from EACH category to build a PC.
-Target total cost should be as close as possible to RM{budget}, but within RM500 below the budget (acceptable range: RM{budget}-500 to RM{budget}).
+You are a PC building expert. Given a budget of RM{budget}, create a balanced PC build.
+Your task is to get as close as possible to the maximum budget of RM{budget}.
 
-Required categories (must include ALL):
-- case
-- cooler
-- cpu
-- fan
-- gpu
-- hdd
-- motherboard
-- psu
-- ram
-- ssd
+STRICT REQUIREMENTS:
+1. Total cost MUST be between RM{budget}-500 and RM{budget}
+   - Minimum allowed: RM{min_budget}
+   - Maximum allowed: RM{budget}
+   - Target: As close to RM{budget} as possible
+
+2. MUST select exactly ONE product from EACH category:
+   case, cooler, cpu, fan, gpu, hdd, motherboard, psu, ram, ssd
+
+3. Budget allocation guidelines:
+   - GPU: 30-40% of budget
+   - CPU: 15-25% of budget
+   - Motherboard: 10-15% of budget
+   - RAM: 5-10% of budget
+   - Storage (HDD+SSD): 5-15% of budget
+   - PSU: 5-10% of budget
+   - Case & Cooling: Remaining budget
+
+4. IMPORTANT: Prioritize products with higher stock count when possible
 
 Available products:
 {context}
@@ -153,6 +161,7 @@ async def chat_with_bot(request: ChatRequest):
             raise HTTPException(status_code=400, detail="Please specify a budget (e.g., 'Build me a PC not more than RM5000')")
         
         budget = float(budget_match.group(1) or budget_match.group(2))
+        min_budget = budget - 500  # Calculate minimum budget
         
         # Get products context
         context = get_product_context(df)  # We'll define this function
@@ -163,30 +172,31 @@ async def chat_with_bot(request: ChatRequest):
             temperature=0  # Add this to make responses more consistent
         )
         prompt = PromptTemplate(
-            input_variables=["budget", "context"],
+            input_variables=["budget", "context", "min_budget"],
             template=PROMPT_TEMPLATE
         )
         chain = LLMChain(llm=llm, prompt=prompt)
         
         # Get response and ensure it's JSON
-        response = chain.run(budget=budget, context=context)
+        response = chain.run(budget=budget, context=context, min_budget=min_budget)
         
         # Clean and parse response
         try:
             # Remove any non-JSON text
             json_start = response.find('{')
             json_end = response.rfind('}') + 1
-            if json_start == -1 or json_end == 0:
-                raise ValueError("No JSON found in response")
+
+            # if json_start == -1 or json_end == 0:
+            #     raise ValueError("No JSON found in response")
             
             json_str = response[json_start:json_end]
             parsed_response = json.loads(json_str)
             
             # Validate response structure
-            if "recommendations" not in parsed_response:
-                raise ValueError("Missing 'recommendations' in response")
-            if "reasoning" not in parsed_response:
-                raise ValueError("Missing 'reasoning' in response")
+            # if "recommendations" not in parsed_response:
+            #     raise ValueError("Missing 'recommendations' in response")
+            # if "reasoning" not in parsed_response:
+            #     raise ValueError("Missing 'reasoning' in response")
             
             # Process recommendations
             recommended_products = []
