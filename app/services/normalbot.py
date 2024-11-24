@@ -1,8 +1,10 @@
 import os
 from dotenv import load_dotenv
 from pymongo import MongoClient
+from app.schemas import AiResponse
 from langchain_mongodb.vectorstores import MongoDBAtlasVectorSearch
 from langchain_mongodb.cache import MongoDBAtlasSemanticCache
+from langchain_core.output_parsers import PydanticOutputParser, JsonOutputParser
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain.chains.retrieval_qa.base import RetrievalQA
 from langchain_core.prompts import PromptTemplate
@@ -34,7 +36,7 @@ custom_prompt_template = """You are a knowledgeable and helpful AI customer serv
 Information provided:
 {context}
 
-Question: {question}
+Question: {question} \n {format_instructions}
 
 Instructions:
 1. Answer the question directly, concisely, and naturally, as if you're having a conversation.
@@ -45,9 +47,12 @@ Instructions:
 6. Do not answer questions not related to the information provided.
 7. If you truly cannot provide a reliable answer, simply state that you don't have enough information to answer the question accurately.
 """
+parser = PydanticOutputParser(pydantic_object=AiResponse)
 
 CUSTOM_PROMPT = PromptTemplate(
-    template=custom_prompt_template, input_variables=["context", "question"]
+    template=custom_prompt_template,
+    input_variables=["context", "question"],
+    partial_variables={"format_instructions": parser.get_format_instructions()},
 )
 
 def call_model(question):
@@ -64,7 +69,7 @@ def call_model(question):
             llm=llm,
             chain_type_kwargs={"prompt": CUSTOM_PROMPT}
         )        
-        response = chain.invoke(question)
+        response = chain.invoke(question)['result']       
         return response["result"]
     finally:
         client.close()

@@ -232,3 +232,8 @@ class OrderCreate(BaseModel):
     prebuilt_items: List[PrebuiltItem]
     delivery_info: DeliveryInfo
     payment_info: PaymentInfo
+
+class AiResponse(BaseModel):
+    item_id: str | None
+    category: str | None
+    faq: str | None
