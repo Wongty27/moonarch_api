@@ -10,6 +10,7 @@ import app.routers.build as build
 import app.routers.cart as cart
 import app.routers.orders as orders
 import app.routers.products as products
+import app.routers.chatbot as chatbot
 
 app = FastAPI()
 
@@ -30,3 +31,4 @@ app.include_router(build.router)
 app.include_router(cart.router)
 app.include_router(orders.router)
 app.include_router(dashboard.dashboard_router)
+app.include_router(chatbot.router)

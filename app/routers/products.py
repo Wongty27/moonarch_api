@@ -1,5 +1,6 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
+from sqlalchemy.exc import SQLAlchemyError
 from typing import List
 from app.db.postgres import db_dependency
 from models import Products
@@ -73,45 +74,82 @@ PRODUCT_INFO = {
 
 @router.get("/", response_model=List[ProductResponse])
 async def get_all_products(db: db_dependency):
-    # Get all products
-    products_by_category = {}
-    
-    # Group products by category
-    all_products = db.query(Products).order_by(Products.product_id).all()
-    for product in all_products:
-        if product.category not in products_by_category:
-            products_by_category[product.category] = []
-        products_by_category[product.category].append(product)
-    
-    # Create response for each category
-    responses = []
-    for category, products in products_by_category.items():
-        # Get category info from PRODUCT_INFO, with fallback
-        if category in PRODUCT_INFO:
-            category_info = PRODUCT_INFO[category]
-        else:
-            category_info = {
-                "title": category.capitalize(),
-                "description": f"Description for {category}"
-            }
+    try:
+        # Get all products
+        products_by_category = {}
         
-        product_items = [
-            ProductItem(
-                product_id=product.product_id,
-                product_name=product.product_name,
-                product_category=product.category,
-                product_price=str(product.sales_price),
-                product_stock=product.stock_count,
-                img_url=product.img_url
+        # Query products with error handling
+        try:
+            all_products = db.query(Products).order_by(Products.product_id).all()
+        except SQLAlchemyError as db_error:
+            raise HTTPException(
+                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                detail=f"Database error: {str(db_error)}"
             )
-            for product in products
-        ]
         
-        responses.append(ProductResponse(
-            title=category_info["title"],
-            image=products[0].img_url if products else "",
-            description=category_info["description"],
-            product_list=product_items
-        ))
+        # Check if products exist
+        if not all_products:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail="No products found"
+            )
+        
+        # Group products by category
+        for product in all_products:
+            if product.category not in products_by_category:
+                products_by_category[product.category] = []
+            products_by_category[product.category].append(product)
+        
+        # Create response for each category
+        responses = []
+        for category, products in products_by_category.items():
+            try:
+                # Get category info from PRODUCT_INFO, with fallback
+                category_info = PRODUCT_INFO.get(category, {
+                    "title": category.capitalize(),
+                    "description": f"Description for {category}"
+                })
+                
+                product_items = [
+                    ProductItem(
+                        product_id=product.product_id,
+                        product_name=product.product_name,
+                        product_category=product.category,
+                        product_price=str(product.sales_price),
+                        product_stock=product.stock_count,
+                        img_url=product.img_url
+                    )
+                    for product in products
+                ]
+                
+                responses.append(ProductResponse(
+                    title=category_info["title"],
+                    image=products[0].img_url if products else "",
+                    description=category_info["description"],
+                    product_list=product_items
+                ))
+                
+            except Exception as category_error:
+                # Log the error but continue processing other categories
+                print(f"Error processing category {category}: {str(category_error)}")
+                continue
+        
+        # Check if we have any valid responses
+        if not responses:
+            raise HTTPException(
+                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                detail="Failed to process any product categories"
+            )
+        
+        return responses
+        
+    except HTTPException as http_error:
+        # Re-raise HTTP exceptions
+        raise http_error
     
-    return responses
+    except Exception as e:
+        # Handle any unexpected errors
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Unexpected error: {str(e)}"
+        )
