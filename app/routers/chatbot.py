@@ -69,24 +69,79 @@ def initialize_vector_store():
 VECTOR_STORE = initialize_vector_store()
 
 PROMPT_TEMPLATE = """
-You are a PC building expert. Given a budget of RM{budget}, recommend components from these products:
+You are a PC building expert. Given a budget of RM{budget}, recommend ONE product from EACH category to build a PC.
+Target total cost should be as close as possible to RM{budget}, but within RM500 below the budget (acceptable range: RM{budget}-500 to RM{budget}).
+
+Required categories (must include ALL):
+- case
+- cooler
+- cpu
+- fan
+- gpu
+- hdd
+- motherboard
+- psu
+- ram
+- ssd
+
+Available products:
 {context}
 
 Rules:
-1. Total cost must not exceed RM{budget}
-2. Use only the products provided
-3. If total cost exceeds budget, prioritize essential components
+1. Total cost must be between RM{budget}-500 and RM{budget}
+2. Must select exactly ONE product from EACH category
+3. Aim for the closest possible total to RM{budget}
+4. Use only the products provided
+5. Ensure balanced performance
 
 Respond ONLY with a JSON object in this exact format (no additional text):
 {{
     "recommendations": [
         {{
             "product_id": 123,
+            "category": "case"
+        }},
+        {{
+            "product_id": 124,
+            "category": "cooler"
+        }},
+        {{
+            "product_id": 125,
             "category": "cpu"
+        }},
+        {{
+            "product_id": 126,
+            "category": "fan"
+        }},
+        {{
+            "product_id": 127,
+            "category": "gpu"
+        }},
+        {{
+            "product_id": 128,
+            "category": "hdd"
+        }},
+        {{
+            "product_id": 129,
+            "category": "motherboard"
+        }},
+        {{
+            "product_id": 130,
+            "category": "psu"
+        }},
+        {{
+            "product_id": 131,
+            "category": "ram"
+        }},
+        {{
+            "product_id": 132,
+            "category": "ssd"
         }}
     ],
-    "reasoning": "Brief explanation of choices"
+    "reasoning": "Total cost: RM[TOTAL]. Explanation of choices and how they work together."
 }}
+
+Remember: The total cost MUST be within RM500 below the budget (RM{budget}-500 to RM{budget}).
 """
 
 @router.post("/chat", response_model=ChatResponse)
