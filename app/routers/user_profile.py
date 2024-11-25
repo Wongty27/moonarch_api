@@ -26,7 +26,11 @@ async def get_user_orders(
         joinedload(OrderDetails.feedbacks_relate)
     ).all()
 
+    if not orders:
+        raise HTTPException(status_code=404, detail="No orders found")
+
     response = []
+
     for order in orders:
         items = []
         

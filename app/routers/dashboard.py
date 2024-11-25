@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy import func
 from app.routers.auth import master_required
 from app.db.postgres import db_dependency
@@ -31,6 +31,9 @@ async def read_sales(db: db_dependency):
         .group_by(OrderDetails.order_id, OrderDetails.order_time)  # Include order_time in group by
     )
 
+    if not products_cte:
+        raise HTTPException(status_code=404, detail="No products found")
+
     # Second CTE for prebuilt PCs
     prebuilt_cte = (
         db.query(
@@ -43,6 +46,9 @@ async def read_sales(db: db_dependency):
         .join(PrebuiltPCs, PrebuiltOrderItems.build_id == PrebuiltPCs.build_id)
         .group_by(OrderDetails.order_id, OrderDetails.order_time)  # Include order_time in group by
     )
+
+    if not prebuilt_cte:
+        raise HTTPException(status_code=404, detail="No prebuilt PCs found")
 
     # Combine both CTEs
     combined_cte = products_cte.union_all(prebuilt_cte).cte('combined_cte')
@@ -83,6 +89,9 @@ async def read_orders(db: db_dependency):
         .group_by(OrderDetails.order_id)
     )
 
+    if not products_cte:
+        raise HTTPException(status_code=404, detail="No products found")
+
     # Prebuilt PCs CTE
     prebuilt_cte = (
         db.query(
@@ -94,6 +103,9 @@ async def read_orders(db: db_dependency):
         .group_by(OrderDetails.order_id)
     )
 
+    if not prebuilt_cte:
+        raise HTTPException(status_code=404, detail="No prebuilt PCs found")
+
     # Combine both CTEs
     combined_cte = products_cte.union_all(prebuilt_cte).cte(name='combined_cte')
 
@@ -103,7 +115,14 @@ async def read_orders(db: db_dependency):
 @dashboard_router.get("/conversions")
 async def read_conversions(db: db_dependency):
     row_count = db.query(func.count(OrderDetails.order_id)).scalar()
+
+    if not row_count:
+        raise HTTPException(status_code=404, detail="No orders found")
+
     total_traffic = db.query(func.sum(Traffics.number_of_visits)).scalar()
+
+    if not total_traffic:
+        raise HTTPException(status_code=404, detail="No traffic found")
 
     result = round(row_count / total_traffic * 100, 2)
     response = {"conversion_rate": result}
@@ -112,6 +131,10 @@ async def read_conversions(db: db_dependency):
 @dashboard_router.get("/ratings")
 async def read_ratings(db: db_dependency):
     result = db.query(func.avg(Feedbacks.rating)).scalar()
+
+    if not result:
+        raise HTTPException(status_code=404, detail="No ratings found")
+
     result = round(result,2)
     response = {"satisfaction_rating": result}
     return response
@@ -126,6 +149,10 @@ async def read_brands(db: db_dependency):
     .join(Products, OrderItems.product_id == Products.product_id)\
     .group_by(Products.category, func.trim(Products.brand))\
     .order_by(Products.category, func.trim(Products.brand)).all()
+
+    if not result:
+        raise HTTPException(status_code=404, detail="No brands found")
+
     response = [{"brand": brand, "category":category, "count":count} for brand,category,count in result]
     return response
 
@@ -148,6 +175,9 @@ async def read_prebuilt_sales(db: db_dependency):
         .all()
     )
 
+    if not result:
+        raise HTTPException(status_code=404, detail="No prebuilt PCs found")
+
     # Format the response
     response = [
         {
@@ -167,11 +197,17 @@ async def read_stocks(db: db_dependency):
         Products.stock_count.label('stock_count')
     ).filter(Products.stock_count < 8)
 
+    if not products_result:
+        raise HTTPException(status_code=404, detail="No products with low stock found")
+
     # Prebuilt PCs with low stock
     prebuilt_result = db.query(
         PrebuiltPCs.build_name.label('product_name'),
         PrebuiltPCs.build_stock_count.label('stock_count')
     ).filter(PrebuiltPCs.build_stock_count < 8)
+
+    if not prebuilt_result:
+        raise HTTPException(status_code=404, detail="No prebuilt PCs with low stock found")
 
     # Combine results and order by stock count
     combined_result = products_result.union_all(prebuilt_result)\
@@ -185,11 +221,19 @@ async def read_stocks(db: db_dependency):
 @dashboard_router.get("/traffics")
 async def read_traffics(db: db_dependency):
     result = db.query(Traffics.visit_date, Traffics.number_of_visits).all()
+
+    if not result:
+        raise HTTPException(status_code=404, detail="No traffic found")
+
     response = [{"visit_date": visit_date, "number_of_visits":number_of_visits} for visit_date, number_of_visits in result]
     return response
 
 @dashboard_router.get("/sources")
 async def read_sources(db: db_dependency):
     result = db.query(Feedbacks.platform, func.count(Feedbacks.platform)).group_by(Feedbacks.platform).all()
+
+    if not result:
+        raise HTTPException(status_code=404, detail="No feedback sources found")
+
     response = [{"platform": platform, "platform_count":platform_count} for platform,platform_count in result]
     return response

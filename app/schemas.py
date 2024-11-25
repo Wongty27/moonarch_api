@@ -3,6 +3,9 @@ from typing import Optional, List
 from uuid import UUID
 from datetime import datetime
 
+class SimpleResponse(BaseModel):
+    message: str
+
 ##login request
 class UserRequest(BaseModel):
     email: str
@@ -185,28 +188,49 @@ class CartItemCreate(BaseModel):
             }
         }
 
-##add item to cart response
-class CartAddResponse(BaseModel):
-    cart_item_id: int
-    quantity: int
-    message: str = "Item added to cart successfully"
-
-    class Config:
-        from_attributes = True
-
-##edit item in cart response
-class CartItemMessage(BaseModel):
-    message: str
-    item_id: Optional[int] = None
-    quantity: Optional[int] = None
-
 class SessionCreate(BaseModel):
-    user_id: Optional[UUID] = None
+        user_id: Optional[UUID] = None
 
 ###pydantic models for order details
 class OrderItem(BaseModel):
     product_id: int
     quantity: int
+
+# New model for individual product details
+class ProductItem(BaseModel):
+    product_id: int
+    product_name: str
+    product_category: str
+    product_price: str  # or Decimal if you want to handle decimals
+    product_stock: int
+    img_url: str | None = None
+
+# Updated ProductResponse model
+class ProductResponse(BaseModel):
+    title: str
+    image: str
+    description: str
+    product_list: List[ProductItem]
+
+    class Config:
+        from_attributes = True
+        json_schema_extra = {
+            "example": {
+                "title": "CPU (Central Processing Unit)",
+                "image": "https://example.com/cpu.jpg",
+                "description": "The brain of your computer...",
+                "product_list": [
+                    {
+                        "product_id": 1,
+                        "product_name": "Intel Core i7",
+                        "product_category": "cpu",
+                        "product_price": "299.99",
+                        "product_stock": 10,
+                        "img_url": "https://example.com/i7.jpg"
+                    }
+                ]
+            }
+        }
 
 class PrebuiltItem(BaseModel):
     build_id: int
@@ -232,8 +256,3 @@ class OrderCreate(BaseModel):
     prebuilt_items: List[PrebuiltItem]
     delivery_info: DeliveryInfo
     payment_info: PaymentInfo
-
-class AiResponse(BaseModel):
-    item_id: str | None
-    category: str | None
-    faq: str | None

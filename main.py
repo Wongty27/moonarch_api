@@ -9,7 +9,9 @@ import app.routers.user_profile as user_profile
 import app.routers.build as build
 import app.routers.cart as cart
 import app.routers.orders as orders
-from app.routers import chatbot
+import app.routers.products as products
+import app.routers.chatbot as chatbot
+
 app = FastAPI()
 
 models.Base.metadata.create_all(bind=engine)
@@ -23,9 +25,10 @@ app.add_middleware(
 )
 
 app.include_router(auth.router)
-app.include_router(dashboard.dashboard_router)
 app.include_router(user_profile.router)
+app.include_router(products.router)
 app.include_router(build.router)
 app.include_router(cart.router)
 app.include_router(orders.router)
+app.include_router(dashboard.dashboard_router)
 app.include_router(chatbot.router)
