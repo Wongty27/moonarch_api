@@ -13,7 +13,7 @@ import json
 import pandas as pd
 import google.generativeai as genai
 
-router = APIRouter()
+router = APIRouter(prefix="/chatbot", tags=["Chatbot"])
 
 class ChatRequest(BaseModel):
     message: str
@@ -254,6 +254,3 @@ async def refresh_products():
     VECTOR_STORE = initialize_vector_store()
     return {"message": "Products refreshed successfully"}
 
-@router.get("/products")
-async def get_products():
-    return {"products": VECTOR_STORE.df.to_dict(orient="records")}
