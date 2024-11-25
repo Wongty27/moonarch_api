@@ -69,7 +69,7 @@ def call_model(question):
             llm=llm,
             chain_type_kwargs={"prompt": CUSTOM_PROMPT}
         )        
-        response = chain.invoke(question)['result']       
+        response = chain.invoke(question)     
         return response["result"]
     finally:
         client.close()
