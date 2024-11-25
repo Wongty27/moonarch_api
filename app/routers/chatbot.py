@@ -18,7 +18,7 @@ router = APIRouter(prefix="/chatbot", tags=["Chatbot"])
 class ChatRequest(BaseModel):
     message: str
 
-class ProductResponse(BaseModel):
+class AISuggestion(BaseModel):
     product_id: int
     product_name: str
     category: str
@@ -27,7 +27,7 @@ class ProductResponse(BaseModel):
 
 class ChatResponse(BaseModel):
     message: str
-    recommended_products: List[ProductResponse]
+    recommended_products: List[AISuggestion]
     total_price: float
 
 load_dotenv()
@@ -210,7 +210,7 @@ async def chat_with_bot(request: ChatRequest):
                     continue
                     
                 product = product_df.iloc[0]
-                recommended_products.append(ProductResponse(
+                recommended_products.append(AISuggestion(
                     product_id=product_id,
                     product_name=str(product['product_name']),
                     category=str(product['category']),
