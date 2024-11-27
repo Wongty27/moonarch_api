@@ -1,0 +1,201 @@
+product_id,product_name,category,sales_price,stock_count
+201,Antec DF700 FLUX,case,89.99,69
+202,Apevia APredator,case,79.99,5
+203,be quiet! Pure Base 500DX,case,109.99,45
+204,Cooler Master TD500 Mesh,case,99.99,48
+205,Corsair 4000D Airflow,case,94.99,8
+206,DarkFlash DarkFlash DLM22,case,59.99,65
+207,Fractal Design Torrent,case,189.99,66
+208,Fractal Design Pop Air,case,79.99,34
+209,InWin InWin 925,case,399.99,17
+210,Jonsbo D40,case,149.99,27
+211,Lian Li O11 Dynamic EVO,case,169.99,16
+212,Lian Li LANCOOL 216,case,99.99,57
+213,MetallicGear Neo Qube,case,129.99,34
+214,Montech Sky One,case,89.99,75
+215,NZXT H510 Flow,case,89.99,70
+216,Phanteks Eclipse G360A,case,99.99,38
+217,Phanteks P300A Mesh,case,69.99,37
+218,Silverstone Primera PM01,case,149.99,70
+219,Thermaltake View 51,case,199.99,22
+220,Zalman S2,case,49.99,15
+221,Alpenfohn Olymp,cooler,89.99,65
+222,Alphacool Eisbaer Pro Aurora 360,cooler,229.99,70
+223,Arctic Liquid Freezer II 360,cooler,159.99,72
+224,be quiet! Dark Rock Pro 4,cooler,89.99,63
+225,Corsair H150i ELITE LCD,cooler,289.99,47
+226,DeepCool AK620,cooler,69.99,9
+227,EK AIO Elite 360 D-RGB,cooler,199.99,73
+228,IceGiant ProSiphon Elite,cooler,169.99,74
+229,ID-COOLING ZOOMFLOW 360X,cooler,129.99,76
+230,Lian Li Galahad 360,cooler,159.99,25
+231,MSI MEG CORELIQUID S360,cooler,299.99,52
+232,Noctua NH-D15,cooler,99.99,13
+233,NZXT Kraken X73,cooler,199.99,26
+234,Phanteks Glacier One 360MPH,cooler,199.99,65
+235,Scythe Fuma 2,cooler,59.99,9
+236,Silverstone PERMAFROST 360,cooler,149.99,32
+237,Thermalright Peerless Assassin 120,cooler,49.99,66
+238,Thermalright Frost Commander 140,cooler,79.99,20
+239,Thermaltake TH360 ARGB,cooler,159.99,10
+240,Zalman CNPS20X,cooler,89.99,68
+241,AMD Ryzen 9 7950X3D,cpu,699.99,30
+242,AMD Ryzen 9 7900X,cpu,549.99,27
+243,AMD Ryzen 7 7800X3D,cpu,449.99,53
+244,AMD Ryzen 7 7700X,cpu,399.99,39
+245,AMD Ryzen 5 7600X,cpu,299.99,53
+246,AMD Ryzen Threadripper 7980X,cpu,2499.99,47
+247,AMD Ryzen 7 5800X3D,cpu,329.99,38
+248,AMD Ryzen 5 5600G,cpu,159.99,65
+249,AMD Ryzen 9 5950X,cpu,499.99,48
+250,AMD Ryzen 7 5700X,cpu,249.99,44
+251,Intel Core i9-14900K,cpu,589.99,26
+252,Intel Core i7-14700K,cpu,419.99,10
+253,Intel Core i5-14600K,cpu,319.99,27
+254,Intel Core i5-14400F,cpu,219.99,47
+255,Intel Core i3-14100F,cpu,129.99,31
+256,Intel Core i9-13900KS,cpu,699.99,60
+257,Intel Core i7-13700KF,cpu,379.99,76
+258,Intel Core i5-13600KF,cpu,289.99,28
+259,Intel Core i9-12900K,cpu,449.99,30
+260,Intel Core i7-12700F,cpu,309.99,26
+261,Alphacool Apex,fan,17.99,44
+262,Arctic P12 PWM PST,fan,9.99,27
+263,Arctic BioniX P120,fan,16.99,22
+264,be quiet! Silent Wings 4,fan,29.99,30
+265,Cooler Master SickleFlow 120,fan,14.99,41
+266,Corsair LL120 RGB,fan,39.99,53
+267,DeepCool FC120,fan,24.99,57
+268,Gelid Stella,fan,14.99,55
+269,ID-COOLING ZF-12025,fan,11.99,31
+270,InWin Saturn ASN120,fan,19.99,47
+271,Lian Li Uni Fan SL120,fan,29.99,71
+272,Noctua NF-A12x25 PWM,fan,32.99,34
+273,Noctua NF-S12A,fan,29.99,70
+274,NZXT AER RGB 2,fan,29.99,32
+275,Phanteks T30-120,fan,39.99,38
+276,Scythe Wonder Snail,fan,19.99,27
+277,Silverstone Air Penetrator,fan,19.99,28
+278,Thermalright TL-C12,fan,14.99,53
+279,Thermaltake TOUGHFAN,fan,25.99,13
+280,XIGMATEK AURORA,fan,12.99,39
+281,AORUS RTX 4090 XTREME WATERFORCE,gpu,2199.99,61
+282,ASUS ROG STRIX RTX 4090,gpu,1999.99,70
+283,ASUS ROG STRIX RTX 4070 Ti,gpu,849.99,21
+284,ASUS TUF GAMING RTX 4080,gpu,1099.99,42
+285,Colorful iGame RTX 4090 Neptune,gpu,2099.99,40
+286,Gainward Phantom RTX 4090,gpu,1849.99,61
+287,GALAX SG RTX 4090,gpu,1849.99,29
+288,GIGABYTE AORUS MASTER RTX 4080,gpu,1129.99,24
+289,GIGABYTE GAMING OC RTX 4090,gpu,1899.99,65
+290,Inno3D iChill X3 RTX 4090,gpu,1899.99,18
+291,Manli RTX 4090 Gallardo,gpu,1799.99,63
+292,MSI GAMING X TRIO RTX 4090,gpu,1949.99,42
+293,MSI GAMING X TRIO RTX 4070 Ti,gpu,799.99,60
+294,MSI SUPRIM X RTX 4080,gpu,1149.99,35
+295,NVIDIA Founders Edition RTX 4090,gpu,1599.99,63
+296,NVIDIA Founders Edition RTX 4080,gpu,999.99,76
+297,Palit GameRock RTX 4090,gpu,1899.99,6
+298,PNY XLR8 RTX 4090 VERTO EPIC-X,gpu,1849.99,63
+299,PowerColor Red Devil RTX 4090,gpu,1949.99,53
+300,Zotac GAMING Trinity RTX 4090,gpu,1799.99,71
+301,Seagate Ironwolf Pro 18TB,hdd,389.99,25
+302,Seagate Barracuda 8TB,hdd,169.99,54
+303,Seagate Exos X18 18TB,hdd,349.99,65
+304,Seagate Skyhawk 8TB,hdd,199.99,44
+305,Seagate Barracuda 2TB,hdd,54.99,56
+306,Toshiba N300 14TB,hdd,309.99,72
+307,WD Red Pro 14TB,hdd,329.99,15
+308,WD Black 6TB,hdd,189.99,72
+309,WD Purple Pro 12TB,hdd,299.99,23
+310,WD Blue 4TB,hdd,89.99,58
+311,Ultrastar DC HC550 18TB,hdd,369.99,58
+312,HGST Ultrastar He12 12TB,hdd,289.99,37
+313,MaxDigital   14TB,hdd,299.99,23
+314,Exos X20  20TB,hdd,419.99,40
+315,Western Digital Gold 18TB,hdd,379.99,7
+316,Toshiba MG09  18TB,hdd,359.99,36
+317,Seagate Enterprise  16TB,hdd,339.99,12
+318,WD Purple Pro 18TB,hdd,379.99,7
+319,HGST Deskstar NAS 12TB,hdd,269.99,15
+320,Ultrastar DC HC330 10TB,hdd,229.99,51
+321,AORUS Z790 TACHYON,motherboard,599.99,57
+322,ASRock Z790 Steel Legend WiFi,motherboard,289.99,20
+323,ASRock B650M PG RIPTIDE,motherboard,159.99,64
+324,ASRock ASRock X670E Taichi,motherboard,499.99,13
+325,ASUS ROG MAXIMUS Z790 HERO,motherboard,629.99,23
+326,ASUS ROG STRIX B760-A GAMING,motherboard,219.99,19
+327,ASUS PRIME B660M-A,motherboard,139.99,7
+328,ASUS TUF GAMING B650-PLUS,motherboard,199.99,62
+329,Biostar X670E VALKYRIE,motherboard,449.99,41
+330,Biostar B650M-SILVER,motherboard,149.99,72
+331,Colorful CVN B760M GAMING PRO,motherboard,169.99,25
+332,EVGA Z790 DARK KINGPIN,motherboard,699.99,47
+333,GIGABYTE B650E AORUS MASTER,motherboard,399.99,30
+334,GIGABYTE B760M AORUS PRO,motherboard,179.99,40
+335,MSI MEG X670E ACE,motherboard,699.99,9
+336,MSI MAG B650 TOMAHAWK,motherboard,239.99,23
+337,MSI PRO B660M-P,motherboard,119.99,43
+338,MSI PRO Z790-A WIFI,motherboard,259.99,47
+339,NZXT N7 Z790,motherboard,299.99,70
+340,Supermicro C7Z790-PGW,motherboard,499.99,33
+341,ASUS ROG THOR 1200P2,psu,349.99,16
+342,be quiet! Dark Power Pro 12 1500W,psu,389.99,17
+343,be quiet! Straight Power 11 750W,psu,139.99,63
+344,Corsair HX1500i Platinum,psu,399.99,48
+345,Corsair RM850x,psu,149.99,61
+346,Enermax MAXTYTAN 1250W,psu,299.99,22
+347,EVGA SuperNOVA 650 G6,psu,99.99,26
+348,EVGA SuperNOVA 1300 P+,psu,299.99,60
+349,Fractal Design Ion+ 3 Platinum 860W,psu,169.99,64
+350,FSP Hydro PTM PRO 1200W,psu,279.99,18
+351,MSI MPG A1000G,psu,189.99,57
+352,MSI MPG A850G PCIE5,psu,169.99,21
+353,Phanteks AMP 550W,psu,89.99,21
+354,Seasonic PRIME TX-1300,psu,359.99,65
+355,Seasonic Focus GX-750,psu,129.99,51
+356,Silverstone ST1200-PTS,psu,299.99,70
+357,Silverstone SX1000 SFX-L,psu,259.99,11
+358,Super Flower Leadex Platinum 1000W,psu,229.99,56
+359,Thermaltake Toughpower GF3 1000W,psu,199.99,47
+360,XPG  CORE REACTOR 850W,psu,159.99,66
+361,ADATA XPG LANCER DDR5-6000 32GB,ram,179.99,42
+362,Corsair Dominator Platinum RGB DDR5-6200 32GB,ram,219.99,10
+363,Corsair Vengeance LPX DDR4-3200 32GB,ram,84.99,51
+364,Crucial T54 DDR5-5600 32GB,ram,149.99,52
+365,Crucial Ballistix DDR4-3600 32GB,ram,94.99,48
+366,Crucial Pro DDR5-5600 32GB,ram,159.99,31
+367,G.SKILL Trident Z5 RGB DDR5-6400 32GB,ram,199.99,7
+368,G.SKILL Ripjaws V DDR4-3600 32GB,ram,89.99,22
+369,GeIL Polaris RGB DDR5-6000 32GB,ram,179.99,22
+370,Kingston Fury Beast RGB DDR5-6000 32GB,ram,189.99,34
+371,Kingston Fury Beast DDR4-3600 32GB,ram,89.99,25
+372,Lexar ARES DDR5-5600 32GB,ram,159.99,67
+373,Neo Forza Faye DDR5-6000 32GB,ram,169.99,38
+374,OLOy Blade RGB DDR5-5600 32GB,ram,154.99,65
+375,Patriot Viper RGB DDR5-6200 32GB,ram,179.99,76
+376,Silicon Power XPOWER DDR5-6000 32GB,ram,169.99,65
+377,TEAMGROUP T-Force Delta RGB DDR5-6000 32GB,ram,169.99,26
+378,TEAMGROUP T-Force Vulcan Z DDR4-3200 32GB,ram,79.99,70
+379,THERMALTAKE TOUGHRAM DDR5-6000 32GB,ram,189.99,37
+380,V-Color Manta XE DDR5-6000 32GB,ram,169.99,20
+381,ADATA XPG GAMMIX S70 2TB,ssd,189.99,68
+382,Corsair Force MP600 2TB,ssd,184.99,63
+383,Crucial T700 2TB,ssd,199.99,9
+384,Crucial P3 1TB,ssd,64.99,64
+385,GIGABYTE AORUS Gen4 2TB,ssd,189.99,21
+386,Inland Performance 2TB,ssd,159.99,11
+387,Kingston NV2 1TB,ssd,54.99,71
+388,Lexar Professional NM800 2TB,ssd,169.99,36
+389,MSI SPATIUM M480 2TB,ssd,179.99,24
+390,Mushkin GAMMA 2TB,ssd,174.99,9
+391,Patriot Viper VP4300 2TB,ssd,189.99,64
+392,PNY CS3140 2TB,ssd,179.99,51
+393,Sabrent Rocket 4 Plus 2TB,ssd,179.99,46
+394,Samsung 990 PRO 2TB PCIe 4.0,ssd,189.99,27
+395,Samsung 870 EVO 2TB SATA,ssd,149.99,18
+396,Silicon Power P34A80 2TB,ssd,169.99,48
+397,SK hynix Platinum P41 2TB,ssd,169.99,30
+398,TEAMGROUP MP34 1TB,ssd,69.99,62
+399,WD Black SN850X 2TB,ssd,179.99,54
+400,WD Blue SN570 1TB,ssd,79.99,65

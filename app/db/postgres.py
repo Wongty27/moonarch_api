@@ -2,7 +2,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from typing import Annotated
 from fastapi import Depends
-from sqlalchemy.orm import Session, declarative_base
+from sqlalchemy.orm import Session
+from google.cloud.sql.connector import Connector
 
 import os
 from dotenv import load_dotenv
@@ -15,25 +16,24 @@ PG_PASSWORD = os.getenv("PG_PASSWORD")
 PG_HOST = os.getenv("PG_HOST")
 PG_PORT = os.getenv("PG_PORT")
 PG_DB_NAME = os.getenv("PG_DB_NAME")
+INSTANCE_NAME = os.getenv("INSTANCE_NAME")
 
-Base = declarative_base()
+def gcloud_engine():
+    connector = Connector()
+    conn = connector.connect(
+        instance_connection_string=INSTANCE_NAME,
+        driver="pg8000",
+        user=PG_USER,
+        password=PG_PASSWORD,
+        db=PG_DB_NAME
+    )
+    return create_engine("postgresql+pg8000://", creator=conn)
 
-SQLALCHEMY_DATABASE_URL = f"postgresql://{PG_USER}:{PG_PASSWORD}@{PG_HOST}:{PG_PORT}/{PG_DB_NAME}"
+#gcloud engine
+# engine = gcloud_engine()
 
-# cloud sql
-# from google.cloud.sql.connector import Connector
-
-# def gcloud_engine():
-#     connector = Connector()
-#     conn = connector.connect(
-#         settings.INSTANCE_NAME,
-#         "psycopg2",
-#         user=settings.PG_USER,
-#         password=settings.PG_PASSWORD,
-#         db=settings.PG_DB_NAME
-#     )
-#     return create_engine("postgresql+psycopg2://", creator=conn)
-
+# localhost engine
+SQLALCHEMY_DATABASE_URL = f"postgresql+pg8000://{PG_USER}:{PG_PASSWORD}@{PG_HOST}:{PG_PORT}/{PG_DB_NAME}"
 engine = create_engine(SQLALCHEMY_DATABASE_URL,
                        pool_size=5,
                        max_overflow=10,

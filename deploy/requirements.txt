@@ -1,7 +1,7 @@
 python-dotenv
-fastapi[all]
+fastapi[standard]
 pymongo
-psycopg2
+pg8000
 sqlalchemy==2.0.35
 passlib
 bcrypt==4.0.1
@@ -14,3 +14,5 @@ langchain-community
 langchain-google-genai
 cloud-sql-python-connector
 google-auth
+faiss-cpu
+pandas

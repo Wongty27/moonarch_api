@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError
 from typing import List
-from db.postgres import db_dependency
+from main import db_dependency
 from models import Products
 from schemas import ProductResponse, ProductItem
 

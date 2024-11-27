@@ -1,11 +1,12 @@
 # only use for add new data
 
 import os
+from pathlib import Path
 from dotenv import load_dotenv
 from pymongo import MongoClient
 from langchain_mongodb import MongoDBAtlasVectorSearch
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader, CSVLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 load_dotenv("app/.env")
@@ -16,6 +17,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 class MongoDB:
     def __init__(self, db_name: str, collection_name: str, index_name: str):
+        
         self.client = MongoClient(os.getenv("MONGO_URI"))
         embedding = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=GEMINI_API_KEY)
         self.vector_store = MongoDBAtlasVectorSearch(
@@ -36,7 +38,13 @@ class MongoDB:
     def add_documents(self, doc_path: str):
         try:
             # Load and Split PDF
-            loader = PyPDFLoader(doc_path)
+            if Path(doc_path).suffix == ".csv":
+                loader = CSVLoader(file_path=doc_path)
+            elif Path(doc_path).suffix == ".pdf":
+                loader = PyPDFLoader(file_path=doc_path)
+            else:
+                raise ValueError(f"Unsupported file type: {Path(doc_path).suffix}")
+            
             text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
             documents = loader.load_and_split(text_splitter=text_splitter)
             self.vector_store.add_documents(documents)
@@ -44,8 +52,6 @@ class MongoDB:
         finally:
             self.client.close()
 
-# example
-
-mongo = MongoDB(db_name=MONGODB_NAME, collection_name=COLLECTION_NAME, index_name='chatbot-index')
+# mongo = MongoDB(db_name=MONGODB_NAME, collection_name=COLLECTION_NAME, index_name='chatbot-index')
 # mongo.vector_search_index()
-mongo.add_documents("app/data/pc-components_final.pdf")
+# mongo.add_documents("app/data/finalbuilds.csv")

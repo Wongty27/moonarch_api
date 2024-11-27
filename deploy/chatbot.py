@@ -11,7 +11,7 @@ import os
 import re
 import json
 import pandas as pd
-import google.generativeai as genai
+# import google.generativeai as genai
 
 router = APIRouter(prefix="/chatbot", tags=["Chatbot"])
 
@@ -35,9 +35,9 @@ load_dotenv()
 # Get API key from environment
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
-    raise ValueError("GEMINI_API_KEY not found in environment variables")
+    raise ValueError("GOOGLE_API_KEY not found in environment variables")
 
-df = pd.read_csv("routers/items.csv")   
+df = pd.read_csv("items.csv")   
 
 def initialize_vector_store():
     # Read CSV file 

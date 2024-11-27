@@ -5,7 +5,7 @@ from passlib.context import CryptContext
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from jose import jwt, JWTError
 from datetime import timedelta, datetime, timezone
-from db.postgres import db_dependency
+from main import db_dependency
 from models import Users
 from schemas import UserRequest, Token
 

@@ -3,8 +3,8 @@ from datetime import datetime
 import uuid
 
 from models import CartItems, OrderDetails, OrderItems, Products, PrebuiltPCs, PrebuiltOrderItems, OrderDeliveryInfo, OrderPaymentInfo
-from routers.auth import current_user_dependency
-from db.postgres import db_dependency
+from auth import current_user_dependency
+from main import db_dependency
 from schemas import OrderCreate  # Import from your schemas.py
 from pydantic import ValidationError  # Add this import
 
