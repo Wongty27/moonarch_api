@@ -1,5 +1,5 @@
 python-dotenv
-fastapi[all]
+fastapi[standard]
 pymongo
 pg8000
 sqlalchemy==2.0.35
