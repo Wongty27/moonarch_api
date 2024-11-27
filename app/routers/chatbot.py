@@ -175,6 +175,7 @@ async def chat_with_bot(request: ChatRequest):
             input_variables=["budget", "context", "min_budget"],
             template=PROMPT_TEMPLATE
         )
+    
         chain = LLMChain(llm=llm, prompt=prompt)
         
         # Get response and ensure it's JSON
