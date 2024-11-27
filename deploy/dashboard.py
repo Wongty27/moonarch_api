@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy import func
 from auth import master_required
-from main import db_dependency
+from database import db_dependency
 from models import Products,OrderDetails,OrderItems,Feedbacks,Traffics,PrebuiltPCs,PrebuiltOrderItems
 
 # Assuming master_required is a dependency function that restricts access

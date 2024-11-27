@@ -4,7 +4,7 @@ from sqlalchemy.orm import joinedload
 from models import CartItems, PrebuiltPCs, Products
 from schemas import  CartResponse, CartItemCreate, SimpleResponse
 from auth import current_user_dependency
-from main import db_dependency
+from database import db_dependency
 from typing import List
 
 from fastapi import status

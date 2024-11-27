@@ -1,16 +1,18 @@
 import os
+from dotenv import load_dotenv
 from fastapi import APIRouter, Depends, HTTPException
 from typing import Annotated
 from passlib.context import CryptContext
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from jose import jwt, JWTError
 from datetime import timedelta, datetime, timezone
-from main import db_dependency
+from database import db_dependency
 from models import Users
 from schemas import UserRequest, Token
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
+load_dotenv()
 #oauth
 oauth2_bearer = OAuth2PasswordBearer(tokenUrl="auth/token")  
 SECRET_KEY = os.getenv("SECRET_KEY")

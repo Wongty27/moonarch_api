@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException
 from typing import List
 
 from models import PrebuiltPCs
-from main import db_dependency
+from database import db_dependency
 from schemas import PrebuiltPCResponse
 
 router = APIRouter(prefix="/shop", tags=["Shop"])

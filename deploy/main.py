@@ -15,14 +15,14 @@ import orders
 import products
 import chatbot
 
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+# def get_db():
+#     db = SessionLocal()
+#     try:
+#         yield db
+#     finally:
+#         db.close()
 
-db_dependency = Annotated[Session, Depends(get_db)]
+# db_dependency = Annotated[Session, Depends(get_db)]
 
 app = FastAPI()
 
