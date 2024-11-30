@@ -6,29 +6,16 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import LLMChain
 from langchain_community.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from schemas import ChatRequest, ChatResponse, RecommendedProduct
 from dotenv import load_dotenv
 import os
+from pathlib import Path
 import re
 import json
 import pandas as pd
 import google.generativeai as genai
 
 router = APIRouter(prefix="/chatbot", tags=["Chatbot"])
-
-class ChatRequest(BaseModel):
-    message: str
-
-class AISuggestion(BaseModel):
-    product_id: int
-    product_name: str
-    category: str
-    sales_price: float
-    stock: int
-
-class ChatResponse(BaseModel):
-    message: str
-    recommended_products: List[AISuggestion]
-    total_price: float
 
 load_dotenv()
 
@@ -37,10 +24,8 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 if not GOOGLE_API_KEY:
     raise ValueError("GOOGLE_API_KEY not found in environment variables")
 
-# Set it for the Google API
-os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
-
-df = pd.read_csv("finalbuilds.csv")   
+SCRIPT_DIR = Path(__file__).parent  # Gets routers directory
+df = pd.read_csv(SCRIPT_DIR / "finalbuilds.csv")
 
 def initialize_vector_store():
     # Read CSV file 
@@ -56,6 +41,7 @@ def initialize_vector_store():
         """
         documents.append(text)
     
+
     # Create vector store
     embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key="AIzaSyDSlRGvF5vFugSrRHc_bd0AW1_GPMl6_1A")
     vector_store = FAISS.from_texts(documents, embeddings)
@@ -67,6 +53,19 @@ def initialize_vector_store():
 
 # Global vector store
 VECTOR_STORE = initialize_vector_store()
+
+def get_product_context(df):
+    """Format products for the AI prompt"""
+    context_parts = []
+    for _, row in df.iterrows():
+        context_parts.append(
+            f"ID: {row['product_id']}, "
+            f"Category: {row['category']}, "
+            f"Name: {row['product_name']}, "
+            f"Price: RM{row['sales_price']}, "
+            f"Stock: {row['stock_count']}"
+        )
+    return "\n".join(context_parts)
 
 PROMPT_TEMPLATE = """
 You are a PC building expert. Given a budget of RM{budget}, create a balanced PC build.
@@ -89,8 +88,6 @@ STRICT REQUIREMENTS:
    - Storage (HDD+SSD): 5-15% of budget
    - PSU: 5-10% of budget
    - Case & Cooling: Remaining budget
-
-4. IMPORTANT: Prioritize products with higher stock count when possible
 
 Available products:
 {context}
@@ -211,7 +208,7 @@ async def chat_with_bot(request: ChatRequest):
                     continue
                     
                 product = product_df.iloc[0]
-                recommended_products.append(AISuggestion(
+                recommended_products.append(RecommendedProduct(
                     product_id=product_id,
                     product_name=str(product['product_name']),
                     category=str(product['category']),
@@ -235,23 +232,7 @@ async def chat_with_bot(request: ChatRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-def get_product_context(df):
-    """Format products for the AI prompt"""
-    context_parts = []
-    for _, row in df.iterrows():
-        context_parts.append(
-            f"ID: {row['product_id']}, "
-            f"Category: {row['category']}, "
-            f"Name: {row['product_name']}, "
-            f"Price: RM{row['sales_price']}, "
-            f"Stock: {row['stock_count']}"
-        )
-    return "\n".join(context_parts)
+
+
     
-# Add an endpoint to refresh products
-@router.post("/refresh-products")
-async def refresh_products():
-    global VECTOR_STORE
-    VECTOR_STORE = initialize_vector_store()
-    return {"message": "Products refreshed successfully"}
 

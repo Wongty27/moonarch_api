@@ -257,31 +257,18 @@ class OrderCreate(BaseModel):
     delivery_info: DeliveryInfo
     payment_info: PaymentInfo
 
-# ##edit item in cart response
-# class CartItemMessage(BaseModel):
-#     message: str
-#     item_id: Optional[int] = None
-#     quantity: Optional[int] = None
+##chatbot related schemas
+class ChatRequest(BaseModel):
+    message: str
 
-# ##add item to cart response
-# class CartAddResponse(BaseModel):
-#     cart_item_id: int
-#     quantity: int
-#     message: str = "Item added to cart successfully"
+class RecommendedProduct(BaseModel):
+    product_id: int
+    product_name: str
+    category: str
+    sales_price: float
+    stock: int
 
-#     class Config:
-#         from_attributes = True
-
-# ##bulk add item to cart request
-# class CartBulkCreate(BaseModel):
-#     items: List[CartItemCreate]
-
-# # Update the bulk request/response schemas
-# class CartBulkItemResponse(BaseModel):
-#     cart_item_id: int
-#     quantity: int
-
-# class CartBulkAddResponse(BaseModel):
-#     message: str
-#     items: List[CartBulkItemResponse]
-
+class ChatResponse(BaseModel):
+    message: str
+    recommended_products: List[RecommendedProduct]
+    total_price: float

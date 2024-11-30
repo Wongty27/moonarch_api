@@ -11,6 +11,8 @@ import app.routers.cart as cart
 import app.routers.orders as orders
 import app.routers.products as products
 import app.routers.chatbot as chatbot
+import app.routers.testchat as testchat
+import uvicorn
 
 app = FastAPI()
 
@@ -37,3 +39,7 @@ app.include_router(cart.router)
 app.include_router(orders.router)
 app.include_router(dashboard.dashboard_router)
 app.include_router(chatbot.router)
+app.include_router(testchat.router)
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)

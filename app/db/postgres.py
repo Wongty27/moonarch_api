@@ -7,17 +7,33 @@ from fastapi import Depends
 from dotenv import load_dotenv
 # from google.cloud.sql.connector import Connector
 
-load_dotenv()
+load_dotenv('./app/.env')
 
 #PostgreSQL
-DB_USER = os.getenv("DB_USER")
-DB_PASSWORD = os.getenv("DB_PASSWORD")
-DB_HOST = os.getenv("DB_HOST")
-DB_PORT = os.getenv("DB_PORT")
-DB_NAME = os.getenv("DB_NAME")
+PG_USER = os.getenv("DB_USER")
+PG_PASSWORD = os.getenv("DB_PASSWORD")
+PG_HOST = os.getenv("DB_HOST")
+PG_PORT = os.getenv("DB_PORT")
+PG_DB_NAME = os.getenv("DB_NAME")
+INSTANCE_NAME = os.getenv("INSTANCE_NAME")
 
-SQLALCHEMY_DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
+# def gcloud_engine():
+#     connector = Connector()
+#     conn = connector.connect(
+#         instance_connection_string=INSTANCE_NAME,
+#         driver="pg8000",
+#         user=PG_USER,
+#         password=PG_PASSWORD,
+#         db=PG_DB_NAME
+#     )
+#     return create_engine("postgresql+pg8000://", creator=conn)
+
+# #gcloud engine
+# # engine = gcloud_engine()
+
+# localhost engine
+SQLALCHEMY_DATABASE_URL = f"postgresql+pg8000://{PG_USER}:{PG_PASSWORD}@{PG_HOST}:{PG_PORT}/{PG_DB_NAME}"
 engine = create_engine(SQLALCHEMY_DATABASE_URL,
                        pool_size=5,
                        max_overflow=10,
