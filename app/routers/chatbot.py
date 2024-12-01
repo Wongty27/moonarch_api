@@ -43,7 +43,7 @@ def initialize_vector_store():
     
 
     # Create vector store
-    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key="AIzaSyDSlRGvF5vFugSrRHc_bd0AW1_GPMl6_1A")
+    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=GOOGLE_API_KEY)
     vector_store = FAISS.from_texts(documents, embeddings)
     
     # Store DataFrame for easy lookup
