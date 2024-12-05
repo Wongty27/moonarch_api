@@ -17,21 +17,6 @@ PG_PORT = os.getenv("DB_PORT")
 PG_DB_NAME = os.getenv("DB_NAME")
 INSTANCE_NAME = os.getenv("INSTANCE_NAME")
 
-
-# def gcloud_engine():
-#     connector = Connector()
-#     conn = connector.connect(
-#         instance_connection_string=INSTANCE_NAME,
-#         driver="pg8000",
-#         user=PG_USER,
-#         password=PG_PASSWORD,
-#         db=PG_DB_NAME
-#     )
-#     return create_engine("postgresql+pg8000://", creator=conn)
-
-# #gcloud engine
-# # engine = gcloud_engine()
-
 # localhost engine
 SQLALCHEMY_DATABASE_URL = f"postgresql+pg8000://{PG_USER}:{PG_PASSWORD}@{PG_HOST}:{PG_PORT}/{PG_DB_NAME}"
 engine = create_engine(SQLALCHEMY_DATABASE_URL,
@@ -69,7 +54,6 @@ Base = declarative_base()
 # SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # Base = declarative_base()
-
 
 
 def get_db():

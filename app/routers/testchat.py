@@ -48,7 +48,8 @@ df = pd.read_csv(SCRIPT_DIR / "finalbuilds.csv")
 # Setting up the chat model
 llm = ChatGoogleGenerativeAI(model="gemini-pro",
                              google_api_key=GEMINI_API_KEY, 
-                             temperature=0.7)
+                             temperature=0.1,
+                             streaming=True)
 
 def optimize_budget_distribution(
     total_budget: float,
