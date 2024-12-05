@@ -8,8 +8,9 @@ from langchain_community.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from schemas import ChatRequest, ChatResponse, RecommendedProduct
 from dotenv import load_dotenv
-import os
 from pathlib import Path
+
+import os
 import re
 import json
 import pandas as pd
